@@ -20,7 +20,7 @@ import './css.tsx';
 export function App() {
     const { i18n } = useTranslation();
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/game-tree-pedia">
             <Helmet
                 titleTemplate="%s - React Boilerplate"
                 defaultTitle="React Boilerplate"
