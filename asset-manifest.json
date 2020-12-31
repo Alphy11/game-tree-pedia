@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.396e849c.chunk.css",
+    "main.js": "/static/js/main.b1e70d7b.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.587cd11c.js",
+    "static/css/2.51dd6c94.chunk.css": "/static/css/2.51dd6c94.chunk.css",
+    "static/js/2.d35f8495.chunk.js": "/static/js/2.d35f8495.chunk.js",
+    "static/js/3.47c0b2c2.chunk.js": "/static/js/3.47c0b2c2.chunk.js",
+    "static/js/4.88362d5d.chunk.js": "/static/js/4.88362d5d.chunk.js",
+    "static/js/5.5a2f850e.chunk.js": "/static/js/5.5a2f850e.chunk.js",
+    "index.html": "/index.html",
+    "static/js/2.d35f8495.chunk.js.LICENSE.txt": "/static/js/2.d35f8495.chunk.js.LICENSE.txt",
+    "static/media/onsenui.css": "/static/media/ionicons.ef35f15c.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.587cd11c.js",
+    "static/css/2.51dd6c94.chunk.css",
+    "static/js/2.d35f8495.chunk.js",
+    "static/css/main.396e849c.chunk.css",
+    "static/js/main.b1e70d7b.chunk.js"
+  ]
+}
