@@ -30,21 +30,21 @@ const store = configureAppStore();
 const MOUNT_NODE = document.getElementById('root') as HTMLElement;
 
 ReactDOM.render(
-  <Provider store={store}>
-    <HelmetProvider>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
-    </HelmetProvider>
-  </Provider>,
-  MOUNT_NODE,
+    <Provider store={store}>
+        <HelmetProvider>
+            <React.StrictMode>
+                <App />
+            </React.StrictMode>
+        </HelmetProvider>
+    </Provider>,
+    MOUNT_NODE,
 );
 
 // Hot reloadable translation json files
 if (module.hot) {
-  module.hot.accept(['./locales/i18n'], () => {
-    // No need to render the App again because i18next works with the hooks
-  });
+    module.hot.accept(['./locales/i18n'], () => {
+        // No need to render the App again because i18next works with the hooks
+    });
 }
 
 // If you want your app to work offline and load faster, you can change
