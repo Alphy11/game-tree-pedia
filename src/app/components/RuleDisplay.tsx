@@ -2,13 +2,10 @@ import React from 'react';
 import { Rule } from 'app/content';
 import { ContentBody, TitleBody } from './Text';
 import { Padding } from './Utility';
-import styled from 'styled-components';
 
 export type RuleDisplayProps = {
     rule: Rule;
 };
-
-const IDBody = styled(TitleBody)``;
 
 export function RuleDisplay({ rule }: RuleDisplayProps) {
     const { additional, content, id } = rule;
