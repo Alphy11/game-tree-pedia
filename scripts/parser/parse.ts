@@ -1,20 +1,25 @@
 import { promises } from 'fs';
+import { formatter } from './formatter';
 import * as taskDefinitions from './taskDefinitions';
-import { EndSectionDefinition, SectionDefinition } from './taskTypes';
+import {
+    AdditionalTypes,
+    EndSectionDefinition,
+    SectionDefinition,
+} from './taskTypes';
 
 const { readFile, writeFile } = promises;
 
 function analyze(
     linesRaw: string[],
-    matchDefinitions: SectionDefinition<string>[],
-    endDefinitions: EndSectionDefinition<string, any>[] = [],
+    matchDefinitions: SectionDefinition<keyof AdditionalTypes>[],
+    endDefinitions: EndSectionDefinition<keyof AdditionalTypes, any>[] = [],
     firstLine = '',
 ): [remainingLines: string[], content: Record<any, any>] {
     let lines = [...linesRaw];
     let subtree: Record<string, any> | undefined;
     const currentMatch = endDefinitions[0] || {
         type: 'root',
-        name: 'root',
+        id: 'root',
         matchEnd: () => false,
     };
     let content: string[] = [];
@@ -38,7 +43,7 @@ function analyze(
             );
             subtree = {
                 ...subtree,
-                [start.name]: child,
+                [start.id]: child,
             };
             lines = newLines;
         } else {
@@ -54,7 +59,7 @@ function analyze(
         lines,
         {
             type: currentMatch.type,
-            name: currentMatch.name,
+            id: currentMatch.id,
             additional: currentMatch.additional,
             content: [firstLine, ...content],
             ...(subtree ? { subtree } : {}),
@@ -67,32 +72,8 @@ function escapeRegExp(string) {
 }
 
 function transformForConsumption(rawRecord: Record<string, any>) {
-    const transform = (subtree: Record<string, any>) => {
-        return Object.values(subtree).reduce(
-            (asList, { subtree, name, content, ...value }) => {
-                let contentOut = content
-                    .join(' ')
-                    .replace(new RegExp(`^${escapeRegExp(name)}( )?`, 'i'), '')
-                    .replace(new RegExp(`^${value.additional?.title}`, 'i'), '')
-                    .replace(/•/g, ';;ab;;•')
-                    .split(';;ab;;');
-                return [
-                    ...asList,
-                    {
-                        ...value,
-                        id: name,
-                        content: contentOut,
-                        ...(subtree && { subtree: transform(subtree) }),
-                    },
-                ];
-            },
-            [],
-        );
-    };
     console.log(rawRecord);
-    return transform({
-        root: rawRecord,
-    })[0].subtree;
+    return formatter(rawRecord as any).subtree;
 }
 
 async function run() {

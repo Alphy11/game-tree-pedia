@@ -30,7 +30,7 @@ export function HeriarchyComponent({ rules }: HeriarchyComponentProps) {
             )}
             <SwipeableList>
                 {(selectedItem === null ? rules : selectedItem.subtree)
-                    ?.filter(rule => rule.type !== 'core rules related topics')
+                    ?.filter(rule => rule.type !== 'related topics')
                     .map(rule => (
                         <RuleRow key={rule.id} rule={rule} />
                     ))}

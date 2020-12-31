@@ -87,7 +87,7 @@ function RootRuleRow({ rule }: RuleRowProps) {
 
 export function RuleRow({ rule }: RuleRowProps) {
     const { id, type } = rule;
-    const [favoriteItems, toggleFavorited] = useContext(FavoriteItemContext);
+    // const [favoriteItems, toggleFavorited] = useContext(FavoriteItemContext);
     const { pushSelectedItem } = useContext(SelectedItemContext);
     const hasChildren = !!rule.subtree?.length;
 
@@ -95,14 +95,14 @@ export function RuleRow({ rule }: RuleRowProps) {
         <>
             <SwipeableListItem
                 threshold={0.4}
-                swipeRight={{
-                    content: favoriteItems[id] ? (
-                        <AiFillStar color="yellow" />
-                    ) : (
-                        <AiOutlineStar />
-                    ),
-                    action: () => toggleFavorited(id),
-                }}
+                // swipeRight={{
+                //     content: favoriteItems[id] ? (
+                //         <AiFillStar color="yellow" />
+                //     ) : (
+                //         <AiOutlineStar />
+                //     ),
+                //     action: () => toggleFavorited(id),
+                // }}
             >
                 <RowBody
                     onClick={

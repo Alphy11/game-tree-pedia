@@ -42,7 +42,7 @@ function SearchedHeirarchy({ rules: allRules }: HeirarchyProps) {
 function searchForRules(searchText: RegExp, rules: Rule[] = []): Rule[] {
     return rules.reduce((found, current) => {
         if (
-            current.id.match(searchText) ||
+            current.id?.match(searchText) ||
             current.additional?.title?.match(searchText) ||
             current.content.join('').match(searchText)
         ) {
