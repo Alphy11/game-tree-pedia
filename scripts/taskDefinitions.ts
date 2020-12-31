@@ -1,26 +1,10 @@
+import { SectionDefinition } from './taskTypes';
+
 function assert(condition: boolean, message: string) {
     if (!condition) {
         throw new Error(message);
     }
 }
-
-export type EndSectionDefinition<
-    T extends string,
-    Additional extends Record<string, string>
-> = {
-    type: T;
-    name: string;
-    additional?: Additional;
-    inclusive?: boolean;
-    matchEnd: (parsedLogLine: string) => boolean;
-};
-
-export type SectionDefinition<
-    T extends string,
-    Additional extends Record<string, string> = {}
-> = {
-    (parsedLogLine: string): EndSectionDefinition<T, Additional> | null;
-};
 
 function testDefinition(
     startLine: string,
@@ -88,6 +72,46 @@ export const CoreRulesRelatedTopicsMatcher: SectionDefinition<'core rules relate
     }
     return null;
 };
+
+export const RuleTypeMatcher: SectionDefinition<'rule type'> = logLine => {
+    const regex = /(GLOSSARY)|(ERRATA)|(FAQ)/;
+    const match = logLine.match(regex);
+    if (match) {
+        return {
+            type: 'rule type',
+            name: logLine,
+            matchEnd: line => !!line.match(regex),
+        };
+    }
+    return null;
+};
+
+const errataSectionRegex = /^[A-Z\s]+$/;
+export const ErrataSectionMatcher: SectionDefinition<'errata section'> = logLine => {
+    const match = logLine.match(errataSectionRegex);
+    if (match) {
+        return {
+            type: 'errata section',
+            name: logLine,
+            matchEnd: line => !!line.match(errataSectionRegex),
+        };
+    }
+    return null;
+};
+export const ErrataQAMAtcher: SectionDefinition<'errata qa'> = logLine => {
+    const regex = /Q: /;
+    const match = logLine.match(regex);
+    if (match) {
+        return {
+            type: 'errata qa',
+            name: logLine,
+            matchEnd: line =>
+                !!(line.match(regex) || line.match(errataSectionRegex)),
+        };
+    }
+    return null;
+};
+
 // export const CoreRulesBulletMatcher: SectionDefinition<'core rules bullet'> = logLine => {
 //     const startRegex = /^• /;
 //     if (logLine.match(startRegex)) {

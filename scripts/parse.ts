@@ -1,11 +1,6 @@
 import { promises } from 'fs';
-import {
-    EndSectionDefinition,
-    SectionDefinition,
-    CoreRulesHeaderMatcher,
-    CoreRulesSubsectionMatcher,
-    CoreRulesRelatedTopicsMatcher,
-} from './taskDefinitions';
+import * as taskDefinitions from './taskDefinitions';
+import { EndSectionDefinition, SectionDefinition } from './taskTypes';
 
 const { readFile, writeFile } = promises;
 
@@ -67,13 +62,17 @@ function analyze(
     ];
 }
 
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+}
+
 function transformForConsumption(rawRecord: Record<string, any>) {
     const transform = (subtree: Record<string, any>) => {
         return Object.values(subtree).reduce(
             (asList, { subtree, name, content, ...value }) => {
                 let contentOut = content
                     .join(' ')
-                    .replace(new RegExp(`^${name} `, 'i'), '')
+                    .replace(new RegExp(`^${escapeRegExp(name)}( )?`, 'i'), '')
                     .replace(new RegExp(`^${value.additional?.title}`, 'i'), '')
                     .replace(/•/g, ';;ab;;•')
                     .split(';;ab;;');
@@ -90,19 +89,16 @@ function transformForConsumption(rawRecord: Record<string, any>) {
             [],
         );
     };
+    console.log(rawRecord);
     return transform({
         root: rawRecord,
-    });
+    })[0].subtree;
 }
 
 async function run() {
     const file = (await readFile('./scripts/stuff')).toString();
     const lines = file.split('\n').filter(Boolean);
-    const results = analyze(lines, [
-        CoreRulesHeaderMatcher,
-        CoreRulesSubsectionMatcher,
-        CoreRulesRelatedTopicsMatcher,
-    ]);
+    const results = analyze(lines, Object.values(taskDefinitions));
     writeFile(
         './src/app/content.json',
         JSON.stringify(transformForConsumption(results[1]), null, 4),

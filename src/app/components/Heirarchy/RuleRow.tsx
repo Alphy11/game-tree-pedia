@@ -3,7 +3,7 @@ import { Rule } from 'app/content';
 import React, { useContext } from 'react';
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 import { BsChevronRight } from 'react-icons/bs';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { FavoriteItemContext, SelectedItemContext } from '../Store';
 import { ContentBody, TitleBody } from '../Text';
 import { FlexBox, FlexItem, CenteredContent, Padding } from '../Utility';
@@ -19,6 +19,24 @@ const RowBody = styled.div`
 `;
 const IDBody = styled(TitleBody)`
     padding-right: 8px;
+    ${({ children }) => {
+        if (
+            children &&
+            typeof children === 'string' &&
+            children.match(/[a-z]/i)
+        ) {
+            return css`
+                margin-right: 20%;
+            `;
+        }
+    }}
+`;
+const RuleBody = styled(FlexItem)`
+    min-width: 85%;
+`;
+
+const RuleFlexBox = styled(FlexBox)`
+    flex: 1;
 `;
 
 function StandardRuleRow({ rule }: RuleRowProps) {
@@ -27,11 +45,15 @@ function StandardRuleRow({ rule }: RuleRowProps) {
 
     return (
         <FlexBox>
-            <IDBody>{id}</IDBody>
-            <FlexItem>
-                {additional.title && <TitleBody>{additional.title}</TitleBody>}
-                <ContentBody content={content} />
-            </FlexItem>
+            <RuleFlexBox wrap>
+                <IDBody>{id}</IDBody>
+                <RuleBody>
+                    {additional.title && (
+                        <TitleBody>{additional.title}</TitleBody>
+                    )}
+                    {content && <ContentBody content={content} />}
+                </RuleBody>
+            </RuleFlexBox>
             {hasChildren && (
                 <CenteredContent>
                     <Padding left={1}>

@@ -2,8 +2,13 @@ import styled, { css } from 'styled-components';
 
 export const unit = 8;
 
-export const FlexBox = styled.div`
+export const FlexBox = styled.div<{ wrap?: boolean }>`
     display: flex;
+    ${({ wrap }) =>
+        wrap &&
+        css`
+            flex-wrap: wrap;
+        `}
 `;
 
 type FlexItemProps = {

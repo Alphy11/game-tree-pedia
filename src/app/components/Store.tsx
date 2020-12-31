@@ -4,8 +4,9 @@ import React, { createContext, PropsWithChildren, useReducer } from 'react';
 
 type SelectedItemStore = {
     selectedItem: Rule | null;
-    pushSelectedItem(item: Rule);
-    popSelectedItem();
+    pushSelectedItem(item: Rule): void;
+    popSelectedItem(): void;
+    clearSelectedItem(): void;
 };
 
 type FavoriteItemStore = [
@@ -20,12 +21,16 @@ type SelectedItemsAction =
       }
     | {
           type: 'pop';
+      }
+    | {
+          type: 'clear';
       };
 
 export const SelectedItemContext = createContext<SelectedItemStore>({
     selectedItem: null,
     pushSelectedItem: shouldNotHappen('pushSelectedItem'),
     popSelectedItem: shouldNotHappen('popSelectedItem'),
+    clearSelectedItem: shouldNotHappen('clearSelectedItem'),
 });
 
 export const FavoriteItemContext = createContext<FavoriteItemStore>([
@@ -53,6 +58,8 @@ export function StoreProvider({ children }: PropsWithChildren<{}>) {
                     return [action.item, ...lastItems];
                 case 'pop':
                     return lastItems.slice(1);
+                case 'clear':
+                    return [];
             }
         },
         [],
@@ -68,6 +75,8 @@ export function StoreProvider({ children }: PropsWithChildren<{}>) {
                     popSelectedItem: () => updateSelectedItems({ type: 'pop' }),
                     pushSelectedItem: item =>
                         updateSelectedItems({ type: 'push', item }),
+                    clearSelectedItem: () =>
+                        updateSelectedItems({ type: 'clear' }),
                 }}
             >
                 {children}

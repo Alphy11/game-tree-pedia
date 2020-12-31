@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useMemo, useState } from 'react';
 
 import { Rule } from '../../content';
 import { SearchContext } from '../Search';
+import { SelectedItemContext } from '../Store';
 import { HeriarchyComponent } from './HeirarchyComponent';
 
 export type HeirarchyProps = {
@@ -20,18 +21,25 @@ export function Heriarchy({ rules }: HeirarchyProps) {
 
 function SearchedHeirarchy({ rules: allRules }: HeirarchyProps) {
     const [searchText] = useContext(SearchContext);
-    const debouncedSearchText = useDebouncedValue(searchText, {
+    const { clearSelectedItem } = useContext(SelectedItemContext);
+    const debouncedSearchText = useDebouncedValue(searchText?.trim(), {
         delayInMs: 500,
     });
+    useEffect(() => {
+        clearSelectedItem();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [searchText]);
 
     const rules = useMemo<Rule[]>(() => {
-        return searchForRules(debouncedSearchText, allRules);
+        return debouncedSearchText
+            ? searchForRules(new RegExp(debouncedSearchText, 'i'), allRules)
+            : [];
     }, [debouncedSearchText, allRules]);
 
     return <HeriarchyComponent rules={rules} />;
 }
 
-function searchForRules(searchText, rules: Rule[] = []): Rule[] {
+function searchForRules(searchText: RegExp, rules: Rule[] = []): Rule[] {
     return rules.reduce((found, current) => {
         if (
             current.id.match(searchText) ||

@@ -3,7 +3,7 @@ import { shouldNotHappen } from 'app/util/validation';
 
 export type SearchContextShape = [
     searchText: string | null,
-    setSearch: (searchText: string) => void,
+    setSearch: (searchText: string | null) => void,
 ];
 
 export const SearchContext = createContext<SearchContextShape>([
