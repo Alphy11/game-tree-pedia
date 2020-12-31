@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/game-tree-pedia/static/css/main.396e849c.chunk.css",
-    "main.js": "/game-tree-pedia/static/js/main.63263cea.chunk.js",
+    "main.js": "/game-tree-pedia/static/js/main.0d525f3e.chunk.js",
     "runtime-main.js": "/game-tree-pedia/static/js/runtime-main.7137d1ab.js",
     "static/css/2.a850fb5f.chunk.css": "/game-tree-pedia/static/css/2.a850fb5f.chunk.css",
     "static/js/2.5ef10490.chunk.js": "/game-tree-pedia/static/js/2.5ef10490.chunk.js",
@@ -17,6 +17,6 @@
     "static/css/2.a850fb5f.chunk.css",
     "static/js/2.5ef10490.chunk.js",
     "static/css/main.396e849c.chunk.css",
-    "static/js/main.63263cea.chunk.js"
+    "static/js/main.0d525f3e.chunk.js"
   ]
 }
