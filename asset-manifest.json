@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/game-tree-pedia/static/css/main.396e849c.chunk.css",
-    "main.js": "/game-tree-pedia/static/js/main.0d525f3e.chunk.js",
-    "runtime-main.js": "/game-tree-pedia/static/js/runtime-main.7137d1ab.js",
+    "main.css": "/game-tree-pedia/static/css/main.6e97bf64.chunk.css",
+    "main.js": "/game-tree-pedia/static/js/main.90f69311.chunk.js",
+    "runtime-main.js": "/game-tree-pedia/static/js/runtime-main.2af62cd5.js",
     "static/css/2.a850fb5f.chunk.css": "/game-tree-pedia/static/css/2.a850fb5f.chunk.css",
     "static/js/2.5ef10490.chunk.js": "/game-tree-pedia/static/js/2.5ef10490.chunk.js",
-    "static/js/3.47c0b2c2.chunk.js": "/game-tree-pedia/static/js/3.47c0b2c2.chunk.js",
-    "static/js/4.88362d5d.chunk.js": "/game-tree-pedia/static/js/4.88362d5d.chunk.js",
-    "static/js/5.5a2f850e.chunk.js": "/game-tree-pedia/static/js/5.5a2f850e.chunk.js",
+    "static/js/3.c4ea7a38.chunk.js": "/game-tree-pedia/static/js/3.c4ea7a38.chunk.js",
+    "static/js/4.41d068cc.chunk.js": "/game-tree-pedia/static/js/4.41d068cc.chunk.js",
+    "static/js/5.d542357f.chunk.js": "/game-tree-pedia/static/js/5.d542357f.chunk.js",
     "index.html": "/game-tree-pedia/index.html",
     "static/js/2.5ef10490.chunk.js.LICENSE.txt": "/game-tree-pedia/static/js/2.5ef10490.chunk.js.LICENSE.txt",
     "static/media/onsenui.css": "/game-tree-pedia/static/media/ionicons.ef35f15c.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.7137d1ab.js",
+    "static/js/runtime-main.2af62cd5.js",
     "static/css/2.a850fb5f.chunk.css",
     "static/js/2.5ef10490.chunk.js",
-    "static/css/main.396e849c.chunk.css",
-    "static/js/main.0d525f3e.chunk.js"
+    "static/css/main.6e97bf64.chunk.css",
+    "static/js/main.90f69311.chunk.js"
   ]
 }
