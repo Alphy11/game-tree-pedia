@@ -1,10 +1,9 @@
 import { SwipeableListItem } from '@sandstreamdev/react-swipeable-list';
 import { Rule } from 'app/content';
 import React, { useContext } from 'react';
-import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 import { BsChevronRight } from 'react-icons/bs';
 import styled, { css } from 'styled-components';
-import { FavoriteItemContext, SelectedItemContext } from '../Store';
+import { SelectedItemContext } from '../Store';
 import { ContentBody, TitleBody } from '../Text';
 import { FlexBox, FlexItem, CenteredContent, Padding } from '../Utility';
 
@@ -86,24 +85,13 @@ function RootRuleRow({ rule }: RuleRowProps) {
 }
 
 export function RuleRow({ rule }: RuleRowProps) {
-    const { id, type } = rule;
-    // const [favoriteItems, toggleFavorited] = useContext(FavoriteItemContext);
+    const { type } = rule;
     const { pushSelectedItem } = useContext(SelectedItemContext);
     const hasChildren = !!rule.subtree?.length;
 
     return (
         <>
-            <SwipeableListItem
-                threshold={0.4}
-                // swipeRight={{
-                //     content: favoriteItems[id] ? (
-                //         <AiFillStar color="yellow" />
-                //     ) : (
-                //         <AiOutlineStar />
-                //     ),
-                //     action: () => toggleFavorited(id),
-                // }}
-            >
+            <SwipeableListItem threshold={0.4}>
                 <RowBody
                     onClick={
                         hasChildren ? () => pushSelectedItem(rule) : undefined
