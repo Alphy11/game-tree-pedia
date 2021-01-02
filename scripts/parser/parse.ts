@@ -1,90 +1,64 @@
 import { promises } from 'fs';
-import { formatter } from './formatter';
-import * as taskDefinitions from './taskDefinitions';
-import {
-    AdditionalTypes,
-    EndSectionDefinition,
-    SectionDefinition,
-} from './taskTypes';
+import path from 'path';
+import { formatter as coreRulesFormatter } from './CoreRulesFormatter/formatter';
+import { formatter as factonListFormatter } from './FactionListFormatter/formatter';
+import * as coreRulesTaskDefinitions from './CoreRulesFormatter/taskDefinitions';
+import * as factionListTaskDefinitions from './FactionListFormatter/taskDefinitions';
+import { analyze } from './analyze';
 
-const { readFile, writeFile } = promises;
+const { readFile, writeFile, readdir } = promises;
+const CONTENT_DIR = 'scripts/contentRaw';
+const TARGET_DIR = './src/app/content/';
 
-function analyze(
-    linesRaw: string[],
-    matchDefinitions: SectionDefinition<keyof AdditionalTypes>[],
-    endDefinitions: EndSectionDefinition<keyof AdditionalTypes, any>[] = [],
-    firstLine = '',
-): [remainingLines: string[], content: Record<any, any>] {
-    let lines = [...linesRaw];
-    let subtree: Record<string, any> | undefined;
-    const currentMatch = endDefinitions[0] || {
-        type: 'root',
-        id: 'root',
-        matchEnd: () => false,
-    };
-    let content: string[] = [];
-    while (
-        lines.length &&
-        !endDefinitions
-            .map(({ matchEnd }) => matchEnd)
-            .find(matcher => matcher(lines[0]))
-    ) {
-        const line = lines.shift()!;
-
-        const [start] = matchDefinitions
-            .map(matcher => matcher(line))
-            .filter(Boolean);
-        if (start) {
-            const [newLines, child] = analyze(
-                lines,
-                matchDefinitions,
-                [start, ...endDefinitions],
-                line,
+async function parseRules() {
+    const DIR = path.join(CONTENT_DIR, 'CoreRules');
+    const fileNames = await readdir(DIR);
+    const fileBuffers = (
+        await Promise.all(
+            fileNames.map(async fileName => ({
+                [fileName]: await (
+                    await readFile(path.join(DIR, fileName))
+                ).toString(),
+            })),
+        )
+    ).reduce((acc, entry) => ({
+        ...acc,
+        ...entry,
+    }));
+    Object.entries(fileBuffers)
+        .map<[string, string[]]>(([fileName, buffer]: [string, string]) => [
+            fileName,
+            buffer.split('\n').filter(Boolean),
+        ])
+        .forEach(([fileName, file]) => {
+            const results = analyze(
+                file,
+                Object.values(coreRulesTaskDefinitions),
             );
-            subtree = {
-                ...subtree,
-                [start.id]: child,
-            };
-            lines = newLines;
-        } else {
-            content = [...content, line];
-        }
-    }
-
-    if (currentMatch?.inclusive) {
-        content = [...content, lines[0]];
-    }
-
-    return [
-        lines,
-        {
-            type: currentMatch.type,
-            id: currentMatch.id,
-            additional: currentMatch.additional,
-            content: [firstLine, ...content],
-            ...(subtree ? { subtree } : {}),
-        },
-    ];
+            writeFile(
+                path.join(TARGET_DIR, `${fileName.split('.')[0]}.json`),
+                JSON.stringify(
+                    coreRulesFormatter(results[1] as any).subtree,
+                    null,
+                    4,
+                ),
+            );
+        });
 }
-
-function escapeRegExp(string) {
-    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
-}
-
-function transformForConsumption(rawRecord: Record<string, any>) {
-    console.log(rawRecord);
-    return formatter(rawRecord as any).subtree;
-}
-
-async function run() {
-    const file = (await readFile('./scripts/stuff')).toString();
-    const lines = file.split('\n').filter(Boolean);
-    const results = analyze(lines, Object.values(taskDefinitions));
+async function parseRaces() {
+    const file = await (
+        await readFile(path.join(CONTENT_DIR, 'FactionList.txt'))
+    ).toString();
+    const results = analyze(
+        file.split('\n'),
+        Object.values(factionListTaskDefinitions),
+    );
     writeFile(
-        './src/app/content.json',
-        JSON.stringify(transformForConsumption(results[1]), null, 4),
+        path.join(TARGET_DIR, 'FactionList.json'),
+        JSON.stringify(factonListFormatter(results[1] as any).subtree, null, 4),
     );
 }
-run();
+parseRules();
+parseRaces();
 
 export {};

@@ -8,11 +8,11 @@ export type RuleDisplayProps = {
 };
 
 export function RuleDisplay({ rule }: RuleDisplayProps) {
-    const { additional, content, id } = rule;
+    const { additional, content } = rule;
     return (
         <Padding horizontal={1.5} bottom={4}>
             <TitleBody>
-                {id} {additional?.title || ''}
+                {additional?.indexer || ''} {additional?.title || ''}
             </TitleBody>
 
             <ContentBody content={content} />

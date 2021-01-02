@@ -33,6 +33,7 @@ export type Rule = {
     id?: string;
     additional?: {
         title?: string;
+        indexer?: string;
     };
     content: string[];
     type: string;

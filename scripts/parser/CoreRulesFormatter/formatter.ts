@@ -1,9 +1,9 @@
-import { isGlossaryHeader } from './matchers';
+import { isGlossaryEntry, isGlossaryHeader } from './matchers';
 import {
     AdditionalTypes,
     IntermediateContentShape,
     RuleNode,
-} from './taskTypes';
+} from '../taskTypes';
 
 function exhaustiveCheck(t: never) {
     return;
@@ -43,12 +43,15 @@ export function formatter<
             parsedNode = getSimpleSection(node, parent);
             break;
         case 'root':
-            console.log(node);
             return {
                 subtree: Object.values(node.subtree!).map(nextNode =>
                     formatter(nextNode, node),
                 ),
             } as any;
+        case 'faction':
+        case 'faction section':
+        case 'leader':
+            throw new Error(`Found ${node.type} in CoreRulesFormatter`);
         default:
             exhaustiveCheck(node.type);
     }
@@ -130,11 +133,16 @@ const getGlossaryEntry: NodeGetter<'glossary entry'> = ({
     id,
     type,
 }) => {
-    const firstLine = content[0].split(' ').slice(1).join(' ');
+    const [titleLine, ...rest] = content;
+    const { indexer, title } = isGlossaryEntry(titleLine)!;
     return {
-        content: joinContent([firstLine, ...content.slice(1)]),
+        content: joinContent(rest),
         id: id,
         type: type,
+        additional: {
+            indexer,
+            title,
+        },
     };
 };
 // const getX: NodeGetter<'x'> = ({ content, id, type }) => {

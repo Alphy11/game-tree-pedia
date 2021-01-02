@@ -19,7 +19,7 @@ export type SectionDefinition<
 export type RuleNode<Type extends keyof AdditionalTypes> = {
     content: string[];
     type: Type;
-    subtree: RuleNode<keyof AdditionalTypes>[];
+    subtree?: RuleNode<keyof AdditionalTypes>[];
     id?: string;
     additional?: AdditionalTypes[Type];
 };
@@ -40,8 +40,20 @@ export type AdditionalTypes = {
     };
     'errata section': never;
     'rule type': never;
-    'glossary entry': never;
+    'glossary entry': {
+        indexer: string;
+        title?: string;
+    };
     'related topics': never;
+    faction: {
+        title: string;
+    };
+    leader: {
+        title: string;
+    };
+    'faction section': {
+        title: string;
+    };
     root: never;
 };
 

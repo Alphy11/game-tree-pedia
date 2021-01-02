@@ -6,9 +6,9 @@ import {
     isErrataQA,
     isRuleType,
 } from './matchers';
-import { AdditionalTypes, SectionDefinition } from './taskTypes';
+import { AdditionalTypes, SectionDefinition } from '../taskTypes';
 
-export const CoreRulesHeaderMatcher: SectionDefinition<'glossary header'> = logLine => {
+export const GlossaryHeaderMatcher: SectionDefinition<'glossary header'> = logLine => {
     const match = isGlossaryHeader(logLine);
     if (match) {
         return {
@@ -20,19 +20,19 @@ export const CoreRulesHeaderMatcher: SectionDefinition<'glossary header'> = logL
     return null;
 };
 
-export const CoreRulesSubsectionMatcher: SectionDefinition<'glossary entry'> = logLine => {
+export const GlossaryEntryMatcher: SectionDefinition<'glossary entry'> = logLine => {
     const match = isGlossaryEntry(logLine);
     if (match) {
         return {
             type: 'glossary entry',
-            id: match.id,
+            id: logLine,
             matchEnd: line =>
                 Boolean(isGlossaryEntry(line) || isRelatedTopics(line)),
         };
     }
     return null;
 };
-export const CoreRulesRelatedTopicsMatcher: SectionDefinition<'related topics'> = logLine => {
+export const GlossaryRelatedTopicsMatcher: SectionDefinition<'related topics'> = logLine => {
     const match = isRelatedTopics(logLine);
     if (match) {
         return {
@@ -107,12 +107,12 @@ function testDefinition(
 testDefinition(
     '1 ABILITIES',
     '2 Other things',
-    CoreRulesHeaderMatcher,
-    'CoreRulesHeaderMatcher',
+    GlossaryHeaderMatcher,
+    'GlossaryHeaderMatcher',
 );
 testDefinition(
     '1.1 Each ability describes when and how a player can resolve it.',
     '1.2 If a card has multiple abilities, each ability is presented as its',
-    CoreRulesSubsectionMatcher,
-    'CoreRulesSubsectionMatcher',
+    GlossaryEntryMatcher,
+    'GlossaryEntryMatcher',
 );

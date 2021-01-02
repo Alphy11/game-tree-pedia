@@ -39,13 +39,13 @@ const RuleFlexBox = styled(FlexBox)`
 `;
 
 function StandardRuleRow({ rule }: RuleRowProps) {
-    const { id, additional = {}, content } = rule;
+    const { additional = {}, content } = rule;
     const hasChildren = !!rule.subtree?.length;
 
     return (
         <FlexBox>
             <RuleFlexBox wrap>
-                <IDBody>{id}</IDBody>
+                <IDBody>{additional && additional.indexer}</IDBody>
                 <RuleBody>
                     {additional.title && (
                         <TitleBody>{additional.title}</TitleBody>

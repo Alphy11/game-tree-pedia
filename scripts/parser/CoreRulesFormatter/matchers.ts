@@ -8,10 +8,12 @@ export function isGlossaryHeader(
     return null;
 }
 
-export function isGlossaryEntry(logLine: string): { id: string } | null {
-    const match = logLine.match(/^(?<id>\d+\.\d+)/i);
+export function isGlossaryEntry(
+    logLine: string,
+): { indexer: string; title?: string } | null {
+    const match = logLine.match(/^(?<indexer>\d+\.\d+)\s*(?<title>.*)?/i);
     if (match) {
-        return match.groups as { id: string };
+        return match.groups as { indexer: string; title?: string };
     }
     return null;
 }
