@@ -38,54 +38,9 @@ const RuleFlexBox = styled(FlexBox)`
     flex: 1;
 `;
 
-function StandardRuleRow({ rule }: RuleRowProps) {
-    const { additional = {}, content } = rule;
-    const hasChildren = !!rule.subtree?.length;
-
-    return (
-        <FlexBox>
-            <RuleFlexBox wrap>
-                <IDBody>{additional && additional.indexer}</IDBody>
-                <RuleBody>
-                    {additional.title && (
-                        <TitleBody>{additional.title}</TitleBody>
-                    )}
-                    {content && <ContentBody content={content} />}
-                </RuleBody>
-            </RuleFlexBox>
-            {hasChildren && (
-                <CenteredContent>
-                    <Padding left={1}>
-                        <BsChevronRight />
-                    </Padding>
-                </CenteredContent>
-            )}
-        </FlexBox>
-    );
-}
-function RootRuleRow({ rule }: RuleRowProps) {
-    const { id, additional = {}, content } = rule;
-    const hasChildren = !!rule.subtree?.length;
-
-    return (
-        <FlexBox>
-            <FlexItem>
-                {<TitleBody>{additional.title || id}</TitleBody>}
-                <ContentBody content={content} />
-            </FlexItem>
-            {hasChildren && (
-                <CenteredContent>
-                    <Padding left={1}>
-                        <BsChevronRight />
-                    </Padding>
-                </CenteredContent>
-            )}
-        </FlexBox>
-    );
-}
-
 export function RuleRow({ rule }: RuleRowProps) {
-    const { type } = rule;
+    const { additional = {}, content, subtree } = rule;
+
     const { pushSelectedItem } = useContext(SelectedItemContext);
     const hasChildren = !!rule.subtree?.length;
 
@@ -97,11 +52,28 @@ export function RuleRow({ rule }: RuleRowProps) {
                         hasChildren ? () => pushSelectedItem(rule) : undefined
                     }
                 >
-                    {type === 'root' ? (
-                        <RootRuleRow rule={rule} />
-                    ) : (
-                        <StandardRuleRow rule={rule} />
-                    )}
+                    <FlexBox>
+                        <RuleFlexBox wrap>
+                            {additional.indexer && (
+                                <IDBody> {additional.indexer}</IDBody>
+                            )}
+                            <RuleBody>
+                                {additional.title && (
+                                    <TitleBody>{additional.title}</TitleBody>
+                                )}
+                                {!!content?.length && (
+                                    <ContentBody content={content} />
+                                )}
+                            </RuleBody>
+                        </RuleFlexBox>
+                        {!!subtree && (
+                            <CenteredContent>
+                                <Padding left={1}>
+                                    <BsChevronRight />
+                                </Padding>
+                            </CenteredContent>
+                        )}
+                    </FlexBox>
                 </RowBody>
             </SwipeableListItem>
         </>

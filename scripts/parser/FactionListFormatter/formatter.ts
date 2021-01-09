@@ -54,6 +54,7 @@ export function getNodeItems<
                 ),
             } as any;
         case 'glossary header':
+        case 'glossary subheader':
         case 'errata qa':
         case 'glossary entry':
         case 'errata section':

@@ -1,4 +1,9 @@
-import { isGlossaryEntry, isGlossaryHeader } from './matchers';
+import {
+    isGlossaryEntry,
+    isGlossaryHeader,
+    isGlossarySubheader,
+    isRuleType,
+} from './matchers';
 import {
     AdditionalTypes,
     IntermediateContentShape,
@@ -35,8 +40,19 @@ export function formatter<
                 parent,
             );
             break;
-        case 'errata section':
+        case 'glossary subheader':
+            parsedNode = getGlossarySubheader(
+                node as IntermediateContentShape<'glossary subheader'>,
+                parent,
+            );
+            break;
         case 'rule type':
+            parsedNode = getRuleType(
+                node as IntermediateContentShape<'rule type'>,
+                parent,
+            );
+            break;
+        case 'errata section':
             parsedNode = getSimpleSectionWithTitle(node, parent);
             break;
         case 'related topics':
@@ -66,7 +82,7 @@ export function formatter<
 }
 
 function joinContent(content: string[]): string[] {
-    return content.join(' ').replace(/•/g, ';;ab;;•').split(';;ab;;');
+    return content.join(' ').replace(/•/g, '#%#•').split(/#%#/);
 }
 type NodeGetter<T extends keyof AdditionalTypes> = (
     node: IntermediateContentShape<T>,
@@ -82,6 +98,18 @@ const getGlossaryHeaderNode: NodeGetter<'glossary header'> = ({
         content: joinContent(content.slice(1)),
         id: id,
         type: 'glossary header',
+        additional: {
+            title: title,
+            indexer: id,
+        },
+    };
+};
+const getRuleType: NodeGetter<'rule type'> = ({ content, id }) => {
+    const { title } = isRuleType(content[0])!;
+    return {
+        content: joinContent(content.slice(1)),
+        id: id,
+        type: 'rule type',
         additional: {
             title: title,
         },
@@ -134,7 +162,23 @@ const getGlossaryEntry: NodeGetter<'glossary entry'> = ({
     type,
 }) => {
     const [titleLine, ...rest] = content;
-    const { indexer, title } = isGlossaryEntry(titleLine)!;
+    const { indexer } = isGlossaryEntry(titleLine)!;
+    return {
+        content: joinContent(rest),
+        id: id,
+        type: type,
+        additional: {
+            indexer,
+        },
+    };
+};
+const getGlossarySubheader: NodeGetter<'glossary subheader'> = ({
+    content,
+    id,
+    type,
+}) => {
+    const [titleLine, ...rest] = content;
+    const { indexer, title } = isGlossarySubheader(titleLine)!;
     return {
         content: joinContent(rest),
         id: id,

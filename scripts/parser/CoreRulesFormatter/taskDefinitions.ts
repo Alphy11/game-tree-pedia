@@ -5,8 +5,9 @@ import {
     isRelatedTopics,
     isErrataQA,
     isRuleType,
+    isGlossarySubheader,
 } from './matchers';
-import { AdditionalTypes, SectionDefinition } from '../taskTypes';
+import { SectionDefinition } from '../taskTypes';
 
 export const GlossaryHeaderMatcher: SectionDefinition<'glossary header'> = logLine => {
     const match = isGlossaryHeader(logLine);
@@ -27,7 +28,23 @@ export const GlossaryEntryMatcher: SectionDefinition<'glossary entry'> = logLine
             type: 'glossary entry',
             id: logLine,
             matchEnd: line =>
-                Boolean(isGlossaryEntry(line) || isRelatedTopics(line)),
+                Boolean(
+                    isGlossaryEntry(line) ||
+                        isGlossarySubheader(line) ||
+                        isRelatedTopics(line),
+                ),
+        };
+    }
+    return null;
+};
+export const GlossarySubheaderMatcher: SectionDefinition<'glossary subheader'> = logLine => {
+    const match = isGlossarySubheader(logLine);
+    if (match) {
+        return {
+            type: 'glossary subheader',
+            id: logLine,
+            matchEnd: line =>
+                Boolean(isGlossarySubheader(line) || isGlossaryHeader(line)),
         };
     }
     return null;
@@ -78,41 +95,3 @@ export const ErrataQAMAtcher: SectionDefinition<'errata qa'> = logLine => {
     }
     return null;
 };
-
-function assert(condition: boolean, message: string) {
-    if (!condition) {
-        throw new Error(message);
-    }
-}
-
-function testDefinition(
-    startLine: string,
-    endLine: string,
-    definition: SectionDefinition<
-        keyof AdditionalTypes,
-        Record<string, string>
-    >,
-    definitionName: string,
-) {
-    const match = definition(startLine);
-
-    assert(!!match, `${definitionName} did not match provided line!`);
-
-    assert(
-        match!.matchEnd(endLine),
-        `${definitionName} did not match end line`,
-    );
-}
-
-testDefinition(
-    '1 ABILITIES',
-    '2 Other things',
-    GlossaryHeaderMatcher,
-    'GlossaryHeaderMatcher',
-);
-testDefinition(
-    '1.1 Each ability describes when and how a player can resolve it.',
-    '1.2 If a card has multiple abilities, each ability is presented as its',
-    GlossaryEntryMatcher,
-    'GlossaryEntryMatcher',
-);

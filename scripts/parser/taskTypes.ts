@@ -34,13 +34,17 @@ export type IntermediateContentShape<Type extends keyof AdditionalTypes> = {
 export type AdditionalTypes = {
     'glossary header': {
         title: string;
+        indexer: string;
     };
     'errata qa': {
         title: string;
     };
     'errata section': never;
-    'rule type': never;
+    'rule type': { title: string };
     'glossary entry': {
+        indexer: string;
+    };
+    'glossary subheader': {
         indexer: string;
         title?: string;
     };
