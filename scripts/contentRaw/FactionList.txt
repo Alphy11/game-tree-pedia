@@ -670,7 +670,7 @@ in the system. For each result equal or greater
 than that ship’s combat value produce 1 hit. Your opponent must assign it to one of his ships.
 • Pillage
 After one of your neighbors gains trade goods or
-resolves a transAction: If he has 3 or more trade goods you may take 1 of
+resolves a transaction: If he has 3 or more trade goods you may take 1 of
 his trade goods or commodities.
 ;%;STARTING TECHNOLOGIES;%;
 • SarweenTools (yellow - level 0)
