@@ -2,18 +2,18 @@
   "files": {
     "main.css": "/game-tree-pedia/static/css/main.6e97bf64.chunk.css",
     "main.js": "/game-tree-pedia/static/js/main.736201d4.chunk.js",
-    "runtime-main.js": "/game-tree-pedia/static/js/runtime-main.5d861fd0.js",
+    "runtime-main.js": "/game-tree-pedia/static/js/runtime-main.453b9dec.js",
     "static/css/2.a850fb5f.chunk.css": "/game-tree-pedia/static/css/2.a850fb5f.chunk.css",
     "static/js/2.5ef10490.chunk.js": "/game-tree-pedia/static/js/2.5ef10490.chunk.js",
     "static/js/3.d095f90a.chunk.js": "/game-tree-pedia/static/js/3.d095f90a.chunk.js",
-    "static/js/4.31dafe96.chunk.js": "/game-tree-pedia/static/js/4.31dafe96.chunk.js",
+    "static/js/4.5db5d8a8.chunk.js": "/game-tree-pedia/static/js/4.5db5d8a8.chunk.js",
     "static/js/5.113583c2.chunk.js": "/game-tree-pedia/static/js/5.113583c2.chunk.js",
     "index.html": "/game-tree-pedia/index.html",
     "static/js/2.5ef10490.chunk.js.LICENSE.txt": "/game-tree-pedia/static/js/2.5ef10490.chunk.js.LICENSE.txt",
     "static/media/onsenui.css": "/game-tree-pedia/static/media/ionicons.ef35f15c.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.5d861fd0.js",
+    "static/js/runtime-main.453b9dec.js",
     "static/css/2.a850fb5f.chunk.css",
     "static/js/2.5ef10490.chunk.js",
     "static/css/main.6e97bf64.chunk.css",
