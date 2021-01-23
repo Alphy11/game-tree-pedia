@@ -3,7 +3,7 @@
         "content": [
             "This glossary provides players with detailed rules for Twilight Imperium: Fourth Edition and its Prophecy of Kings expansion, organized by topic. Players are encouraged to use the index on page 38 to find specific topics within the glossary."
         ],
-        "id": "$$GLOSSARY",
+        "id": "%RT%~GLOSSARY",
         "type": "rule type",
         "additional": {
             "title": "GLOSSARY"
@@ -113,7 +113,9 @@
                         }
                     },
                     {
-                        "content": [""],
+                        "content": [
+                            ""
+                        ],
                         "id": "1.10 COSTS",
                         "type": "glossary subheader",
                         "additional": {
@@ -144,7 +146,9 @@
                         ]
                     },
                     {
-                        "content": [""],
+                        "content": [
+                            ""
+                        ],
                         "id": "1.13 TIMING",
                         "type": "glossary subheader",
                         "additional": {
@@ -227,7 +231,9 @@
                         ]
                     },
                     {
-                        "content": [""],
+                        "content": [
+                            ""
+                        ],
                         "id": "1.21 COMPONENT-SPECIFIC RULES",
                         "type": "glossary subheader",
                         "additional": {
@@ -910,7 +916,9 @@
                         ]
                     },
                     {
-                        "content": [""],
+                        "content": [
+                            ""
+                        ],
                         "id": "8.17 OUTCOMES",
                         "type": "glossary subheader",
                         "additional": {
@@ -1089,7 +1097,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Anomalies"],
+                        "content": [
+                            "RELATED TOPICS: Anomalies"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -2665,7 +2675,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Exploration"],
+                        "content": [
+                            "RELATED TOPICS: Exploration"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -2704,7 +2716,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: System Tiles"],
+                        "content": [
+                            "RELATED TOPICS: System Tiles"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -2816,7 +2830,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Anomalies, Movement"],
+                        "content": [
+                            "RELATED TOPICS: Anomalies, Movement"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -2860,7 +2876,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Invasion, Planets"],
+                        "content": [
+                            "RELATED TOPICS: Invasion, Planets"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -3241,7 +3259,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Leaders, Mechs"],
+                        "content": [
+                            "RELATED TOPICS: Leaders, Mechs"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -3282,7 +3302,9 @@
                         }
                     },
                     {
-                        "content": [""],
+                        "content": [
+                            ""
+                        ],
                         "id": "51.3 AGENTS",
                         "type": "glossary subheader",
                         "additional": {
@@ -3303,7 +3325,9 @@
                         ]
                     },
                     {
-                        "content": [""],
+                        "content": [
+                            ""
+                        ],
                         "id": "51.5 COMMANDERS",
                         "type": "glossary subheader",
                         "additional": {
@@ -3326,7 +3350,9 @@
                                 }
                             },
                             {
-                                "content": ["A commander cannot be exhausted."],
+                                "content": [
+                                    "A commander cannot be exhausted."
+                                ],
                                 "id": "51.7",
                                 "type": "glossary entry",
                                 "additional": {
@@ -3347,7 +3373,9 @@
                         ]
                     },
                     {
-                        "content": [""],
+                        "content": [
+                            ""
+                        ],
                         "id": "51.9 HEROES",
                         "type": "glossary subheader",
                         "additional": {
@@ -3370,7 +3398,9 @@
                                 }
                             },
                             {
-                                "content": ["A hero cannot be exhausted."],
+                                "content": [
+                                    "A hero cannot be exhausted."
+                                ],
                                 "id": "51.11",
                                 "type": "glossary entry",
                                 "additional": {
@@ -3502,7 +3532,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Planets"],
+                        "content": [
+                            "RELATED TOPICS: Planets"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -3530,7 +3562,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Custodians Token"],
+                        "content": [
+                            "RELATED TOPICS: Custodians Token"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -3578,7 +3612,9 @@
                         }
                     },
                     {
-                        "content": ["Mech unit cards are not technologies."],
+                        "content": [
+                            "Mech unit cards are not technologies."
+                        ],
                         "id": "55.4\t",
                         "type": "glossary entry",
                         "additional": {
@@ -3665,7 +3701,9 @@
                 },
                 "subtree": [
                     {
-                        "content": [""],
+                        "content": [
+                            ""
+                        ],
                         "id": "58.2 TACTICAL ACTION MOVEMENT",
                         "type": "glossary subheader",
                         "additional": {
@@ -3712,7 +3750,9 @@
                         ]
                     },
                     {
-                        "content": [""],
+                        "content": [
+                            ""
+                        ],
                         "id": "58.8 ABILITY MOVEMENT",
                         "type": "glossary subheader",
                         "additional": {
@@ -3785,7 +3825,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Anomalies"],
+                        "content": [
+                            "RELATED TOPICS: Anomalies"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -4139,7 +4181,9 @@
                 },
                 "subtree": [
                     {
-                        "content": ["Each PDS has the “Space Cannon” ability."],
+                        "content": [
+                            "Each PDS has the “Space Cannon” ability."
+                        ],
                         "id": "63.1\t",
                         "type": "glossary entry",
                         "additional": {
@@ -4177,7 +4221,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Structures, Space Cannon"],
+                        "content": [
+                            "RELATED TOPICS: Structures, Space Cannon"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -4655,7 +4701,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Abilities"],
+                        "content": [
+                            "RELATED TOPICS: Abilities"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -4817,7 +4865,9 @@
                         }
                     },
                     {
-                        "content": ["Relics cannot be traded."],
+                        "content": [
+                            "Relics cannot be traded."
+                        ],
                         "id": "73.4\t",
                         "type": "glossary entry",
                         "additional": {
@@ -4825,7 +4875,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Exploration, Purge"],
+                        "content": [
+                            "RELATED TOPICS: Exploration, Purge"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -4943,7 +4995,9 @@
                 },
                 "subtree": [
                     {
-                        "content": ["Ships are always placed in space."],
+                        "content": [
+                            "Ships are always placed in space."
+                        ],
                         "id": "76.1\t",
                         "type": "glossary entry",
                         "additional": {
@@ -5575,7 +5629,9 @@
                 ]
             },
             {
-                "content": ["A supernova is an anomaly that affects movement."],
+                "content": [
+                    "A supernova is an anomaly that affects movement."
+                ],
                 "id": "86",
                 "type": "glossary header",
                 "additional": {
@@ -6360,7 +6416,9 @@
                 ]
             },
             {
-                "content": ["A unit is represented by a plastic figure."],
+                "content": [
+                    "A unit is represented by a plastic figure."
+                ],
                 "id": "96",
                 "type": "glossary header",
                 "additional": {
@@ -6419,7 +6477,9 @@
                 ]
             },
             {
-                "content": ["A unit upgrade is a type of technology card."],
+                "content": [
+                    "A unit upgrade is a type of technology card."
+                ],
                 "id": "97",
                 "type": "glossary header",
                 "additional": {
@@ -6469,7 +6529,9 @@
                         }
                     },
                     {
-                        "content": ["A mech unit card is not a technology."],
+                        "content": [
+                            "A mech unit card is not a technology."
+                        ],
                         "id": "97.5",
                         "type": "glossary entry",
                         "additional": {
@@ -6477,7 +6539,9 @@
                         }
                     },
                     {
-                        "content": ["RELATED TOPICS: Technology"],
+                        "content": [
+                            "RELATED TOPICS: Technology"
+                        ],
                         "id": "RELATED TOPICS",
                         "type": "related topics"
                     }
@@ -6715,8 +6779,10 @@
         ]
     },
     {
-        "content": ["This section contains errata for game components."],
-        "id": "$$ERRATA",
+        "content": [
+            "This section contains errata for game components."
+        ],
+        "id": "%RT%~ERRATA",
         "type": "rule type",
         "additional": {
             "title": "ERRATA"
@@ -6827,21 +6893,25 @@
         "content": [
             "This section contains answers to frequently asked questions."
         ],
-        "id": "$$FAQ",
+        "id": "%RT%~FAQ",
         "type": "rule type",
         "additional": {
             "title": "FAQ"
         },
         "subtree": [
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "GENERAL"
                 },
                 "subtree": [
                     {
-                        "content": ["A: Yes, the “0” face is a “10” result."],
+                        "content": [
+                            "A: Yes, the “0” face is a “10” result."
+                        ],
                         "type": "errata qa",
                         "additional": {
                             "title": "Q: Are the “0” faces of the ten-sided dice included with the game intended to represent the result of a “10”?"
@@ -6985,7 +7055,9 @@
                 ]
             },
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "PRODUCTION"
@@ -7012,7 +7084,9 @@
                 ]
             },
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "AGENDAS"
@@ -7120,7 +7194,9 @@
                 ]
             },
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "ACTION CARDS"
@@ -7255,7 +7331,9 @@
                 ]
             },
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "THE ARBOREC"
@@ -7291,7 +7369,9 @@
                 ]
             },
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "THE NEKRO VIRUS"
@@ -7363,7 +7443,9 @@
                 ]
             },
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "THE EMIRATES OF HACAN"
@@ -7381,7 +7463,9 @@
                 ]
             },
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "THE XXCHA KINGDOM"
@@ -7399,7 +7483,9 @@
                 ]
             },
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "THE GHOSTS OF CREUSS"
@@ -7435,7 +7521,9 @@
                 ]
             },
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "THE NAALU COLLECTIVE"
@@ -7471,7 +7559,9 @@
                 ]
             },
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "THE CLAN OF SAAR"
@@ -7507,7 +7597,9 @@
                 ]
             },
             {
-                "content": [""],
+                "content": [
+                    ""
+                ],
                 "type": "errata section",
                 "additional": {
                     "title": "THE MENTAK COALITION"
@@ -7566,7 +7658,7 @@
         "content": [
             "Cards used to determine turn order, take special actions, and have secondary abilities other players may take."
         ],
-        "id": "$$STRATEGY CARDS",
+        "id": "%RT%~STRATEGY CARDS",
         "type": "rule type",
         "additional": {
             "title": "STRATEGY CARDS"

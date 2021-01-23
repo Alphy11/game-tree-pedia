@@ -1,4 +1,4 @@
-$$GLOSSARY
+%RT%~GLOSSARY
 This glossary provides players with detailed rules for Twilight Imperium: Fourth Edition and its Prophecy of Kings expansion, organized by topic. Players are encouraged to use the index on page 38 to find specific topics within the glossary.
 
 1 ABILITIES
@@ -2209,7 +2209,8 @@ There are two advanced types of wormhole: delta and gamma. These wormholes follo
 •   The delta wormholes are present on the Creuss Gate system tile and the Ghosts of Creuss home system tile.
 •   The gamma wormholes are present on the wormhole nexus and can be discovered during exploration
 RELATED TOPICS: Adjacency, Movement, Neighbors, System Tiles, Wormhole Nexus
-$$ERRATA
+%END%~
+%RT%~ERRATA
 This section contains errata for game components.
 BRIBERY
 The text of the action card “Bribery” should read as follows: “After the speaker votes on an agenda: Spend any number of trade goods. For each trade good spent, cast 1 additional vote for the outcome on which you voted.”
@@ -2234,7 +2235,8 @@ UNSTABLE PLANET
 The text of the “Unstable Planet” action card should read as follows: “Action: Choose 1 hazardous planet. Exhaust that planet and destroy up to 3 infantry on it.”
 VETO
 The text of the “Veto” action card should read as follows: “When an agenda is revealed: Discard that agenda and reveal 1 agenda from the top of the deck. Players vote on this agenda instead.”
-$$FAQ
+%END%~
+%RT%~FAQ
 This section contains answers to frequently asked questions.
 GENERAL
 Q: Are the “0” faces of the ten-sided dice included with the game intended to represent the result of a “10”?
@@ -2390,7 +2392,8 @@ Q: Can the Mentak Coalition use the “Pillage” faction ability to steal trade
 A: Yes, even in the case of “Quantum Entanglement” only being active from the Creuss’ point of view, because the ‘neighbor’ status is active as a result of the ability, the Mentak may use their “Pillage” in these situations.
 Q: Can the Mentak Coalition use the “Pillage” faction ability for each time the Saar gain a trade good from the “Scavenge” faction ability in a single turn, provided that the other requirements are met?
 A: Yes. The Mentak can trigger “Pillage” each time the Saar gain control of a planet, if all the conditions of “Pillage” are met.
-$$STRATEGY CARDS
+%END%~
+%RT%~STRATEGY CARDS
 Cards used to determine turn order, take special actions, and have secondary abilities other players may take.
 
 1 LEADERSHIP

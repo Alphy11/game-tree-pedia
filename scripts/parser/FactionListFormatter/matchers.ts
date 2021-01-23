@@ -1,5 +1,5 @@
 export function isFactionHeader(logLine: string): { faction: string } | null {
-    const match = logLine.match(/^~~(?<faction>.*)~~$/i);
+    const match = logLine.match(/^%FN%~(?<faction>.*)$/i);
     if (match) {
         return match.groups as { faction: string };
     }
@@ -8,7 +8,7 @@ export function isFactionHeader(logLine: string): { faction: string } | null {
 export function isSectionHeader(
     logLine: string,
 ): { sectionName: string } | null {
-    const match = logLine.match(/;%;(?<sectionName>.*);%;/i);
+    const match = logLine.match(/%SH%~(?<sectionName>.*)/i);
     if (match) {
         return match.groups as { sectionName: string };
     }

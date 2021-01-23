@@ -5,6 +5,7 @@ import {
     isRelatedTopics,
     isErrataQA,
     isRuleType,
+    isGlobalEnd,
     isGlossarySubheader,
 } from './matchers';
 import { SectionDefinition } from '../taskTypes';
@@ -14,8 +15,9 @@ export const GlossaryHeaderMatcher: SectionDefinition<'glossary header'> = logLi
     if (match) {
         return {
             type: 'glossary header',
-            id: match.id,
-            matchEnd: line => !!isGlossaryHeader(line),
+            id: match.indexer,
+            matchEnd: line =>
+                Boolean(isGlobalEnd(line) || isGlossaryHeader(line)),
         };
     }
     return null;
@@ -29,14 +31,16 @@ export const GlossaryEntryMatcher: SectionDefinition<'glossary entry'> = logLine
             id: logLine,
             matchEnd: line =>
                 Boolean(
-                    isGlossaryEntry(line) ||
+                    isGlobalEnd(line) ||
                         isGlossarySubheader(line) ||
+                        isGlossaryEntry(line) ||
                         isRelatedTopics(line),
                 ),
         };
     }
     return null;
 };
+
 export const GlossarySubheaderMatcher: SectionDefinition<'glossary subheader'> = logLine => {
     const match = isGlossarySubheader(logLine);
     if (match) {
@@ -49,13 +53,15 @@ export const GlossarySubheaderMatcher: SectionDefinition<'glossary subheader'> =
     }
     return null;
 };
+
 export const GlossaryRelatedTopicsMatcher: SectionDefinition<'related topics'> = logLine => {
     const match = isRelatedTopics(logLine);
     if (match) {
         return {
             type: 'related topics',
             id: `RELATED TOPICS`,
-            matchEnd: line => !!isGlossaryHeader(line),
+            matchEnd: line =>
+                Boolean(isGlobalEnd(line) || isGlossaryHeader(line)),
         };
     }
     return null;
@@ -67,7 +73,7 @@ export const RuleTypeMatcher: SectionDefinition<'rule type'> = logLine => {
         return {
             type: 'rule type',
             id: logLine,
-            matchEnd: line => !!isRuleType(line),
+            matchEnd: line => Boolean(isGlobalEnd(line) || isRuleType(line)),
         };
     }
     return null;
@@ -79,7 +85,8 @@ export const ErrataSectionMatcher: SectionDefinition<'errata section'> = logLine
         return {
             type: 'errata section',
             id: logLine,
-            matchEnd: line => isErrataHeader(line),
+            matchEnd: line =>
+                Boolean(isGlobalEnd(line) || isErrataHeader(line)),
         };
     }
     return null;
@@ -90,7 +97,12 @@ export const ErrataQAMAtcher: SectionDefinition<'errata qa'> = logLine => {
         return {
             type: 'errata qa',
             id: logLine,
-            matchEnd: line => !!(isErrataQA(line) || isErrataHeader(line)),
+            matchEnd: line =>
+                Boolean(
+                    isGlobalEnd(line) ||
+                        isErrataQA(line) ||
+                        isErrataHeader(line),
+                ),
         };
     }
     return null;

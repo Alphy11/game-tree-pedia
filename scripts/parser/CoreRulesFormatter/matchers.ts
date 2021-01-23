@@ -1,9 +1,9 @@
 export function isGlossaryHeader(
     logLine: string,
-): { id: string; title: string } | null {
-    const match = logLine.match(/^(?<id>\d+) (?<title>[a-z\s]+)$/i);
+): { indexer: string; title: string } | null {
+    const match = logLine.match(/^(?<indexer>\d+) (?<title>[a-z\s]+)$/i);
     if (match) {
-        return match.groups as { id: string; title: string };
+        return match.groups as { indexer: string; title: string };
     }
     return null;
 }
@@ -35,7 +35,7 @@ export function isErrataHeader(logLine: string): boolean {
 }
 
 export function isRuleType(logLine: string): { title: string } | null {
-    const match = logLine.match(/^\$\$(?<title>.*)/);
+    const match = logLine.match(/^%RT%~(?<title>.*)/);
     if (match) {
         return match.groups as { title: string };
     }
@@ -44,4 +44,8 @@ export function isRuleType(logLine: string): { title: string } | null {
 
 export function isErrataQA(logLine: string): boolean {
     return !!logLine.match(/Q: /);
+}
+
+export function isGlobalEnd(logLine: string): boolean {
+    return !!logLine.match(/^%END%~/);
 }
