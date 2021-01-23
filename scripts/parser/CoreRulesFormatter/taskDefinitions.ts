@@ -1,12 +1,11 @@
 import {
     isGlossaryEntry,
     isGlossaryHeader,
-    isErrataHeader,
     isRelatedTopics,
     isErrataQA,
     isRuleType,
     isGlobalEnd,
-    isGlossarySubheader,
+    isSubHeader,
 } from './matchers';
 import { SectionDefinition } from '../taskTypes';
 
@@ -32,7 +31,7 @@ export const GlossaryEntryMatcher: SectionDefinition<'glossary entry'> = logLine
             matchEnd: line =>
                 Boolean(
                     isGlobalEnd(line) ||
-                        isGlossarySubheader(line) ||
+                        isSubHeader(line) ||
                         isGlossaryEntry(line) ||
                         isRelatedTopics(line),
                 ),
@@ -41,14 +40,14 @@ export const GlossaryEntryMatcher: SectionDefinition<'glossary entry'> = logLine
     return null;
 };
 
-export const GlossarySubheaderMatcher: SectionDefinition<'glossary subheader'> = logLine => {
-    const match = isGlossarySubheader(logLine);
+export const SubHeaderMatcher: SectionDefinition<'subheader'> = logLine => {
+    const match = isSubHeader(logLine);
     if (match) {
         return {
-            type: 'glossary subheader',
+            type: 'subheader',
             id: logLine,
             matchEnd: line =>
-                Boolean(isGlossarySubheader(line) || isGlossaryHeader(line)),
+                Boolean(isSubHeader(line) || isGlossaryHeader(line)),
         };
     }
     return null;
@@ -79,30 +78,13 @@ export const RuleTypeMatcher: SectionDefinition<'rule type'> = logLine => {
     return null;
 };
 
-export const ErrataSectionMatcher: SectionDefinition<'errata section'> = logLine => {
-    const match = isErrataHeader(logLine);
-    if (match) {
-        return {
-            type: 'errata section',
-            id: logLine,
-            matchEnd: line =>
-                Boolean(isGlobalEnd(line) || isErrataHeader(line)),
-        };
-    }
-    return null;
-};
 export const ErrataQAMAtcher: SectionDefinition<'errata qa'> = logLine => {
     const match = isErrataQA(logLine);
     if (match) {
         return {
             type: 'errata qa',
             id: logLine,
-            matchEnd: line =>
-                Boolean(
-                    isGlobalEnd(line) ||
-                        isErrataQA(line) ||
-                        isErrataHeader(line),
-                ),
+            matchEnd: line => Boolean(isGlobalEnd(line) || isErrataQA(line)),
         };
     }
     return null;

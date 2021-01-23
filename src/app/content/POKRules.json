@@ -117,7 +117,7 @@
                             ""
                         ],
                         "id": "1.10 COSTS",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "1.10",
                             "title": "COSTS"
@@ -150,7 +150,7 @@
                             ""
                         ],
                         "id": "1.13 TIMING",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "1.13",
                             "title": "TIMING"
@@ -235,7 +235,7 @@
                             ""
                         ],
                         "id": "1.21 COMPONENT-SPECIFIC RULES",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "1.21",
                             "title": "COMPONENT-SPECIFIC RULES"
@@ -794,7 +794,7 @@
                             "When voting during the agenda phase, a player can cast votes for a specific outcome of an agenda."
                         ],
                         "id": "8.5 VOTING",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "8.5",
                             "title": "VOTING"
@@ -920,7 +920,7 @@
                             ""
                         ],
                         "id": "8.17 OUTCOMES",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "8.17",
                             "title": "OUTCOMES"
@@ -3306,7 +3306,7 @@
                             ""
                         ],
                         "id": "51.3 AGENTS",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "51.3",
                             "title": "AGENTS"
@@ -3329,7 +3329,7 @@
                             ""
                         ],
                         "id": "51.5 COMMANDERS",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "51.5",
                             "title": "COMMANDERS"
@@ -3377,7 +3377,7 @@
                             ""
                         ],
                         "id": "51.9 HEROES",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "51.9",
                             "title": "HEROES"
@@ -3705,7 +3705,7 @@
                             ""
                         ],
                         "id": "58.2 TACTICAL ACTION MOVEMENT",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "58.2",
                             "title": "TACTICAL ACTION MOVEMENT"
@@ -3754,7 +3754,7 @@
                             ""
                         ],
                         "id": "58.8 ABILITY MOVEMENT",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "58.8",
                             "title": "ABILITY MOVEMENT"
@@ -4005,7 +4005,7 @@
                             "A public objective is an objective that is revealed to all players."
                         ],
                         "id": "61.11 PUBLIC OBJECTIVES",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "61.11",
                             "title": "PUBLIC OBJECTIVES"
@@ -4071,7 +4071,7 @@
                             "A secret objective is an objective that is controlled by one player and is hidden from all other players until it is scored."
                         ],
                         "id": "61.17 SECRET OBJECTIVES",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "61.17",
                             "title": "SECRET OBJECTIVES"
@@ -4295,7 +4295,7 @@
                             "Each planet has a corresponding planet card that displays its name, resource value, influence value, and trait, if it has one. If a player controls a planet, they keep that planet’s card in their play area."
                         ],
                         "id": "64.6 PLANET CARD",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "64.6",
                             "title": "PLANET CARD"
@@ -5051,7 +5051,7 @@
                                     "•   Game effects that reroll, modify, or otherwise affect combat rolls do not affect space cannon rolls."
                                 ],
                                 "id": "77.2 SPACE CANNON OFFENSE",
-                                "type": "glossary subheader",
+                                "type": "subheader",
                                 "additional": {
                                     "indexer": "77.2",
                                     "title": "SPACE CANNON OFFENSE"
@@ -5081,7 +5081,7 @@
                                     "•   Hits can only be assigned to units that are on the same planet as the units using the “Space Cannon” ability."
                                 ],
                                 "id": "77.6 SPACE CANNON DEFENSE",
-                                "type": "glossary subheader",
+                                "type": "subheader",
                                 "additional": {
                                     "indexer": "77.6",
                                     "title": "SPACE CANNON DEFENSE"
@@ -5947,7 +5947,7 @@
                             "A player can research technology by resolving either the primary or secondary ability of the “Technology” strategy card during the action phase. Other game effects may also instruct a player to research technology."
                         ],
                         "id": "90.9 RESEARCHING TECHNOLOGY",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "90.9",
                             "title": "RESEARCHING TECHNOLOGY"
@@ -5994,7 +5994,7 @@
                             "A technology specialty is a technology symbol found on some planets."
                         ],
                         "id": "90.13 TECHNOLOGY SPECIALTIES",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "90.13",
                             "title": "TECHNOLOGY SPECIALTIES"
@@ -6027,7 +6027,7 @@
                             "The Nekro Virus faction can use its faction abilities in combination with its two “Valefar Assimilator” faction technologies to gain faction technologies that have been researched by other players, including unit upgrades."
                         ],
                         "id": "90.16 VALEFAR ASSIMILATOR",
-                        "type": "glossary subheader",
+                        "type": "subheader",
                         "additional": {
                             "indexer": "90.16",
                             "title": "VALEFAR ASSIMILATOR"
@@ -6792,7 +6792,8 @@
                 "content": [
                     "The text of the action card “Bribery” should read as follows: “After the speaker votes on an agenda: Spend any number of trade goods. For each trade good spent, cast 1 additional vote for the outcome on which you voted.”"
                 ],
-                "type": "errata section",
+                "id": "BRIBERY",
+                "type": "subheader",
                 "additional": {
                     "title": "BRIBERY"
                 }
@@ -6801,7 +6802,8 @@
                 "content": [
                     "The text of the Yin Brotherhood’s “Devotion” faction ability should read as follows: “After each space battle round, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit and assign it to 1 of your opponent’s ships in that system.”"
                 ],
-                "type": "errata section",
+                "id": "DEVOTION",
+                "type": "subheader",
                 "additional": {
                     "title": "DEVOTION"
                 }
@@ -6810,7 +6812,8 @@
                 "content": [
                     "The text of the “Diplomacy” strategy card’s primary ability should read as follows: “Choose 1 system other than the Mecatol Rex system that contains a planet you control; each other player places a command token from their reinforcements in that system. Then, ready up to 2 exhausted planets you control.” The text of the “Diplomacy” strategy card’s secondary ability should read as follows: “Spend 1 token from your strategy pool to ready up to 2 exhausted planets you control.”"
                 ],
-                "type": "errata section",
+                "id": "DIPLOMACY",
+                "type": "subheader",
                 "additional": {
                     "title": "DIPLOMACY"
                 }
@@ -6819,7 +6822,8 @@
                 "content": [
                     "The text of the “Direct Hit” action card should read as follows: “After another player’s ship uses ‘Sustain Damage’ to cancel a hit produced by your units or abilities: Destroy that ship.”"
                 ],
-                "type": "errata section",
+                "id": "DIRECT HIT",
+                "type": "subheader",
                 "additional": {
                     "title": "DIRECT HIT"
                 }
@@ -6828,7 +6832,8 @@
                 "content": [
                     "The text of the L1Z1X’s “Harrow” faction ability should read as follows: “At the end of each round of ground combat, your ships in the active system may use their bombardment abilities against your opponent’s ground forces on the planet.”"
                 ],
-                "type": "errata section",
+                "id": "HARROW",
+                "type": "subheader",
                 "additional": {
                     "title": "HARROW"
                 }
@@ -6837,7 +6842,8 @@
                 "content": [
                     "The text of the Winnu faction technology “Hegemonic Trade Policy” should read as follows: “Exhaust this card when 1 or more of your units use ‘Production;’ swap the resource and influence values of 1 planet you control during that use of ‘Production.’”"
                 ],
-                "type": "errata section",
+                "id": "HEGEMONIC TRADE POLICY",
+                "type": "subheader",
                 "additional": {
                     "title": "HEGEMONIC TRADE POLICY"
                 }
@@ -6846,7 +6852,8 @@
                 "content": [
                     "The text of the “Hyper Metabolism” technology should read as follows: “During the status phase, gain 3 command tokens instead of 2.”"
                 ],
-                "type": "errata section",
+                "id": "HYPER METABOLISM",
+                "type": "subheader",
                 "additional": {
                     "title": "HYPER METABOLISM"
                 }
@@ -6855,7 +6862,8 @@
                 "content": [
                     "The text of the Naalu flagship “Matriarch” should read as follows: “During an invasion in this system, you may commit fighters to planets as if they were ground forces. When combat ends, return those units to the space area.”"
                 ],
-                "type": "errata section",
+                "id": "MATRIARCH",
+                "type": "subheader",
                 "additional": {
                     "title": "MATRIARCH"
                 }
@@ -6864,7 +6872,8 @@
                 "content": [
                     "The text of the Xxcha promissory note “Political Favor” should read as follows: “When an agenda is revealed: Remove 1 token from the Xxcha player’s strategy pool and return it to their reinforcements. Then, discard the revealed agenda and reveal 1 agenda from the top of the deck. Players vote on this agenda instead. Then, return this card to the Xxcha player.”"
                 ],
-                "type": "errata section",
+                "id": "POLITICAL FAVOR",
+                "type": "subheader",
                 "additional": {
                     "title": "POLITICAL FAVOR"
                 }
@@ -6873,7 +6882,8 @@
                 "content": [
                     "The text of the “Unstable Planet” action card should read as follows: “Action: Choose 1 hazardous planet. Exhaust that planet and destroy up to 3 infantry on it.”"
                 ],
-                "type": "errata section",
+                "id": "UNSTABLE PLANET",
+                "type": "subheader",
                 "additional": {
                     "title": "UNSTABLE PLANET"
                 }
@@ -6882,7 +6892,8 @@
                 "content": [
                     "The text of the “Veto” action card should read as follows: “When an agenda is revealed: Discard that agenda and reveal 1 agenda from the top of the deck. Players vote on this agenda instead.”"
                 ],
-                "type": "errata section",
+                "id": "VETO",
+                "type": "subheader",
                 "additional": {
                     "title": "VETO"
                 }
@@ -6903,7 +6914,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "GENERAL",
+                "type": "subheader",
                 "additional": {
                     "title": "GENERAL"
                 },
@@ -7058,7 +7070,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "PRODUCTION",
+                "type": "subheader",
                 "additional": {
                     "title": "PRODUCTION"
                 },
@@ -7087,7 +7100,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "AGENDAS",
+                "type": "subheader",
                 "additional": {
                     "title": "AGENDAS"
                 },
@@ -7197,7 +7211,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "ACTION CARDS",
+                "type": "subheader",
                 "additional": {
                     "title": "ACTION CARDS"
                 },
@@ -7334,7 +7349,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "THE ARBOREC",
+                "type": "subheader",
                 "additional": {
                     "title": "THE ARBOREC"
                 },
@@ -7372,7 +7388,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "THE NEKRO VIRUS",
+                "type": "subheader",
                 "additional": {
                     "title": "THE NEKRO VIRUS"
                 },
@@ -7446,7 +7463,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "THE EMIRATES OF HACAN",
+                "type": "subheader",
                 "additional": {
                     "title": "THE EMIRATES OF HACAN"
                 },
@@ -7466,7 +7484,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "THE XXCHA KINGDOM",
+                "type": "subheader",
                 "additional": {
                     "title": "THE XXCHA KINGDOM"
                 },
@@ -7486,7 +7505,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "THE GHOSTS OF CREUSS",
+                "type": "subheader",
                 "additional": {
                     "title": "THE GHOSTS OF CREUSS"
                 },
@@ -7524,7 +7544,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "THE NAALU COLLECTIVE",
+                "type": "subheader",
                 "additional": {
                     "title": "THE NAALU COLLECTIVE"
                 },
@@ -7562,7 +7583,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "THE CLAN OF SAAR",
+                "type": "subheader",
                 "additional": {
                     "title": "THE CLAN OF SAAR"
                 },
@@ -7600,7 +7622,8 @@
                 "content": [
                     ""
                 ],
-                "type": "errata section",
+                "id": "THE MENTAK COALITION",
+                "type": "subheader",
                 "additional": {
                     "title": "THE MENTAK COALITION"
                 },

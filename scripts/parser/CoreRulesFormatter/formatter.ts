@@ -1,7 +1,7 @@
 import {
     isGlossaryEntry,
     isGlossaryHeader,
-    isGlossarySubheader,
+    isSubHeader,
     isRuleType,
 } from './matchers';
 import {
@@ -40,9 +40,9 @@ export function formatter<
                 parent,
             );
             break;
-        case 'glossary subheader':
-            parsedNode = getGlossarySubheader(
-                node as IntermediateContentShape<'glossary subheader'>,
+        case 'subheader':
+            parsedNode = getSubHeader(
+                node as IntermediateContentShape<'subheader'>,
                 parent,
             );
             break;
@@ -51,9 +51,6 @@ export function formatter<
                 node as IntermediateContentShape<'rule type'>,
                 parent,
             );
-            break;
-        case 'errata section':
-            parsedNode = getSimpleSectionWithTitle(node, parent);
             break;
         case 'related topics':
             parsedNode = getSimpleSection(node, parent);
@@ -172,13 +169,9 @@ const getGlossaryEntry: NodeGetter<'glossary entry'> = ({
         },
     };
 };
-const getGlossarySubheader: NodeGetter<'glossary subheader'> = ({
-    content,
-    id,
-    type,
-}) => {
+const getSubHeader: NodeGetter<'subheader'> = ({ content, id, type }) => {
     const [titleLine, ...rest] = content;
-    const { indexer, title } = isGlossarySubheader(titleLine)!;
+    const { indexer, title } = isSubHeader(titleLine)!;
     return {
         content: joinContent(rest),
         id: id,

@@ -8,10 +8,10 @@ export function isGlossaryHeader(
     return null;
 }
 
-export function isGlossarySubheader(
+export function isSubHeader(
     logLine: string,
 ): { indexer: string; title?: string } | null {
-    const match = logLine.match(/^(?<indexer>\d+\.\d+)\s*(?<title>[A-Z -]+)$/);
+    const match = logLine.match(/^(?<indexer>\d+\.\d+)?\s*(?<title>[A-Z -]+)$/);
     if (match) {
         return match.groups as { indexer: string; title?: string };
     }
@@ -28,10 +28,6 @@ export function isGlossaryEntry(logLine: string): { indexer: string } | null {
 
 export function isRelatedTopics(logLine: string): boolean {
     return !!logLine.match(/^RELATED TOPICS:/);
-}
-
-export function isErrataHeader(logLine: string): boolean {
-    return !!logLine.match(/^[A-Z\s]+$/);
 }
 
 export function isRuleType(logLine: string): { title: string } | null {

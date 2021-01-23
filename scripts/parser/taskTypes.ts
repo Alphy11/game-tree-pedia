@@ -39,12 +39,11 @@ export type AdditionalTypes = {
     'errata qa': {
         title: string;
     };
-    'errata section': never;
     'rule type': { title: string };
     'glossary entry': {
         indexer: string;
     };
-    'glossary subheader': {
+    subheader: {
         indexer: string;
         title?: string;
     };
@@ -63,14 +62,12 @@ export type AdditionalTypes = {
 
 // 'glossary header'
 // 'errata qa'
-// 'errata section'
 // 'rule type'
 // 'glossary entry'
 // 'related topics'
 
 // case 'glossary header':
 // case 'errata qa':
-// case 'errata section':
 // case 'rule type':
 // case 'glossary entry':
 // case 'related topics':

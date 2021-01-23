@@ -54,10 +54,9 @@ export function getNodeItems<
                 ),
             } as any;
         case 'glossary header':
-        case 'glossary subheader':
+        case 'subheader':
         case 'errata qa':
         case 'glossary entry':
-        case 'errata section':
         case 'rule type':
         case 'related topics':
             throw new Error(`Found ${node.type} in FactionListFormatter`);
