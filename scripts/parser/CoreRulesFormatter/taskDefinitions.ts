@@ -14,7 +14,7 @@ export const GlossaryHeaderMatcher: SectionDefinition<'glossary header'> = logLi
     if (match) {
         return {
             type: 'glossary header',
-            id: match.indexer,
+            id: match.title,
             matchEnd: line =>
                 Boolean(isGlobalEnd(line) || isGlossaryHeader(line)),
         };
@@ -27,7 +27,7 @@ export const GlossaryEntryMatcher: SectionDefinition<'glossary entry'> = logLine
     if (match) {
         return {
             type: 'glossary entry',
-            id: logLine,
+            id: match.indexer.replace(/\./, '-'),
             matchEnd: line =>
                 Boolean(
                     isGlobalEnd(line) ||
@@ -45,7 +45,7 @@ export const SubHeaderMatcher: SectionDefinition<'subheader'> = logLine => {
     if (match) {
         return {
             type: 'subheader',
-            id: logLine,
+            id: match.title,
             matchEnd: line =>
                 Boolean(isSubHeader(line) || isGlossaryHeader(line)),
         };
@@ -71,19 +71,20 @@ export const RuleTypeMatcher: SectionDefinition<'rule type'> = logLine => {
     if (match) {
         return {
             type: 'rule type',
-            id: logLine,
+            id: match.title,
             matchEnd: line => Boolean(isGlobalEnd(line) || isRuleType(line)),
         };
     }
     return null;
 };
 
+let QACount = 1;
 export const ErrataQAMAtcher: SectionDefinition<'errata qa'> = logLine => {
     const match = isErrataQA(logLine);
     if (match) {
         return {
             type: 'errata qa',
-            id: logLine,
+            id: `QA-${QACount++}`,
             matchEnd: line => Boolean(isGlobalEnd(line) || isErrataQA(line)),
         };
     }

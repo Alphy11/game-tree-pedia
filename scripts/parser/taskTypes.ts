@@ -20,7 +20,7 @@ export type RuleNode<Type extends keyof AdditionalTypes> = {
     content: string[];
     type: Type;
     subtree?: RuleNode<keyof AdditionalTypes>[];
-    id?: string;
+    id: string;
     additional?: AdditionalTypes[Type];
 };
 
@@ -45,7 +45,7 @@ export type AdditionalTypes = {
     };
     subheader: {
         indexer: string;
-        title?: string;
+        title: string;
     };
     'related topics': never;
     faction: {

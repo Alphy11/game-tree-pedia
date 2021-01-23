@@ -18,6 +18,7 @@ export function formatter<
     NodeType extends IntermediateContentShape<keyof AdditionalTypes>
 >(
     node: NodeType,
+    ids: string[] = [],
     parent: IntermediateContentShape<keyof AdditionalTypes> | null = null,
 ): RuleNode<NodeType['type']> {
     let parsedNode;
@@ -25,40 +26,45 @@ export function formatter<
         case 'glossary header':
             parsedNode = getGlossaryHeaderNode(
                 node as IntermediateContentShape<'glossary header'>,
+                ids,
                 parent,
             );
             break;
         case 'errata qa':
             parsedNode = getErrataQA(
                 node as IntermediateContentShape<'errata qa'>,
+                ids,
                 parent,
             );
             break;
         case 'glossary entry':
             parsedNode = getGlossaryEntry(
                 node as IntermediateContentShape<'glossary entry'>,
+                ids,
                 parent,
             );
             break;
         case 'subheader':
             parsedNode = getSubHeader(
                 node as IntermediateContentShape<'subheader'>,
+                ids,
                 parent,
             );
             break;
         case 'rule type':
             parsedNode = getRuleType(
                 node as IntermediateContentShape<'rule type'>,
+                ids,
                 parent,
             );
             break;
         case 'related topics':
-            parsedNode = getSimpleSection(node, parent);
+            parsedNode = getSimpleSection(node, ids, parent);
             break;
         case 'root':
             return {
                 subtree: Object.values(node.subtree!).map(nextNode =>
-                    formatter(nextNode, node),
+                    formatter(nextNode, ids, node),
                 ),
             } as any;
         case 'faction':
@@ -69,10 +75,10 @@ export function formatter<
             exhaustiveCheck(node.type);
     }
     return {
-        ...parsedNode,
+        ...globalFormatter(parsedNode, ids),
         ...(node.subtree && {
             subtree: Object.values(node.subtree).map(nextNode =>
-                formatter(nextNode, node),
+                formatter(nextNode, [...ids, parsedNode.id], node),
             ),
         }),
     };
@@ -83,21 +89,34 @@ function joinContent(content: string[]): string[] {
 }
 type NodeGetter<T extends keyof AdditionalTypes> = (
     node: IntermediateContentShape<T>,
+    ids: string[],
     parent: IntermediateContentShape<any> | null,
 ) => Omit<RuleNode<T>, 'subtree'>;
+
+function globalFormatter<T extends keyof AdditionalTypes>(
+    node: Omit<RuleNode<T>, 'subtree'>,
+    ids,
+) {
+    const formattedId = node.id.replace(/[.\s]/g, '-');
+    return {
+        ...node,
+        id: formattedId,
+        globalId: [...ids, formattedId].join('_'),
+    };
+}
 
 const getGlossaryHeaderNode: NodeGetter<'glossary header'> = ({
     content,
     id,
 }) => {
-    const { title } = isGlossaryHeader(content[0])!;
+    const { title, indexer } = isGlossaryHeader(content[0])!;
     return {
         content: joinContent(content.slice(1)),
         id: id,
         type: 'glossary header',
         additional: {
-            title: title,
-            indexer: id,
+            title,
+            indexer,
         },
     };
 };
@@ -121,7 +140,7 @@ const getErrataQA: NodeGetter<'errata qa'> = ({ content, id, type }) => {
     ].map(set => joinContent(set));
     return {
         content: answer,
-        // id: id,
+        id: id,
         type: type,
         additional: {
             title: question.join(' '),
@@ -146,7 +165,7 @@ const getSimpleSectionWithTitle: NodeGetter<keyof AdditionalTypes> = ({
 }) => {
     return {
         content: joinContent(content.slice(1)),
-        // id: id,
+        id: id,
         type: type,
         additional: {
             title: content[0],

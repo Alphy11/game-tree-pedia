@@ -30,7 +30,7 @@ function fakeRules(ruleNumber: string, depth: number): Rule[] {
 }
 
 export type Rule = {
-    id?: string;
+    id: string;
     additional?: {
         title?: string;
         indexer?: string;

@@ -10,10 +10,10 @@ export function isGlossaryHeader(
 
 export function isSubHeader(
     logLine: string,
-): { indexer: string; title?: string } | null {
+): { indexer: string; title: string } | null {
     const match = logLine.match(/^(?<indexer>\d+\.\d+)?\s*(?<title>[A-Z -]+)$/);
     if (match) {
-        return match.groups as { indexer: string; title?: string };
+        return match.groups as { indexer: string; title: string };
     }
     return null;
 }
