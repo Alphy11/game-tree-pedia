@@ -4,210 +4,78 @@ import {
     isSubHeader,
     isRuleType,
 } from './matchers';
-import {
-    AdditionalTypes,
-    IntermediateContentShape,
-    RuleNode,
-} from '../taskTypes';
 
-function exhaustiveCheck(t: never) {
-    return;
-}
+import { createFormatter, NodeGetter } from '../formatter';
 
-export function formatter<
-    NodeType extends IntermediateContentShape<keyof AdditionalTypes>
->(
-    node: NodeType,
-    ids: string[] = [],
-    parent: IntermediateContentShape<keyof AdditionalTypes> | null = null,
-): RuleNode<NodeType['type']> {
-    let parsedNode;
-    switch (node.type) {
-        case 'glossary header':
-            parsedNode = getGlossaryHeaderNode(
-                node as IntermediateContentShape<'glossary header'>,
-                ids,
-                parent,
-            );
-            break;
-        case 'errata qa':
-            parsedNode = getErrataQA(
-                node as IntermediateContentShape<'errata qa'>,
-                ids,
-                parent,
-            );
-            break;
-        case 'glossary entry':
-            parsedNode = getGlossaryEntry(
-                node as IntermediateContentShape<'glossary entry'>,
-                ids,
-                parent,
-            );
-            break;
-        case 'subheader':
-            parsedNode = getSubHeader(
-                node as IntermediateContentShape<'subheader'>,
-                ids,
-                parent,
-            );
-            break;
-        case 'rule type':
-            parsedNode = getRuleType(
-                node as IntermediateContentShape<'rule type'>,
-                ids,
-                parent,
-            );
-            break;
-        case 'related topics':
-            parsedNode = getSimpleSection(node, ids, parent);
-            break;
-        case 'root':
-            return {
-                subtree: Object.values(node.subtree!).map(nextNode =>
-                    formatter(nextNode, ids, node),
-                ),
-            } as any;
-        case 'faction':
-        case 'faction section':
-        case 'leader':
-            throw new Error(`Found ${node.type} in CoreRulesFormatter`);
-        default:
-            exhaustiveCheck(node.type);
-    }
-    return {
-        ...globalFormatter(parsedNode, ids),
-        ...(node.subtree && {
-            subtree: Object.values(node.subtree).map(nextNode =>
-                formatter(nextNode, [...ids, parsedNode.id], node),
-            ),
-        }),
-    };
-}
+const noop: NodeGetter<any> = node => {
+    console.error(node);
+    throw new Error('eeeeeeeeeeeeeeeeek');
+};
 
 function joinContent(content: string[]): string[] {
     return content.join(' ').replace(/•/g, '#%#•').split(/#%#/);
 }
-type NodeGetter<T extends keyof AdditionalTypes> = (
-    node: IntermediateContentShape<T>,
-    ids: string[],
-    parent: IntermediateContentShape<any> | null,
-) => Omit<RuleNode<T>, 'subtree'>;
 
-function globalFormatter<T extends keyof AdditionalTypes>(
-    node: Omit<RuleNode<T>, 'subtree'>,
-    ids,
-) {
-    const formattedId = node.id.replace(/[.\s]/g, '-');
-    return {
-        ...node,
-        id: formattedId,
-        globalId: [...ids, formattedId].join('_'),
-    };
-}
-
-const getGlossaryHeaderNode: NodeGetter<'glossary header'> = ({
-    content,
-    id,
-}) => {
-    const { title, indexer } = isGlossaryHeader(content[0])!;
-    return {
+export const formatter = createFormatter({
+    'glossary header': ({ content, id }) => ({
         content: joinContent(content.slice(1)),
         id: id,
         type: 'glossary header',
-        additional: {
-            title,
-            indexer,
-        },
-    };
-};
-const getRuleType: NodeGetter<'rule type'> = ({ content, id }) => {
-    const { title } = isRuleType(content[0])!;
-    return {
+        additional: isGlossaryHeader(content[0])!,
+    }),
+    'rule type': ({ content, id }) => ({
         content: joinContent(content.slice(1)),
         id: id,
         type: 'rule type',
-        additional: {
-            title: title,
-        },
-    };
-};
-
-const getErrataQA: NodeGetter<'errata qa'> = ({ content, id, type }) => {
-    const answerIndex = content.findIndex(line => line.startsWith('A: '));
-    const [question, answer] = [
-        content.slice(0, answerIndex),
-        content.slice(answerIndex),
-    ].map(set => joinContent(set));
-    return {
-        content: answer,
-        id: id,
-        type: type,
-        additional: {
-            title: question.join(' '),
-        },
-    };
-};
-const getSimpleSection: NodeGetter<keyof AdditionalTypes> = ({
-    content,
-    id,
-    type,
-}) => {
-    return {
+        additional: isRuleType(content[0])!,
+    }),
+    'errata qa': ({ content, id, type }) => {
+        const answerIndex = content.findIndex(line => line.startsWith('A: '));
+        const [question, answer] = [
+            content.slice(0, answerIndex),
+            content.slice(answerIndex),
+        ].map(set => joinContent(set));
+        return {
+            content: answer,
+            id: id,
+            type: type,
+            additional: {
+                title: question.join(' '),
+            },
+        };
+    },
+    'glossary entry': ({ content, id, type }) => {
+        const [titleLine, ...rest] = content;
+        const { indexer } = isGlossaryEntry(titleLine)!;
+        return {
+            content: joinContent(rest),
+            id: id,
+            type: type,
+            additional: {
+                indexer,
+            },
+        };
+    },
+    subheader: ({ content, id, type }) => {
+        const [titleLine, ...rest] = content;
+        const { indexer, title } = isSubHeader(titleLine)!;
+        return {
+            content: joinContent(rest),
+            id: id,
+            type: type,
+            additional: {
+                indexer,
+                title,
+            },
+        };
+    },
+    root: node => node,
+    'related topics': ({ content, id, type }) => ({
         content: joinContent(content),
         id: id,
         type: type,
-    };
-};
-const getSimpleSectionWithTitle: NodeGetter<keyof AdditionalTypes> = ({
-    content,
-    id,
-    type,
-}) => {
-    return {
-        content: joinContent(content.slice(1)),
-        id: id,
-        type: type,
-        additional: {
-            title: content[0],
-        },
-    };
-};
-const getGlossaryEntry: NodeGetter<'glossary entry'> = ({
-    content,
-    id,
-    type,
-}) => {
-    const [titleLine, ...rest] = content;
-    const { indexer } = isGlossaryEntry(titleLine)!;
-    return {
-        content: joinContent(rest),
-        id: id,
-        type: type,
-        additional: {
-            indexer,
-        },
-    };
-};
-const getSubHeader: NodeGetter<'subheader'> = ({ content, id, type }) => {
-    const [titleLine, ...rest] = content;
-    const { indexer, title } = isSubHeader(titleLine)!;
-    return {
-        content: joinContent(rest),
-        id: id,
-        type: type,
-        additional: {
-            indexer,
-            title,
-        },
-    };
-};
-// const getX: NodeGetter<'x'> = ({ content, id, type }) => {
-//     return {
-//         content: joinContent(content.slice(1)),
-//         id: id,
-//         type: type,
-//         additional: {
-//             title: '',
-//         },
-//     };
-// };
+    }),
+    leader: noop,
+    'faction section': noop,
+    faction: noop,
+});

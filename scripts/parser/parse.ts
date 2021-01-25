@@ -38,7 +38,7 @@ async function parseRules() {
             writeFile(
                 path.join(TARGET_DIR, `${fileName.split('.')[0]}.json`),
                 JSON.stringify(
-                    coreRulesFormatter(results[1] as any).subtree,
+                    coreRulesFormatter(results[1] as any, []).subtree,
                     null,
                     4,
                 ),
@@ -55,7 +55,11 @@ async function parseRaces() {
     );
     writeFile(
         path.join(TARGET_DIR, 'FactionList.json'),
-        JSON.stringify(factonListFormatter(results[1] as any).subtree, null, 4),
+        JSON.stringify(
+            factonListFormatter(results[1] as any, []).subtree,
+            null,
+            4,
+        ),
     );
 }
 parseRules();

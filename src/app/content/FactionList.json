@@ -6,6 +6,7 @@
         "additional": {
             "title": "ARBOREC"
         },
+        "globalId": "root_%FN%~ARBOREC",
         "subtree": [
             {
                 "content": [
@@ -17,11 +18,12 @@
                     "• 4 Infantry ",
                     "• 1 Cruiser COMMODITIES: 3 HOME SYSTEM: 3/2 (Nestphar)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~ARBOREC_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -32,7 +34,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~ARBOREC_%SH%~MECH"
             },
             {
                 "content": [
@@ -43,7 +46,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~ARBOREC_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -54,36 +58,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~ARBOREC_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "ACTION: Exhaust this card and choose a player’s non-fighter ship; that player may replace that ship with one from their reinforcements that costs up to 2 more than the replaced ship."
                         ],
-                        "id": "AGENT: Letani Ospha",
+                        "id": "AGENT:-Letani-Ospha",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Letani Ospha"
-                        }
+                        },
+                        "globalId": "root_%FN%~ARBOREC_%SH%~LEADERS_AGENT:-Letani-Ospha"
                     },
                     {
                         "content": [
                             "Unlock: Have 12 ground forces on planets you control. After another player activates a system that contains 1 or more of your units that have Production. You may produce 1 unit in that system."
                         ],
-                        "id": "COMMANDER: Dirzuga Rophal",
+                        "id": "COMMANDER:-Dirzuga-Rophal",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Dirzuga Rophal"
-                        }
+                        },
+                        "globalId": "root_%FN%~ARBOREC_%SH%~LEADERS_COMMANDER:-Dirzuga-Rophal"
                     },
                     {
                         "content": [
                             "ACTION: Produce any number of units in any number of systems that contain 1 or more of your ground forces. Then, purge this card."
                         ],
-                        "id": "HERO: Letani Miasmiala -Ultrasonic Emitter",
+                        "id": "HERO:-Letani-Miasmiala--Ultrasonic-Emitter",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Letani Miasmiala -Ultrasonic Emitter"
-                        }
+                        },
+                        "globalId": "root_%FN%~ARBOREC_%SH%~LEADERS_HERO:-Letani-Miasmiala--Ultrasonic-Emitter"
                     }
                 ]
             },
@@ -92,33 +100,36 @@
                     "",
                     "• Mitosis: Your space docks cannot produce infantry. At the start of the status phase place 1 infantry from reinforcements on any planet you control."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~ARBOREC_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
                     "",
                     "• Magen Defence Grid Ω (red - level 1) At the start of ground combat on a planet that contains 1 or more of your structures, you may produce 1 hit and assign it to 1 of your opponent’s ground forces."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~ARBOREC_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Letani Warrior I (Infantry) Cost 1(2) | Combat 8 Production 1"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~ARBOREC_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -126,32 +137,35 @@
                     "• Letani Warrior II (GG) (Infantry) Cost 1(2) | Combat 7 Production 2 After this unit is destroyed, roll 1 die. If the result is 6 or greater, place the unit on this card. At the start of your next turn, place units from the card on a planet you control in your home system. ",
                     "• Bioplasmosis (GG) At the end of the status phase, you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~ARBOREC_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Stymie Ω After another player moves ships into a system that contains 1 or more of your units: You may place 1 command token from that player’s reinforcements in any non-home system. Then, return this card to the Arborec player. "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~ARBOREC_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~ARGENT FLIGHT",
+        "id": "%FN%~ARGENT-FLIGHT",
         "type": "faction",
         "additional": {
             "title": "ARGENT FLIGHT"
         },
+        "globalId": "root_%FN%~ARGENT-FLIGHT",
         "subtree": [
             {
                 "content": [
@@ -163,11 +177,12 @@
                     "• 5 Infantry ",
                     "• 2 Destroyers COMMODITIES: 3  HOME SYSTEM: 2/0, 1/1, 0/2 (Valk, Avar, Ylir)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -178,7 +193,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~MECH"
             },
             {
                 "content": [
@@ -189,7 +205,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -200,36 +217,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "When a player produces ground forces in a system: You may exhaust this card; that player may place those units on any planets they control in that system and any adjacent systems."
                         ],
-                        "id": "AGENT: Trillossa Aun Mirik",
+                        "id": "AGENT:-Trillossa-Aun-Mirik",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Trillossa Aun Mirik"
-                        }
+                        },
+                        "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~LEADERS_AGENT:-Trillossa-Aun-Mirik"
                     },
                     {
                         "content": [
                             "Unlock: Have 6 units that have AFB, Space Cannon or Bombardment on the game board. When 1 or more of your units make a roll for a unit ability: You may choose 1 of those units to roll 1 additional die."
                         ],
-                        "id": "COMMANDER: Trrakan Aun Zulok",
+                        "id": "COMMANDER:-Trrakan-Aun-Zulok",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Trrakan Aun Zulok"
-                        }
+                        },
+                        "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~LEADERS_COMMANDER:-Trrakan-Aun-Zulok"
                     },
                     {
                         "content": [
                             "ACTION: Move any number of your ships from any systems to any number of other systems that contain 1 of your command tokens and no other players’ ships. Then, purge this card."
                         ],
-                        "id": "HERO: Mirik Aun Sissiri -Helix Protocol",
+                        "id": "HERO:-Mirik-Aun-Sissiri--Helix-Protocol",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Mirik Aun Sissiri -Helix Protocol"
-                        }
+                        },
+                        "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~LEADERS_HERO:-Mirik-Aun-Sissiri--Helix-Protocol"
                     }
                 ]
             },
@@ -238,11 +259,12 @@
                     "",
                     "• Strike Wing Ambuscade When 1 or more of your units make a roll for a unit ability: Choose 1 of those units to roll 1 additional die. Then, return this card to the Argent player."
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~PROMISSORY-NOTE"
             },
             {
                 "content": [
@@ -250,11 +272,12 @@
                     "• Zeal You always vote first during the agenda phase. When you cast at least 1 vote, cast 1 additional vote for each player in the game including you. ",
                     "• Raid Formation When 1 or more of your units uses Anti-Fighter Barrage, for each hit produced in excess of your opponent’s Fighters, choose 1 of your opponent’s ships that has Sustain Damage to become damaged. Note: The “Anti-Fighter Barrage” step can occur even if a player’s opponent has no fighters in the combat. (In this case all hits produced from Anti-Fighter Barrage may assign damage to opposing ships with Sustain Damage.)"
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -263,22 +286,24 @@
                     "• Plasma Scoring (red - level 0) When 1 or more units uses Bombard or Space Cannon, 1 unit may roll +1 die. ",
                     "• Neural Motivator (green - level 0) Draw 2 actions cards (instead of 1) in status phase."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Strike Wing Alpha I (Destroyer) Cost 1 | Combat 8 | Move 2 | Capacity 1 Anti-Fighter Barrage 9(x2)"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -286,21 +311,23 @@
                     "• Strike Wing Alpha II (RR) (Destroyer) Cost 1 | Combat 7 | Move 2 | Capacity 1 Anti-Fighter Barrage 6(x3) When this uses Anti-Fighter Barrage, each result of 9 or 10 also destroys 1 of your opponent’s infantry in the space area of the active system. ",
                     "• Aerie Hololattice (Y) Other players cannot move ships through systems that contain your structures. Each planet that contains 1 or more of your structures gains the Production 1 ability as if it were a unit. "
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~FACTION-TECHNOLOGIES"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~BARONY OF LETNEV",
+        "id": "%FN%~BARONY-OF-LETNEV",
         "type": "faction",
         "additional": {
             "title": "BARONY OF LETNEV"
         },
+        "globalId": "root_%FN%~BARONY-OF-LETNEV",
         "subtree": [
             {
                 "content": [
@@ -312,11 +339,12 @@
                     "• 3 Infantry ",
                     "• 1 Dreadnought COMMODITIES: 2  HOME SYSTEM: 4/0; 2/1 (Arc Prime, Wren Terra)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -327,7 +355,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~MECH"
             },
             {
                 "content": [
@@ -338,7 +367,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -349,36 +379,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "At the start of a space combat round, you may exhaust this card to choose 1 ship in the active system. That ship rolls 1 additional die during this combat round."
                         ],
-                        "id": "AGENT: Viscount Unlenn",
+                        "id": "AGENT:-Viscount-Unlenn",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Viscount Unlenn"
-                        }
+                        },
+                        "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~LEADERS_AGENT:-Viscount-Unlenn"
                     },
                     {
                         "content": [
                             "Unlock: Have 5 non-fighter ships in 1 system. After 1 of your units uses Sustain Damage, you may gain 1 trade good."
                         ],
-                        "id": "COMMANDER: Rear Admiral Farran",
+                        "id": "COMMANDER:-Rear-Admiral-Farran",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Rear Admiral Farran"
-                        }
+                        },
+                        "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~LEADERS_COMMANDER:-Rear-Admiral-Farran"
                     },
                     {
                         "content": [
                             "ACTION: Place this card near the game board; the number of non-fighter ships you can have in systems is not limited by laws or by the number of command tokens in your fleet pool during this game round. At the end of that game round, purge this card."
                         ],
-                        "id": "HERO: DarktalonTreilla -Dark Matter Affinity",
+                        "id": "HERO:-DarktalonTreilla--Dark-Matter-Affinity",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: DarktalonTreilla -Dark Matter Affinity"
-                        }
+                        },
+                        "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~LEADERS_HERO:-DarktalonTreilla--Dark-Matter-Affinity"
                     }
                 ]
             },
@@ -388,11 +422,12 @@
                     "• Munitions Reserves At the start of each round of space combat, you may spend 2 trade goods: you may re-roll any number of your dice during that combat round. ",
                     "• Armada The maximum number of non-fighter ships your fleet can have in each system is equal to 2 more than the number of tokens in your fleet pool."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -400,21 +435,23 @@
                     "• Antimass Deflectors (blue - level 0) Move into and through asteroid fields. Apply -1 to Space Cannon rolls against you. ",
                     "• Plasma Scoring (red - level 0) When 1 or more units uses Bombard or Space Cannon, 1 unit may roll +1 die."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -422,32 +459,35 @@
                     "• L4 Disruptors (Y) During an invasion, units cannot use Space Cannon against your units. ",
                     "• Non-Euclidian Shielding (RR) When one of your units uses Sustain Damage, cancel 2 hits instead of 1."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• War Funding Ω After you and your opponent roll dice during space combat: You may reroll all of your opponent’s dice. You may reroll any number of your dice. Then, return this card to the Letnev player.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~CLAN OF SAAR MELANCHOLY",
+        "id": "%FN%~CLAN-OF-SAAR-MELANCHOLY",
         "type": "faction",
         "additional": {
             "title": "CLAN OF SAAR MELANCHOLY"
         },
+        "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY",
         "subtree": [
             {
                 "content": [
@@ -458,11 +498,12 @@
                     "• 1 Cruiser ",
                     "• 4 Infantry COMMODITIES: 3 HOME SYSTEM: 1/0; 2/1 (Lisis II, Ragh)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -473,7 +514,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~MECH"
             },
             {
                 "content": [
@@ -484,7 +526,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -495,36 +538,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "After a player activates a system: You may exhaust this card to increase the move value of 1 of that player’s ships to match the move value of the ship on the game board that has the highest move value."
                         ],
-                        "id": "AGENT: Captain Mendosa",
+                        "id": "AGENT:-Captain-Mendosa",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Captain Mendosa"
-                        }
+                        },
+                        "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS_AGENT:-Captain-Mendosa"
                     },
                     {
                         "content": [
                             "Unlock: Have 3 space docks on the game board. When you produce fighters or infantry: You may place each of those units at any of your space docks that are not blockaded."
                         ],
-                        "id": "COMMANDER: Rowl Sarrig",
+                        "id": "COMMANDER:-Rowl-Sarrig",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Rowl Sarrig"
-                        }
+                        },
+                        "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS_COMMANDER:-Rowl-Sarrig"
                     },
                     {
                         "content": [
                             "ACTION: Choose 1 system that is adjacent to 1 of your Space Docks. Destroy all other players’ infantry and fighters in that system. Then, purge this card."
                         ],
-                        "id": "HERO: Gurno Aggero -Armageddon Relay",
+                        "id": "HERO:-Gurno-Aggero--Armageddon-Relay",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Gurno Aggero -Armageddon Relay"
-                        }
+                        },
+                        "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS_HERO:-Gurno-Aggero--Armageddon-Relay"
                     }
                 ]
             },
@@ -534,33 +581,36 @@
                     "• Scavenge After you gain control of a planet, gain 1 trade good. ",
                     "• Nomadic You can score objectives even if you do not control the planets in your home system."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
                     "",
                     "• Antimass Deflectors (blue - level 0) Move into and through asteroid fields. Apply -1 to Space Cannon rolls against you."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Floating Factory I (Space Dock) Move 1 | Capacity 4 Production 5 This unit is placed in a space area instead of on a planet. This unit can move and retreat as if it were a ship. If this unit is blockaded, it is destroyed."
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -568,32 +618,35 @@
                     "• Floating Factory II (YY) (Space Dock) Move 2 | Capacity 5 Production 7 This unit is placed in a space area instead of on a planet. This unit can move and retreat as if it were a ship. If this unit is blockaded, it is destroyed. ",
                     "• Chaos Mapping (B) Other players cannot activate asteroid fields that contain 1 or more of your ships. At the start of your turn during the action phase, you may produce 1 unit in a system that contains at least 1 of your units that has Production."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Ragh’s Call After you commit 1 or more units to land on a planet: Remove all of the Saar player’s ground forces from that planet and place them on a planet controlled by the Saar player. Then, return this card to the Saar player.   "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~EMBERS OF MUAAT GRIM",
+        "id": "%FN%~EMBERS-OF-MUAAT-GRIM",
         "type": "faction",
         "additional": {
             "title": "EMBERS OF MUAAT GRIM"
         },
+        "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM",
         "subtree": [
             {
                 "content": [
@@ -603,11 +656,12 @@
                     "• 1 War Sun ",
                     "• 4 Infantry  COMMODITIES: 4  HOME SYSTEM: 4/1 (Muaat)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -618,7 +672,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~MECH"
             },
             {
                 "content": [
@@ -629,7 +684,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -640,36 +696,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "ACTION: Exhaust this card to choose a player. That player may produce up to 2 units that each have a cost of 4 or less in a system that contains one of their war suns or their flagship."
                         ],
-                        "id": "AGENT: Umbat",
+                        "id": "AGENT:-Umbat",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Umbat"
-                        }
+                        },
+                        "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS_AGENT:-Umbat"
                     },
                     {
                         "content": [
                             "Unlock: Produce a War Sun. After you spend a token from your strategy pool: You may gain 1 trade good."
                         ],
-                        "id": "COMMANDER: Magmus",
+                        "id": "COMMANDER:-Magmus",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Magmus"
-                        }
+                        },
+                        "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS_COMMANDER:-Magmus"
                     },
                     {
                         "content": [
                             "After you move a war sun into a non-home system other than Mecatol Rex: You may destroy all other players’ units in that system and replace that system tile with the Muaat supernova tile. If you do, purge this card and each planet card that corresponds to the replaced system tile."
                         ],
-                        "id": "HERO: Adjudicator Ba’al -Nova Seed",
+                        "id": "HERO:-Adjudicator-Ba’al--Nova-Seed",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Adjudicator Ba’al -Nova Seed"
-                        }
+                        },
+                        "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS_HERO:-Adjudicator-Ba’al--Nova-Seed"
                     }
                 ]
             },
@@ -679,33 +739,36 @@
                     "• Star Forge ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns. ",
                     "• Gashlai Physiology Your ships can move through supernova’s."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
                     "",
                     "• Plasma Scoring (red - level 0) When 1 or more units uses Bombard or Space Cannon, 1 unit may roll +1 die."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Prototype War Sun I Cost 12 | Combat 3x3 | Move 1 | Capacity 6 Sustain Damage; Bombard 3x3 Other player’s units lose Planetary Shield."
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -713,32 +776,35 @@
                     "• Prototype War Sun II (RRRY) Cost 10 | Combat 3x3 | Move 3 | Capacity 6 Sustain Damage; Bombard 3x3 Other player’s units lose Planetary Shield. ",
                     "• Magmus Reactor Ω (RR) Your ships can move into supernovas. Each supernova that contains 1 or more of your units gains Production 5 ability as if it were 1 of your units."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Fires of the Gashlai ACTION: Remove 1 token from the Muaat player’s fleet pool and return it to his reinforcements. Then, gain your war sun unit upgrade card. Then, return this card to the Muaat Player.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~EMIRATES OF HACAN NOMADIC",
+        "id": "%FN%~EMIRATES-OF-HACAN-NOMADIC",
         "type": "faction",
         "additional": {
             "title": "EMIRATES OF HACAN NOMADIC"
         },
+        "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC",
         "subtree": [
             {
                 "content": [
@@ -749,11 +815,12 @@
                     "• 1 Cruiser ",
                     "• 4 Infantry COMMODITIES: 6 HOME SYSTEM: 2/1; 0/1; 1/1 (Arretze, Hercant, Kamdorn)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -764,7 +831,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~MECH"
             },
             {
                 "content": [
@@ -775,7 +843,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -786,36 +855,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "During the action phase: You may exhaust this card to gain 2 commodities or replenish another player’s commodities."
                         ],
-                        "id": "AGENT: Carth of Golden Sands",
+                        "id": "AGENT:-Carth-of-Golden-Sands",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Carth of Golden Sands"
-                        }
+                        },
+                        "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS_AGENT:-Carth-of-Golden-Sands"
                     },
                     {
                         "content": [
                             "Unlock: Have 10 trade goods. When you cast votes, you may spend any number of trade goods; cast 2 additional votes for each trade good spent."
                         ],
-                        "id": "COMMANDER: Gila the Silvertongue",
+                        "id": "COMMANDER:-Gila-the-Silvertongue",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Gila the Silvertongue"
-                        }
+                        },
+                        "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS_COMMANDER:-Gila-the-Silvertongue"
                     },
                     {
                         "content": [
                             "When 1 or more of your units use Production: You may reduce the cost of each of your units to 0 during this use of Production. If you do, purge this card"
                         ],
-                        "id": "HERO: Harrugh Gefhara -Galactic Securities Net",
+                        "id": "HERO:-Harrugh-Gefhara--Galactic-Securities-Net",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Harrugh Gefhara -Galactic Securities Net"
-                        }
+                        },
+                        "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS_HERO:-Harrugh-Gefhara--Galactic-Securities-Net"
                     }
                 ]
             },
@@ -826,11 +899,12 @@
                     "• Guild Ships You can negotiate transactions with players who are not your neighbor. ",
                     "• Arbiters When you are negotiating a transaction, action cards can be exchanged as part of that transaction."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -838,21 +912,23 @@
                     "• Antimass Deflectors (blue - level 0) Move into and through asteroid fields. Apply -1 to Space Cannon rolls against you. ",
                     "• SarweenTools (yellow - level 0) When 1 or more units use Production, reduce total combined cost by 1."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -860,22 +936,24 @@
                     "• Production Biomes (GG) ACTION: Exhaust this card and spend 1 token from your strategy pool to gain 4 trade goods and choose 1 other player, he gains 2 trade goods. ",
                     "• Quantum Datahub Node (YYY) At the end of the strategy phase, you may spend 1 token from your strategy pool and give another player 3 TG. Swap 1 strategy card with that player."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Trade Convoys ACTION: Place this card face-up in your play area. While this card is in your play area, you may negotiate transactions with players who are not your neighbor. If you activate a system that contains 1 or more of the Hacan player’s units, return this card to the Hacan player.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -886,6 +964,7 @@
         "additional": {
             "title": "EMPYREAN"
         },
+        "globalId": "root_%FN%~EMPYREAN",
         "subtree": [
             {
                 "content": [
@@ -896,11 +975,12 @@
                     "• 2 Fighters ",
                     "• 4 Infantry COMMODITIES: 4 HOME SYSTEM: 3/4 (The Dark) + Nebula"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~EMPYREAN_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -911,7 +991,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~EMPYREAN_%SH%~MECH"
             },
             {
                 "content": [
@@ -922,17 +1003,19 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~EMPYREAN_%SH%~FLAGSHIP"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~EMPYREAN_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -943,36 +1026,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~EMPYREAN_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "After a player moves ships into a system that does not contain any planets: You may exhaust this card; that player gains 1 command token."
                         ],
-                        "id": "AGENT: Acamar",
+                        "id": "AGENT:-Acamar",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Acamar"
-                        }
+                        },
+                        "globalId": "root_%FN%~EMPYREAN_%SH%~LEADERS_AGENT:-Acamar"
                     },
                     {
                         "content": [
                             "Unlock: Be neighbors with all other players. After another player moves ships into a system that contains 1 of your command tokens: You may return that token to your reinforcements."
                         ],
-                        "id": "COMMANDER: Xuange",
+                        "id": "COMMANDER:-Xuange",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Xuange"
-                        }
+                        },
+                        "globalId": "root_%FN%~EMPYREAN_%SH%~LEADERS_COMMANDER:-Xuange"
                     },
                     {
                         "content": [
                             "ACTION: Place 1 frontier token in each system that does not contain any planets and does not already have a frontier token. Then, explore each frontier token that is in a system that contains 1 or more of your ships. Then, purge this card."
                         ],
-                        "id": "HERO: Conservator Procyon -Multiverse Shift",
+                        "id": "HERO:-Conservator-Procyon--Multiverse-Shift",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Conservator Procyon -Multiverse Shift"
-                        }
+                        },
+                        "globalId": "root_%FN%~EMPYREAN_%SH%~LEADERS_HERO:-Conservator-Procyon--Multiverse-Shift"
                     }
                 ]
             },
@@ -983,22 +1070,24 @@
                     "• Aetherpassage After a player activates a system, you may allow that player to move their ships through systems that contain your ships. ",
                     "• Dark Whispers You have 2 faction promissory notes."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~EMPYREAN_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
                     "",
                     "• Dark Energy Tap (blue - level 0) After you perform a tactical action in a system that contains a frontier token, if you have 1 or more ships in that system, explore that token. Your ships can retreat into adjacent systems that do not contain other players’ units, even if you do not have units or control planets in that system."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~EMPYREAN_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1008,21 +1097,23 @@
                     "• Dark Pact ACTION: Place this card face up in your play area. When you give a number of commodities to the Empyrean player equal to your maximum commodity value, you each gain 1 trade good. If you activate a system that contains 1 or more of the Empyrean player’s units, return this card to the Empyrean player. ",
                     "• Blood Pact ACTION: Place this card face up in your play area. When you and the Empyrean player cast votes for the same outcome, cast 4 additional votes for that outcome. If you activate a system that contains 1 or more of the Empyrean player’s units, return this card to the Empyrean player.  "
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~EMPYREAN_%SH%~FACTION-TECHNOLOGIES"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~FEDERATION OF SOL",
+        "id": "%FN%~FEDERATION-OF-SOL",
         "type": "faction",
         "additional": {
             "title": "FEDERATION OF SOL"
         },
+        "globalId": "root_%FN%~FEDERATION-OF-SOL",
         "subtree": [
             {
                 "content": [
@@ -1033,11 +1124,12 @@
                     "• 1 Destroyer ",
                     "• 5 Infantry  COMMODITIES: 4 HOME SYSTEM: 4/2 (Jord)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1048,7 +1140,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~MECH"
             },
             {
                 "content": [
@@ -1059,7 +1152,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1070,36 +1164,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "At the start of a ground combat round: You may exhaust this card to choose 1 ground force in the active system; that ground force rolls 1 additional die during this combat round."
                         ],
-                        "id": "AGENT: Evelyn Delouis",
+                        "id": "AGENT:-Evelyn-Delouis",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Evelyn Delouis"
-                        }
+                        },
+                        "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~LEADERS_AGENT:-Evelyn-Delouis"
                     },
                     {
                         "content": [
                             "Unlock: Control planets that have a combined total of at least 12 resources. At the start of a ground combat on a planet you control: You may place 1 infantry from your reinforcements on that planet."
                         ],
-                        "id": "COMMANDER: Claire Gibson",
+                        "id": "COMMANDER:-Claire-Gibson",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Claire Gibson"
-                        }
+                        },
+                        "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~LEADERS_COMMANDER:-Claire-Gibson"
                     },
                     {
                         "content": [
                             "ACTION: Remove each of your command tokens from the game board and return them to your reinforcements. Then, purge this card."
                         ],
-                        "id": "HERO: Jace X. 4th Air Legion -Helio Command Arr",
+                        "id": "HERO:-Jace-X--4th-Air-Legion--Helio-Command-Arr",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Jace X. 4th Air Legion -Helio Command Arr"
-                        }
+                        },
+                        "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~LEADERS_HERO:-Jace-X--4th-Air-Legion--Helio-Command-Arr"
                     }
                 ]
             },
@@ -1109,11 +1207,12 @@
                     "• Orbital Drop ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control. ",
                     "• Versatile When you gain command tokens during the status phase, gain 1 additional command token."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -1121,11 +1220,12 @@
                     "• Antimass Deflectors (blue - level 0) Move into and through asteroid fields. Apply -1 to Space Cannon rolls against you. ",
                     "• Neural Motivator (green - level 0) Draw 2 actions cards (instead of 1) in status phase."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1133,11 +1233,12 @@
                     "• Spec Ops I (Infantry) Cost 1(2) | Combat 7 ",
                     "• Advanced Carrier I Cost 3 | Combat 9 | Move 1 | Capacity 6"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1145,32 +1246,35 @@
                     "• Spec Ops II (GG) (Infantry) Cost 1(2) | Combat 6 After this unit is destroyed, roll 1 die. If the result is 5 or greater, place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet you control in your home system. ",
                     "• Advanced Carrier II (BB) Cost 3 | Combat 9 | Move 2 | Capacity 8 Sustain Damage"
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Military Support At the start of the Sol player’s turn: Remove 1 token from the Sol player’s strategy pool, if able, and return it to his reinforcements Then you may place 2 infantry from your reinforcements on any planet you control. Then, return this card to the Sol player.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~GHOSTS OF CREUSS",
+        "id": "%FN%~GHOSTS-OF-CREUSS",
         "type": "faction",
         "additional": {
             "title": "GHOSTS OF CREUSS"
         },
+        "globalId": "root_%FN%~GHOSTS-OF-CREUSS",
         "subtree": [
             {
                 "content": [
@@ -1181,11 +1285,12 @@
                     "• 2 Destroyers ",
                     "• 4 Infantry COMMODITIES: 4 HOME SYSTEM: 4/2 (Creuss) + Delta Wormhole"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1196,7 +1301,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~MECH"
             },
             {
                 "content": [
@@ -1207,7 +1313,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1218,36 +1325,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "After a player activates a system that contains a non-delta wormhole: You may exhaust this card; if you do, that system is adjacent to all other systems that contain a wormhole during this tactical action."
                         ],
-                        "id": "AGENT: EmissaryTaivra",
+                        "id": "AGENT:-EmissaryTaivra",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: EmissaryTaivra"
-                        }
+                        },
+                        "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS_AGENT:-EmissaryTaivra"
                     },
                     {
                         "content": [
                             "Unlock: Have units in 3 systems that contain alpha or beta wormholes. After your ships move: For each ship that has a capacity value and moved through 1 or more wormholes, you may place 1 fighter from your reinforcements with that ship if you have unused capacity in the active system."
                         ],
-                        "id": "COMMANDER: Sai Seravus",
+                        "id": "COMMANDER:-Sai-Seravus",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Sai Seravus"
-                        }
+                        },
+                        "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS_COMMANDER:-Sai-Seravus"
                     },
                     {
                         "content": [
                             "ACTION: Swap the positions of any two systems that contain wormholes or your units, other than the Creuss system and the Wormhole Nexus. Then, purge this card."
                         ],
-                        "id": "HERO: Riftwalker Meian -Singularity Reactor",
+                        "id": "HERO:-Riftwalker-Meian--Singularity-Reactor",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Riftwalker Meian -Singularity Reactor"
-                        }
+                        },
+                        "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS_HERO:-Riftwalker-Meian--Singularity-Reactor"
                     }
                 ]
             },
@@ -1258,32 +1369,35 @@
                     "• Slipstream During your tactical actions, apply +1 to the move value of each of your ships that starts its movement in your home system or in a system that contains either an alpha or beta wormhole. ",
                     "• Creuss Gate When you create the game board, place the Creuss Gate where your home system would normally be placed. The Creuss Gate is not a home system. Place your home system in your play area."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
                     "",
                     "• Gravity Drive (blue - level 1) After activating a system, apply +1 to the movement of 1 ship during this tactical action."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1291,32 +1405,35 @@
                     "• Wormhole Generator Ω (BB) ACTION: Exhaust this card to place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player’s ships. ",
                     "• Dimensional Splicer (R) At the start of a space combat in a system that contains a wormhole and 1 or more of your ships, you may produce 1 hit and assign it to 1 of your opponent’s ships."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Creuss Iff At the start of your turn during the action phase: Place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player’s ships. Then, return this card to the Creuss player.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~L1Z1X MINDNET",
+        "id": "%FN%~L1Z1X-MINDNET",
         "type": "faction",
         "additional": {
             "title": "L1Z1X MINDNET"
         },
+        "globalId": "root_%FN%~L1Z1X-MINDNET",
         "subtree": [
             {
                 "content": [
@@ -1328,11 +1445,12 @@
                     "• 5 Infantry ",
                     "• 1 Dreadnought COMMODITIES: 2  HOME SYSTEM: 5/0 ( [0.0.0] )"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1343,7 +1461,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~MECH"
             },
             {
                 "content": [
@@ -1354,7 +1473,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1365,36 +1485,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "After a player activates a system: You may exhaust this card to allow that player to replace 1 of their infantry in the active system with 1 mech from their reinforcements."
                         ],
-                        "id": "AGENT: I48S",
+                        "id": "AGENT:-I48S",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: I48S"
-                        }
+                        },
+                        "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~LEADERS_AGENT:-I48S"
                     },
                     {
                         "content": [
                             "Unlock: Have 4 Dreadnoughts on the Board. Units that have Planetary Shield do not prevent you from using Bombardment."
                         ],
-                        "id": "COMMANDER: 2RAM",
+                        "id": "COMMANDER:-2RAM",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: 2RAM"
-                        }
+                        },
+                        "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~LEADERS_COMMANDER:-2RAM"
                     },
                     {
                         "content": [
                             "ACTION: Choose 1 system that does not contain other players’ ships; you may move your flagship and any number of dreadnoughts from other systems into the chosen system. Then, purge this card."
                         ],
-                        "id": "HERO: The Helmsman -Dark Space Navigation",
+                        "id": "HERO:-The-Helmsman--Dark-Space-Navigation",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: The Helmsman -Dark Space Navigation"
-                        }
+                        },
+                        "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~LEADERS_HERO:-The-Helmsman--Dark-Space-Navigation"
                     }
                 ]
             },
@@ -1404,11 +1528,12 @@
                     "• Assimilate When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements. ",
                     "• Harrow After each round of ground combat, your ships in the active system may use their bombardment ability against your opponent’s ground forces on the planet."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -1416,22 +1541,24 @@
                     "• Neural Motivator (green - level 0) Draw 2 actions cards (instead of 1) in status phase. ",
                     "• Plasma Scoring (red - level 0) When 1 or more units uses Bombard or Space Cannon, 1 unit may roll +1 die."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Super Dreadnought I Cost 4 | Combat 5 | Move 1 | Capacity 2 Sustain Damage; Bombard 5"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1439,32 +1566,35 @@
                     "• Super Dreadnought II (BBY) Cost 4 | Combat 4 | Move 2 | Capacity 2 Sustain Damage; Bombard 4 This unit cannot be destroyed by Direct Hit. ",
                     "• Inheritance Systems (YY) You may exhaust this card and spend 2 resources when you research a technology; ignore all of that technology’s prerequisites."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Cybernetic Enhancements Ω When you gain command tokens during the status phase: Gain 1 additional command token. Then, return this card to the L1z1x player.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~MAHACT GENE SORCERERS",
+        "id": "%FN%~MAHACT-GENE-SORCERERS",
         "type": "faction",
         "additional": {
             "title": "MAHACT GENE SORCERERS"
         },
+        "globalId": "root_%FN%~MAHACT-GENE-SORCERERS",
         "subtree": [
             {
                 "content": [
@@ -1476,11 +1606,12 @@
                     "• 3 Infantry ",
                     "• 1 Cruiser COMMODITIES: 3  HOME SYSTEM: 3/5 (Ixth)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1491,7 +1622,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~MECH"
             },
             {
                 "content": [
@@ -1502,7 +1634,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1513,36 +1646,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "When you would spend a command token during the secondary ability of a strategic Action: You may exhaust this card to remove 1 of the active player’s command tokens from the board and use it instead."
                         ],
-                        "id": "AGENT: Jae Mir Kan",
+                        "id": "AGENT:-Jae-Mir-Kan",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Jae Mir Kan"
-                        }
+                        },
+                        "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS_AGENT:-Jae-Mir-Kan"
                     },
                     {
                         "content": [
                             "Unlock: Have 2 other factions’ command tokens in your fleet pool. During your tactical actions, you can activate systems that contain your command tokens. If you do, return both command tokens to your reinforcements and end your turn."
                         ],
-                        "id": "COMMANDER: Il Na Viroset",
+                        "id": "COMMANDER:-Il-Na-Viroset",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Il Na Viroset"
-                        }
+                        },
+                        "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS_COMMANDER:-Il-Na-Viroset"
                     },
                     {
                         "content": [
                             "ACTION: Move all units in the space area of any system to an adjacent system that contains a different player’s ships. Space combat is resolved in that system; neither player can retreat or resolve abilities that would move their ships. Then, purge this card."
                         ],
-                        "id": "HERO: Airo Shir Aur -Benediction",
+                        "id": "HERO:-Airo-Shir-Aur--Benediction",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Airo Shir Aur -Benediction"
-                        }
+                        },
+                        "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS_HERO:-Airo-Shir-Aur--Benediction"
                     }
                 ]
             },
@@ -1553,11 +1690,12 @@
                     "• Imperia: While another player’s command token is in your fleet pool, you can use the ability of that player’s commander, if it is unlocked. ",
                     "• Hubris: Purge your “Alliance” promissory note. Other players cannot give you their “Alliance” PN."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -1565,22 +1703,24 @@
                     "• Bio Stims (green - level 1) You may exhaust this card at the end of your turn to ready 1 of your planets that has a technology specialty or 1 of your other technologies. ",
                     "• Predictive Intelligence (yellow - level 1) At the end of your turn, you may exhaust this card to redistribute your command tokens. When you cast votes during the agenda, you may cast 3 additional votes; if you do, and the outcome you voted for is not resolved, exhaust this card."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Crimson Legionnaire I -Cost 1(2) | Combat 8 After this unit is destroyed, gain 1 commodity or convert 1 of your commodities to a trade good."
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1588,32 +1728,35 @@
                     "• Crimson Legionnaire II (GG) Cost 1(2) | Combat 7 Same, plus: Place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet you control in your home system. ",
                     "• Genetic Recombination (G) You may exhaust this card before a player casts votes; that player must cast at least 1 vote for an outcome of your choice or remove 1 token from their fleet pool. (put it into their reinforcements)"
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Scepter of Dominion At the start of the strategy phase: Choose 1 non-home system that contains your units; each other player who has a token on the Mahact player’s command sheet places a token from their reinforcements in that system. Then, return this card to the Mahact player.   "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~MENTAK COALITION",
+        "id": "%FN%~MENTAK-COALITION",
         "type": "faction",
         "additional": {
             "title": "MENTAK COALITION"
         },
+        "globalId": "root_%FN%~MENTAK-COALITION",
         "subtree": [
             {
                 "content": [
@@ -1625,11 +1768,12 @@
                     "• 4 Infantry ",
                     "• 2 Cruisers COMMODITIES: 2 HOME SYSTEM: 4/1 (Moll Primus)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1640,7 +1784,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~MECH"
             },
             {
                 "content": [
@@ -1651,7 +1796,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1662,36 +1808,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "After the Pillage faction ability is used against another player: You may exhaust this card; if you do, you and that player each draw 1 action card."
                         ],
-                        "id": "AGENT: Suffi An",
+                        "id": "AGENT:-Suffi-An",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Suffi An"
-                        }
+                        },
+                        "globalId": "root_%FN%~MENTAK-COALITION_%SH%~LEADERS_AGENT:-Suffi-An"
                     },
                     {
                         "content": [
                             "Unlock: Have 4 cruisers on the game board. After you win a space combat: You may force your opponent to give you 1 promissory note from their hand."
                         ],
-                        "id": "COMMANDER: S’Ula Mentarion",
+                        "id": "COMMANDER:-S’Ula-Mentarion",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: S’Ula Mentarion"
-                        }
+                        },
+                        "globalId": "root_%FN%~MENTAK-COALITION_%SH%~LEADERS_COMMANDER:-S’Ula-Mentarion"
                     },
                     {
                         "content": [
                             "At the start of a space combat that you are participating in: You may purge this card; if you do, for each other player’s ship that is destroyed during this combat, place 1 ship of that type from your reinforcements in the active system."
                         ],
-                        "id": "HERO: Ipswitch, Loose Cannon -Sleeper Cell",
+                        "id": "HERO:-Ipswitch,-Loose-Cannon--Sleeper-Cell",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Ipswitch, Loose Cannon -Sleeper Cell"
-                        }
+                        },
+                        "globalId": "root_%FN%~MENTAK-COALITION_%SH%~LEADERS_HERO:-Ipswitch,-Loose-Cannon--Sleeper-Cell"
                     }
                 ]
             },
@@ -1701,11 +1851,12 @@
                     "• Ambush At the start of a space combat, you may roll 1 die for each of up to 2 of your cruisers or destroyers in the system. For each result equal or greater than that ship’s combat value produce 1 hit. Your opponent must assign it to one of his ships. ",
                     "• Pillage After one of your neighbors gains trade goods or resolves a transaction: If he has 3 or more trade goods you may take 1 of his trade goods or commodities."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -1713,21 +1864,23 @@
                     "• SarweenTools (yellow - level 0) When 1 or more units use Production, reduce total combined cost by 1. ",
                     "• Plasma Scoring (red - level 0) When 1 or more units uses Bombard or Space Cannon, 1 unit may roll +1 die."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1735,32 +1888,35 @@
                     "• Salvage Operations (YY) After you win or lose a space combat, gain 1 trade good; If you won the combat, you may also produce 1 ship in that system of any ship type that was destroyed during the combat. ",
                     "• Mirror Computing (YYY) When you spend trade goods, each trade good is worth 2 resources or influence instead of 1."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Promise of Protection ACTION: Place this card face-up in your play area. While this card is in your play area, the Mentak player cannot use his pillage faction ability against you. If you activate a system that contains 1 or more of the Mentak player’s units, return this card to the Mentak player. "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~NAALU COLLECTIVE",
+        "id": "%FN%~NAALU-COLLECTIVE",
         "type": "faction",
         "additional": {
             "title": "NAALU COLLECTIVE"
         },
+        "globalId": "root_%FN%~NAALU-COLLECTIVE",
         "subtree": [
             {
                 "content": [
@@ -1771,11 +1927,12 @@
                     "• 1 Cruiser ",
                     "• 4 Infantry COMMODITIES: 3 HOME SYSTEM: 3/1; 0/2 (Druua, Maaluuk)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1786,7 +1943,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~MECH"
             },
             {
                 "content": [
@@ -1797,7 +1955,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1808,36 +1967,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "After an agenda is revealed: You may exhaust this card to look at the top card of the agenda deck. Then, you may show that card to 1 other player."
                         ],
-                        "id": "AGENT: Z’eu",
+                        "id": "AGENT:-Z’eu",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Z’eu"
-                        }
+                        },
+                        "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~LEADERS_AGENT:-Z’eu"
                     },
                     {
                         "content": [
                             "Unlock: Have 12 fighters on the game board. You may produce 1 additional fighter for their cost; these additional units do not count against your Production limit."
                         ],
-                        "id": "COMMANDER: M’aban",
+                        "id": "COMMANDER:-M’aban",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: M’aban"
-                        }
+                        },
+                        "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~LEADERS_COMMANDER:-M’aban"
                     },
                     {
                         "content": [
                             "At the end of the status phase: You may force each other player to give you 1 promissory note from their hand. If you do, purge this card."
                         ],
-                        "id": "HERO: The Oracle -C-Radium Geometry",
+                        "id": "HERO:-The-Oracle--C-Radium-Geometry",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: The Oracle -C-Radium Geometry"
-                        }
+                        },
+                        "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~LEADERS_HERO:-The-Oracle--C-Radium-Geometry"
                     }
                 ]
             },
@@ -1847,11 +2010,12 @@
                     "• Telepathic At the end of the strategy phase, place the Naalu “0” token on your strategy card. You are first in initiative order. ",
                     "• Foresight After another player moves ships into a system that contains one or more of your ships, you may place 1 token from your strategy pool in an adjacent system that does not contain another player’s ships: move your ships from the active system into that system."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -1859,22 +2023,24 @@
                     "• Neural Motivator (green - level 0) Draw 2 actions cards (instead of 1) in status phase. ",
                     "• SarweenTools (yellow - level 0) When 1 or more units use Production, reduce total combined cost by 1."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Hybrid Crystal Fighter I Cost 1(2) | Combat 8"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1882,32 +2048,35 @@
                     "• Hybrid Crystal Fighter II (GB) Cost 1(2) | Combat 7 | Move 2 This unit may move without being transported. Each fighter in excess of your ships’ capacity counts as 1/2 of a ship against your fleet pool. ",
                     "• Neuroglaive (GGG) After another player activates a system that contains 1 or more of your ships, that player removes 1 token from his fleet pool and returns it to his reinforcements."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Gift of Prescience At the end of the Strategy Phase: Place this card face-up in your play area and place the Naalu “0” token on your strategy card; You are the first in initiative order. The Naalu player cannot use his Telepathic faction ability during this game round. Return this card to the Naalu player at the end of the status phase.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~NAAZ-ROKHA ALLIANCE",
+        "id": "%FN%~NAAZ-ROKHA-ALLIANCE",
         "type": "faction",
         "additional": {
             "title": "NAAZ-ROKHA ALLIANCE"
         },
+        "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE",
         "subtree": [
             {
                 "content": [
@@ -1919,11 +2088,12 @@
                     "• 3 Infantry ",
                     "• 1 Destroyer COMMODITIES: 3  HOME SYSTEM: 2/1, 1/2 (Naazir, Rokha)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1935,7 +2105,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~MECH"
             },
             {
                 "content": [
@@ -1946,7 +2117,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1957,36 +2129,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "At the end of a player’s turn: You may exhaust this card to allow that player to explore 1 of their planets."
                         ],
-                        "id": "AGENT: Garv and Gunn",
+                        "id": "AGENT:-Garv-and-Gunn",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Garv and Gunn"
-                        }
+                        },
+                        "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS_AGENT:-Garv-and-Gunn"
                     },
                     {
                         "content": [
                             "Unlock: Have 3 mechs in 3 systems. After you gain control of a planet that was controlled by another player: You may explore that planet."
                         ],
-                        "id": "COMMANDER: Dart and Tai",
+                        "id": "COMMANDER:-Dart-and-Tai",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Dart and Tai"
-                        }
+                        },
+                        "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS_COMMANDER:-Dart-and-Tai"
                     },
                     {
                         "content": [
                             "ACTION: Gain 1 relic and perform the secondary ability of up to 2 readied or unchosen strategy cards; during this action, spend command tokens from your reinforcements instead of your strategy pool. Then, purge this card."
                         ],
-                        "id": "HERO: Hesh and Prit -Perfect Synthesis",
+                        "id": "HERO:-Hesh-and-Prit--Perfect-Synthesis",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Hesh and Prit -Perfect Synthesis"
-                        }
+                        },
+                        "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS_HERO:-Hesh-and-Prit--Perfect-Synthesis"
                     }
                 ]
             },
@@ -1996,11 +2172,12 @@
                     "• Distant Suns When you explore a planet that contains 1 of your mechs, you may draw 1 additional card; choose 1 to resolve and discard the rest. ",
                     "• Fabrication ACTION: Either purge 2 of your relic fragments of the same type to gain 1 relic; or purge 1 of your relic fragments to gain 1 command token."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2008,21 +2185,23 @@
                     "• Psychoarchaeology (green - level 0) You can use technology specialties on planets you control without exhausting them, and even if those planets are exhausted. During the Action Phase, you can exhaust planets you control that have technology specialties to gain 1 Trade Good. ",
                     "• AI Development Algorithm (red - level 0) When you research a unit upgrade tech, you may exhaust this card to ignore any 1 prerequisite. When 1 or more of your units use Production, you may exhaust this card to reduce the combined cost of the produced units by the number of unit upgrade technologies that you own."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -2030,32 +2209,35 @@
                     "• Supercharge (R) At the start of a combat round, you may exhaust this card to apply +1 to the result of each of your unit’s combat rolls during this combat round. ",
                     "• Pre-Fab Arcologies (GGG) After you explore a planet, ready that planet."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Black Market Forgery ACTION: Purge 2 of your relic fragments of the same type to gain 1 relic. Then, return this card to the Naaz-Rokha player.   "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~NEKRO VIRUS",
+        "id": "%FN%~NEKRO-VIRUS",
         "type": "faction",
         "additional": {
             "title": "NEKRO VIRUS"
         },
+        "globalId": "root_%FN%~NEKRO-VIRUS",
         "subtree": [
             {
                 "content": [
@@ -2067,11 +2249,12 @@
                     "• 2 Infantry ",
                     "• 1 Dreadnought COMMODITIES: 3  HOME SYSTEM: 4/0 (Mordai II)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2082,7 +2265,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~MECH"
             },
             {
                 "content": [
@@ -2093,7 +2277,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -2104,36 +2289,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "During the action phase: You may exhaust this card to choose a player; that player may discard 1 action card or spend 1 command token from their command sheet to gain 2 trade goods."
                         ],
-                        "id": "AGENT: Nekro Malleon",
+                        "id": "AGENT:-Nekro-Malleon",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Nekro Malleon"
-                        }
+                        },
+                        "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~LEADERS_AGENT:-Nekro-Malleon"
                     },
                     {
                         "content": [
                             "Unlock: Own 3 technologies. After you gain a technology: You may draw 1 action card."
                         ],
-                        "id": "COMMANDER: Nekro Acidos",
+                        "id": "COMMANDER:-Nekro-Acidos",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Nekro Acidos"
-                        }
+                        },
+                        "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~LEADERS_COMMANDER:-Nekro-Acidos"
                     },
                     {
                         "content": [
                             "ACTION: Choose a planet that has a technology specialty in a system that contains your units. Destroy any other player’s units on that planet. Gain trade goods equal to that planet’s combined resource and influence values and gain 1 technology that matches the specialty of that planet. Then, purge this card."
                         ],
-                        "id": "HERO: Unit.Dsgn.Flayesh -Polymorphic Algorithm",
+                        "id": "HERO:-Unit-Dsgn-Flayesh--Polymorphic-Algorithm",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Unit.Dsgn.Flayesh -Polymorphic Algorithm"
-                        }
+                        },
+                        "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~LEADERS_HERO:-Unit-Dsgn-Flayesh--Polymorphic-Algorithm"
                     }
                 ]
             },
@@ -2144,11 +2333,12 @@
                     "• Technology Singularity Once per combat, after you destroy an enemy unit, you may gain 1 tech owned by that player. ",
                     "• Propagation You cannot research technology. When you would research a tech, gain 3 command tokens instead."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2156,43 +2346,47 @@
                     "• Dacxive Animators (green - level 1) After ground combat victory, place 1 infantry from reinforcements on that planet. ",
                     "• Valefactor Assimilator X / Y"
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
                     "",
                     "• Valefactor Assimilator X / Y When you gain another player’s technology using 1 of your faction abilities, you may place the X/Y assimilator token on a faction technology owned by that player instead. While that token is on a technology, this card gains that technology’s text. You cannot place an assimilator token on technology that already has an assimilator token."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Antivirus At the start of a combat: Place this card face-up in your play area. While this card is in your play area, the Nekro player cannot use his Technological Singularity faction ability against you. If you activate a system that contains 1 or more of the Nekro player’s units, return this card to the Nekro player.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -2203,6 +2397,7 @@
         "additional": {
             "title": "NOMAD"
         },
+        "globalId": "root_%FN%~NOMAD",
         "subtree": [
             {
                 "content": [
@@ -2214,11 +2409,12 @@
                     "• 4 Infantry ",
                     "• 1 Destroyer COMMODITIES: 4  HOME SYSTEM: 4/4 (Arcturus)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~NOMAD_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2229,7 +2425,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~NOMAD_%SH%~MECH"
             },
             {
                 "content": [
@@ -2240,56 +2437,62 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~NOMAD_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "When you gain trade goods from the supply: You may exhaust this card to place an equal number of trade goods on this card. When this card readies, gain the trade goods on this card."
                         ],
-                        "id": "AGENT: Artuno the Betrayer",
+                        "id": "AGENT:-Artuno-the-Betrayer",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Artuno the Betrayer"
-                        }
+                        },
+                        "globalId": "root_%FN%~NOMAD_%SH%~LEADERS_AGENT:-Artuno-the-Betrayer"
                     },
                     {
                         "content": [
                             "At the end of a player’s turn: You may exhaust this card to allow that player to remove up to 2 of their ground forces from the game board and place them on planets they control in the active system."
                         ],
-                        "id": "AGENT: Field Marshall Mercer",
+                        "id": "AGENT:-Field-Marshall-Mercer",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Field Marshall Mercer"
-                        }
+                        },
+                        "globalId": "root_%FN%~NOMAD_%SH%~LEADERS_AGENT:-Field-Marshall-Mercer"
                     },
                     {
                         "content": [
                             "After the “Roll Dice” step of combat: You may exhaust this card. If you do, hits are not assigned to either players’ units. Return to the start of this combat round’s “Roll Dice” step."
                         ],
-                        "id": "AGENT: TheThundarian",
+                        "id": "AGENT:-TheThundarian",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: TheThundarian"
-                        }
+                        },
+                        "globalId": "root_%FN%~NOMAD_%SH%~LEADERS_AGENT:-TheThundarian"
                     },
                     {
                         "content": [
                             "Unlock: Have 1 scored secret objective. You can produce your flagship without spending resources."
                         ],
-                        "id": "COMMANDER: Navarch Feng",
+                        "id": "COMMANDER:-Navarch-Feng",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Navarch Feng"
-                        }
+                        },
+                        "globalId": "root_%FN%~NOMAD_%SH%~LEADERS_COMMANDER:-Navarch-Feng"
                     },
                     {
                         "content": [
                             "ACTION: Place this card near the game board; your flagship and units it transports can move out of systems that contain your command tokens during this game round. At the end of that game round, purge this card."
                         ],
-                        "id": "HERO: Ahk-Syl Siven -Probability Matrix",
+                        "id": "HERO:-Ahk-Syl-Siven--Probability-Matrix",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Ahk-Syl Siven -Probability Matrix"
-                        }
+                        },
+                        "globalId": "root_%FN%~NOMAD_%SH%~LEADERS_HERO:-Ahk-Syl-Siven--Probability-Matrix"
                     }
                 ]
             },
@@ -2299,11 +2502,12 @@
                     "• The Company You have 3 Agents. During setup, place the additional two Agents next to your player board. ",
                     "• Futuresight During the Agenda Phase, after an outcome that you voted for or predicted is resolved, gain 1 trade good."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~NOMAD_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2311,11 +2515,12 @@
                     "• Sling Relay (blue - level 1) ACTION: Exhaust this card to produce 1 ship in any system that contains one of your space docks. FlagShiP - SPecial Unit ",
                     "• Memoria I Cost 8 | Combat 7x2 | Move 1 | Capacity 3 Sustain Damage, Anti-Fighter Barrage 8(x3) You may treat this unit as if it were adjacent to systems that contain one or more of your mechs."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~NOMAD_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2323,32 +2528,35 @@
                     "• Memoria II (BGY) (Flagship) Cost 8 | Combat 5x2 | Move 2 | Capacity 6 Sustain Damage, Anti-Fighter Barrage 5(x3) You may treat this unit as if it were adjacent to systems that contain one or more of your mechs. ",
                     "• Temporal Command Suite (Y) After any player’s agent becomes exhausted, you may exhaust this card to ready that agent; if you ready another player’s agent, you may perform a transaction with that player."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~NOMAD_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• The Cavalry At the start of a space combat against a player other than the Nomad: During this combat, treat 1 of your non-fighter ships as if it has the Sustain Damage ability, combat value, and Anti-Fighter Barrage value of the Nomad’s flagship. Return this card to the Nomad player at the end of this combat.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~NOMAD_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~SARDAKK N’ORR",
+        "id": "%FN%~SARDAKK-N’ORR",
         "type": "faction",
         "additional": {
             "title": "SARDAKK N’ORR"
         },
+        "globalId": "root_%FN%~SARDAKK-N’ORR",
         "subtree": [
             {
                 "content": [
@@ -2359,11 +2567,12 @@
                     "• 1 Cruiser ",
                     "• 5 Infantry COMMODITIES: 3 HOME SYSTEM: 3/1; 1/0 (Quinarra , Tren’lak)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2374,7 +2583,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~MECH"
             },
             {
                 "content": [
@@ -2385,7 +2595,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -2396,36 +2607,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "At the end of a player’s tactical action: You may exhaust this card; if you do, that player may place 2 infantry from their reinforcements on a planet they control in the active system."
                         ],
-                        "id": "AGENT: T’ro",
+                        "id": "AGENT:-T’ro",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: T’ro"
-                        }
+                        },
+                        "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~LEADERS_AGENT:-T’ro"
                     },
                     {
                         "content": [
                             "Unlock: Control 5 planets in non-home systems. During the “Commit Ground Forces” step: You can commit up to 1 ground force from each planet in the active system and each planet in adjacent systems that do not contain 1 of your command tokens."
                         ],
-                        "id": "COMMANDER: G’hom Sek’kus",
+                        "id": "COMMANDER:-G’hom-Sek’kus",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: G’hom Sek’kus"
-                        }
+                        },
+                        "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~LEADERS_COMMANDER:-G’hom-Sek’kus"
                     },
                     {
                         "content": [
                             "After you move ships into the active system: You may skip directly to the “Commit Ground Forces” step. If you do, after you commit ground forces to land on planets, purge this card and return each of your ships in the active system to your reinforcements."
                         ],
-                        "id": "HERO: Sh’val, Harbinger -Tekklar Conditioning",
+                        "id": "HERO:-Sh’val,-Harbinger--Tekklar-Conditioning",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Sh’val, Harbinger -Tekklar Conditioning"
-                        }
+                        },
+                        "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~LEADERS_HERO:-Sh’val,-Harbinger--Tekklar-Conditioning"
                     }
                 ]
             },
@@ -2434,33 +2649,36 @@
                     "",
                     "• Unrelenting Apply +1 to the result of each of your unit's combat rolls."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
                     "",
                     "• None"
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Exotrireme I (Dreadnought) Cost 4 | Combat 5 | Move 1 | Capacity 1 Sustain Damage; Bombard 4x2"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -2468,32 +2686,35 @@
                     "• Exotrireme II (BBY) (Dreadnought) Cost 4 | Combat 5 | Move 2 | Capacity 1 Sustain Damage; Bombard 4x2 This unit cannot be destroyed by Direct Hit. After a round of space combat you may destroy this unit to destroy up to 2 ships in this system. ",
                     "• Valkyrie Particle Weave (RR) After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Tekklar Legion At the start of an invasion combat: Apply +1 to the result of each of your unit’s combat rolls during this combat. If your opponent is the Sardakk N’orr player, apply -1 to the result of each of his unit’s combat rolls during this combat. Then, return this card to the Sardakk N’orr player.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~TITANS OF UL PATIENT",
+        "id": "%FN%~TITANS-OF-UL-PATIENT",
         "type": "faction",
         "additional": {
             "title": "TITANS OF UL PATIENT"
         },
+        "globalId": "root_%FN%~TITANS-OF-UL-PATIENT",
         "subtree": [
             {
                 "content": [
@@ -2504,11 +2725,12 @@
                     "• 2 Fighters ",
                     "• 3 Infantry COMMODITIES: 2 HOME SYSTEM: 4/1 (Elysium)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2519,7 +2741,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~MECH"
             },
             {
                 "content": [
@@ -2530,7 +2753,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -2541,36 +2765,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "When a hit is produced against a unit: You may exhaust this card to cancel that hit."
                         ],
-                        "id": "AGENT: Tellurian",
+                        "id": "AGENT:-Tellurian",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Tellurian"
-                        }
+                        },
+                        "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS_AGENT:-Tellurian"
                     },
                     {
                         "content": [
                             "Unlock: Have 5 Structures on the game board. When 1 or more of your units use Production: You may gain 1 trade good."
                         ],
-                        "id": "COMMANDER: Tungstantus",
+                        "id": "COMMANDER:-Tungstantus",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Tungstantus"
-                        }
+                        },
+                        "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS_COMMANDER:-Tungstantus"
                     },
                     {
                         "content": [
                             "ACTION: Ready Elysium and attach this card to it. Its resource and influence values are each increased by 3, and it gains the Space Canon 5(x3) ability as if it were a unit."
                         ],
-                        "id": "HERO: Ul the Progenitor -Geoform",
+                        "id": "HERO:-Ul-the-Progenitor--Geoform",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Ul the Progenitor -Geoform"
-                        }
+                        },
+                        "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS_HERO:-Ul-the-Progenitor--Geoform"
                     }
                 ]
             },
@@ -2579,11 +2807,12 @@
                     "",
                     "• Terraform ACTION: Attach this card to a non-home planet you control other than Mecatol Rex. Its resource and influence values are each increased by 1 and it is treated as having all 3 planet traits (Cultural, Hazardous, and Industrial)."
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~PROMISSORY-NOTE"
             },
             {
                 "content": [
@@ -2592,11 +2821,12 @@
                     "• Awaken After you activate a system that contains 1 or more of your sleeper tokens, you may replace each of those tokens with 1 PDS from your reinforcements. ",
                     "• Coalescence If your flagship or your Awaken faction ability places your units into the same space area or onto the same planet as another player’s units, your units must participate in combat during “Space Combat” or “Ground Combat” steps."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2604,11 +2834,12 @@
                     "• Antimass Deflectors (blue - level 0) Move into and through asteroid fields. Apply -1 to Space Cannon rolls against you. ",
                     "• Scanlink Drone Network (yellow - level 0) When you activate a system, you may explore 1 planet in that system which contains 1 or more of your units."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2616,11 +2847,12 @@
                     "• Saturn Engine I (Cruiser) Cost 2 | Combat 7 | Move 2 | Capacity 1 ",
                     "• HelTitan I (PDS) Combat 7, Sustain Damage, Production 1, Planetary Shield, Space Cannon 6 This unit is treated as both a structure and a ground force. It cannot be transported."
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -2628,21 +2860,23 @@
                     "• Saturn Engine II (GYR) (Cruiser) Cost 2 | Combat 6 | Move 3 | Capacity 2 Sustain Damage ",
                     "• HelTitan II (YR) (PDS) Combat 6, Sustain Damage, Production 1, Planetary Shield, Space Cannon 5 This unit is treated as both a structure and a ground force. It cannot be transported. You may use this unit’s Space Cannon against ships that are adjacent to this unit’s system.  "
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~FACTION-TECHNOLOGIES"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~UNIVERSITIES OF JOL-NAR",
+        "id": "%FN%~UNIVERSITIES-OF-JOL-NAR",
         "type": "faction",
         "additional": {
             "title": "UNIVERSITIES OF JOL-NAR"
         },
+        "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR",
         "subtree": [
             {
                 "content": [
@@ -2654,11 +2888,12 @@
                     "• 2 Infantry ",
                     "• 1 Dreadnought  COMMODITIES: 4  HOME SYSTEM: 2/3; 1/2 (Nar, Jol)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2669,7 +2904,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~MECH"
             },
             {
                 "content": [
@@ -2680,7 +2916,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -2691,36 +2928,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "When a player spends resources to research: You may exhaust this card to allow that player to remove any number of their infantry from the game board. For each unit removed, reduce the resources spent by 1."
                         ],
-                        "id": "AGENT: Doctor Sucaban",
+                        "id": "AGENT:-Doctor-Sucaban",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Doctor Sucaban"
-                        }
+                        },
+                        "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS_AGENT:-Doctor-Sucaban"
                     },
                     {
                         "content": [
                             "Unlock: Own 8 technologies. After you roll dice for a unit ability: You may re-roll any of those dice."
                         ],
-                        "id": "COMMANDER: Ta-Zern",
+                        "id": "COMMANDER:-Ta-Zern",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Ta-Zern"
-                        }
+                        },
+                        "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS_COMMANDER:-Ta-Zern"
                     },
                     {
                         "content": [
                             "ACTION: For each non-unit upgrade technology you own, you may replace that technology with any technology of the same color from the deck. Then, purge this card."
                         ],
-                        "id": "HERO: Rin, the Master’s Legacy -Genetic Memory",
+                        "id": "HERO:-Rin,-the-Master’s-Legacy--Genetic-Memory",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Rin, the Master’s Legacy -Genetic Memory"
-                        }
+                        },
+                        "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS_HERO:-Rin,-the-Master’s-Legacy--Genetic-Memory"
                     }
                 ]
             },
@@ -2731,11 +2972,12 @@
                     "• Brilliant When you spend a command token to resolve the secondary ability of the Technology strategy card, you may resolve the primary ability instead. ",
                     "• Analytical When you research a technology that is not a unit upgrade technology, you may ignore 1 prerequisite."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2745,21 +2987,23 @@
                     "• SarweenTools (yellow - level 0) Production: reduce total combined cost by 1. ",
                     "• Plasma Scoring (red - level 0) Bombard or Space Cannon: +1 die."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -2767,32 +3011,35 @@
                     "• Spacial Conduit Cylinder (BB) You may exhaust this card after you activate a system that contains 1 or more of your units; that system is adjacent to all other systems that contain 1 or more of your units during this activation. ",
                     "• E-Res Siphons (YY) After another player activates a system that contains 1 or more of your ships, gain 4 trade goods."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Research Agreement After the Jol-Nar player researches a technology that is not a faction technology: Gain that technology. Then, return this card to the Jol-Nar player. "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~VUIL’RAITH CABAL VORACIOUS",
+        "id": "%FN%~VUIL’RAITH-CABAL-VORACIOUS",
         "type": "faction",
         "additional": {
             "title": "VUIL’RAITH CABAL VORACIOUS"
         },
+        "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS",
         "subtree": [
             {
                 "content": [
@@ -2804,11 +3051,12 @@
                     "• 3 Infantry ",
                     "• 1 Cruiser COMMODITIES: 2 HOME SYSTEM: 4/0 (Acheron)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2819,7 +3067,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~MECH"
             },
             {
                 "content": [
@@ -2830,7 +3079,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -2841,36 +3091,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "After another player replenishes commodities: You may exhaust this card to convert their commodities to trade goods and capture 1 unit from their reinforcements that has a cost equal to or lower than their commodity value."
                         ],
-                        "id": "AGENT: The Stillness of Stars",
+                        "id": "AGENT:-The-Stillness-of-Stars",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: The Stillness of Stars"
-                        }
+                        },
+                        "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS_AGENT:-The-Stillness-of-Stars"
                     },
                     {
                         "content": [
                             "Unlock: Have units in 3 Gravity Rifts. When you produce fighter or infantry units: Up to 2 of those units do not count against your Production limit."
                         ],
-                        "id": "COMMANDER: That Which Molds Flesh",
+                        "id": "COMMANDER:-That-Which-Molds-Flesh",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: That Which Molds Flesh"
-                        }
+                        },
+                        "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS_COMMANDER:-That-Which-Molds-Flesh"
                     },
                     {
                         "content": [
                             "ACTION: Each other player rolls a die for each of his non-fighter ships that are in or adjacent to a system that contains a dimensional tear; on a roll of 1-3, capture that unit. If this causes a player’s ground forces or fighters to be removed, also capture those units. Then, purge this card."
                         ],
-                        "id": "HERO: It Feeds on Carrion -Dimensional Anchor",
+                        "id": "HERO:-It-Feeds-on-Carrion--Dimensional-Anchor",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: It Feeds on Carrion -Dimensional Anchor"
-                        }
+                        },
+                        "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS_HERO:-It-Feeds-on-Carrion--Dimensional-Anchor"
                     }
                 ]
             },
@@ -2881,33 +3135,36 @@
                     "• Amalgamation -When you produce a unit, you may return 1 captured unit of that type to produce that unit without spending resources. ",
                     "• Riftmeld -When you research a unit upgrade technology, you may return 1 captured unit of that type to ignore all of the technology’s prerequisites."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
                     "",
                     "• Self Assembly Routines (red - level 1) After 1 or more of your units use Production, you may exhaust this card to place 1 mech from your reinforcements on a planet you control in system. After 1 of your mechs is destroyed, gain 1 TG."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• DimensionalTear I (Space Dock) Production 5 This system is a gravity rift; your ships do not roll for this gravity rift. Place a dimensional tear token beneath this unit. Up to 6 fighters in this system do not count against your ships’ capacity."
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -2915,22 +3172,24 @@
                     "• DimensionalTear II (YY) (Space Dock) Production 7 This system is a gravity rift; your ships do not roll for this gravity rift. Place a dimensional tear token beneath this unit. Up to 12 fighters in this system do not count against your ships’ capacity. ",
                     "• Vortex (R) ACTION: Exhaust this card to choose another player’s non-structure unit in a system that is adjacent to 1 or more of your space docks. Capture 1 unit of that type from that player’s reinforcements."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Crucible After you activate a system: Your ships do not roll for gravity rifts during this movement; apply an additional +1 to the move values of your ships that would move out of or through a G.Rift instead. Then, return this card to the Vuil’raith player.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -2941,6 +3200,7 @@
         "additional": {
             "title": "WINNU"
         },
+        "globalId": "root_%FN%~WINNU",
         "subtree": [
             {
                 "content": [
@@ -2952,11 +3212,12 @@
                     "• 2 Infantry ",
                     "• 1 Cruiser COMMODITIES: 3 HOME SYSTEM: 3/4 (Winnu)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~WINNU_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2967,7 +3228,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~WINNU_%SH%~MECH"
             },
             {
                 "content": [
@@ -2978,7 +3240,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~WINNU_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -2989,36 +3252,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~WINNU_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "When 1 or more of a player’s units use Production: You may exhaust this card to reduce the combined cost of the produced units by 2."
                         ],
-                        "id": "AGENT: Berekar Berekon",
+                        "id": "AGENT:-Berekar-Berekon",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Berekar Berekon"
-                        }
+                        },
+                        "globalId": "root_%FN%~WINNU_%SH%~LEADERS_AGENT:-Berekar-Berekon"
                     },
                     {
                         "content": [
                             "Unlock: Control Mecatol Rex or enter into a combat in the Mecatol Rex system. During combat: Apply +2 to the result of each of your unit’s combat rolls in the Mecatol Rex system, your home system, and each system that contains a legendary planet."
                         ],
-                        "id": "COMMANDER: Rickar Rickani",
+                        "id": "COMMANDER:-Rickar-Rickani",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Rickar Rickani"
-                        }
+                        },
+                        "globalId": "root_%FN%~WINNU_%SH%~LEADERS_COMMANDER:-Rickar-Rickani"
                     },
                     {
                         "content": [
                             "ACTION: Perform the primary ability of any strategy card. Then, choose any number of other players. Those players may perform the secondary ability of that strategy card. Then, purge this card."
                         ],
-                        "id": "HERO: Mathis Mathinus -Imperial Seal",
+                        "id": "HERO:-Mathis-Mathinus--Imperial-Seal",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Mathis Mathinus -Imperial Seal"
-                        }
+                        },
+                        "globalId": "root_%FN%~WINNU_%SH%~LEADERS_HERO:-Mathis-Mathinus--Imperial-Seal"
                     }
                 ]
             },
@@ -3028,32 +3295,35 @@
                     "• BloodTies You do not have to spend influence to remove the custodians token from Mecatol Rex. ",
                     "• Reclamation After you resolve a tactical action during which you gained control of Mecatol Rex, you may place 1 PDS and 1 space dock from your reinforcements on Mecatol Rex."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~WINNU_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
                     "",
                     "• Choose any 1 technology that has no prerequisites."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~WINNU_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~WINNU_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -3061,32 +3331,35 @@
                     "• Lazax Gate Folding (BB) If you do not control Mecatol Rex, treat its system as if it contains both an alpha and beta wormhole. ACTION: If you control Mecatol Rex, exhaust this card to place 1 infantry on Mecatol Rex. ",
                     "• HegemonicTrade Policy (YY) When 1 or more of your units use Production exhaust this card to swap the resource and influence values of 1 planet you control until the end of your turn."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~WINNU_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Acquiescence Ω When the Winnu player resolves a strategic action: You do not have to spend or place a command token to resolve the secondary ability of that strategy card. Then, return this card to the Winnu player.   "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~WINNU_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~XXCHA KINGDOM",
+        "id": "%FN%~XXCHA-KINGDOM",
         "type": "faction",
         "additional": {
             "title": "XXCHA KINGDOM"
         },
+        "globalId": "root_%FN%~XXCHA-KINGDOM",
         "subtree": [
             {
                 "content": [
@@ -3098,11 +3371,12 @@
                     "• 4 Infantry ",
                     "• 2 Cruisers COMMODITIES: 4 HOME SYSTEM: 2/3; 1/1 (Archon Ren, Archon Tau)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -3113,7 +3387,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~MECH"
             },
             {
                 "content": [
@@ -3124,7 +3399,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -3135,36 +3411,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "ACTION: Exhaust this card to ready any planet; if that planet is in a system that is adjacent to a planet you control, you may remove 1 infantry from that planet and return it to its reinforcements."
                         ],
-                        "id": "AGENT: Ggrucoto Rinn",
+                        "id": "AGENT:-Ggrucoto-Rinn",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Ggrucoto Rinn"
-                        }
+                        },
+                        "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~LEADERS_AGENT:-Ggrucoto-Rinn"
                     },
                     {
                         "content": [
                             "Unlock: Control planets that have a combined total of at least 12 influence. Each planet that you exhaust to cast votes provides 1 additional vote. Game effects cannot prevent you from voting on an agenda."
                         ],
-                        "id": "COMMANDER: Elder Qanoj",
+                        "id": "COMMANDER:-Elder-Qanoj",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Elder Qanoj"
-                        }
+                        },
+                        "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~LEADERS_COMMANDER:-Elder-Qanoj"
                     },
                     {
                         "content": [
                             "ACTION: You may discard 1 law from play. Look at the top 5 cards of the agenda deck. Choose 2 to reveal, and resolve each as if you had cast 1 vote for an outcome of your choice; discard the rest. Other players cannot resolve abilities during this action. Then, purge this card."
                         ],
-                        "id": "HERO: Xxekir Grom -Political Data Nexus",
+                        "id": "HERO:-Xxekir-Grom--Political-Data-Nexus",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Xxekir Grom -Political Data Nexus"
-                        }
+                        },
+                        "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~LEADERS_HERO:-Xxekir-Grom--Political-Data-Nexus"
                     }
                 ]
             },
@@ -3174,32 +3454,35 @@
                     "• Peace Accords After you resolve the primary or secondary ability of the Diplomacy strategy card, you may gain control of 1 planet other than Mecatol Rex that does not contain any units and is in a system that is adjacent to a planet you control. ",
                     "• Quash When an agenda is revealed, you may spend 1 token from your strategy pool to discard that agenda and reveal 1 agenda from the top of the deck. Players vote on this agenda instead."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
                     "",
                     "• Graviton Laser System (yellow - level 1) You may exhaust this card before 1 or more of your units uses Space Cannon; hits produced by those units must be assigned to non-fighter ships if able."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -3207,32 +3490,35 @@
                     "• InstinctTraining (G) When another player plays an action card : You may exhaust this card and spend 1 token from your strategy pool; cancel that action card. ",
                     "• Nullification Field (YY) After another player activates a system that contains 1 or more of your ships: You may exhaust this card and spend 1 token from your strategy pool; immediately end that player’s turn."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Political Favor After an agenda is revealed: Remove 1 token from the Xxcha player’s strategy pool and return it to his reinforcements. Then, discard the revealed agenda and reveal 1 agenda from the top of the deck. Players vote on this agenda instead. Then, return this card to the Xxcha player.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~YIN BROTHERHOOD",
+        "id": "%FN%~YIN-BROTHERHOOD",
         "type": "faction",
         "additional": {
             "title": "YIN BROTHERHOOD"
         },
+        "globalId": "root_%FN%~YIN-BROTHERHOOD",
         "subtree": [
             {
                 "content": [
@@ -3243,11 +3529,12 @@
                     "• 1 Destroyer ",
                     "• 4 Infantry COMMODITIES: 2  HOME SYSTEM: 4/4 (Darien)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -3258,7 +3545,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~MECH"
             },
             {
                 "content": [
@@ -3269,7 +3557,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -3280,36 +3569,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "After a player’s destroyer or cruiser is destroyed, you may exhaust this card. If you do, that player may place up to 2 fighters from their reinforcements in that unit’s system."
                         ],
-                        "id": "AGENT: Brother Milor",
+                        "id": "AGENT:-Brother-Milor",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Brother Milor"
-                        }
+                        },
+                        "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~LEADERS_AGENT:-Brother-Milor"
                     },
                     {
                         "content": [
                             "Unlock: Use your Indoctrination faction ability. This card satisfies a green technology prerequisite. You may produce 1 additional infantry for their cost, these infantry do not count against your production limit."
                         ],
-                        "id": "COMMANDER: Brother Omar",
+                        "id": "COMMANDER:-Brother-Omar",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: Brother Omar"
-                        }
+                        },
+                        "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~LEADERS_COMMANDER:-Brother-Omar"
                     },
                     {
                         "content": [
                             "ACTION: For each planet that contains any number of your infantry, either ready that planet or place an equal number of infantry from your reinforcements on that planet. Then, purge this card."
                         ],
-                        "id": "HERO: Dannel of theTenth -Spinner Overdrive",
+                        "id": "HERO:-Dannel-of-theTenth--Spinner-Overdrive",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Dannel of theTenth -Spinner Overdrive"
-                        }
+                        },
+                        "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~LEADERS_HERO:-Dannel-of-theTenth--Spinner-Overdrive"
                     }
                 ]
             },
@@ -3319,32 +3612,35 @@
                     "• Indoctrination At the start of a ground combat, you may spend 2 influence to replace 1 of your opponent’s participating infantry with 1 infantry from your reinforcements. ",
                     "• Devotion After each space combat round, you may destroy 1 of your cruisers or destroyers to produce 1 hit and assign it to 1 of your opponent’s ships."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
                     "",
                     "• SarweenTools (yellow - level 0) When 1 or more units use Production, reduce total combined cost by 1."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -3352,32 +3648,35 @@
                     "• Impulse Core (YY) At the start of a space combat, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit against your opponent’s ships; that hit must be assigned by your opponent to 1 of his non-fighter ships if able. ",
                     "• Yin Spinner Ω (GG) After you produce units, place up to 2 infantry from your reinforcements on any planet you control or in any space area that contains 1 or more of your ships."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Greyfire Mutagen Ω After the start of a ground combat against 2 or more ground forces that are not controlled by the Yin player: Replace 1 of your opponent’s infantry with 1 infantry from your reinforcements. Then, return this card to the Yin player.  "
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
     {
         "content": [],
-        "id": "%FN%~YSSARIL TRIBES",
+        "id": "%FN%~YSSARIL-TRIBES",
         "type": "faction",
         "additional": {
             "title": "YSSARIL TRIBES"
         },
+        "globalId": "root_%FN%~YSSARIL-TRIBES",
         "subtree": [
             {
                 "content": [
@@ -3389,11 +3688,12 @@
                     "• 5 Infantry ",
                     "• 1 Cruiser COMMODITIES: 3 HOME SYSTEM: 2/3; 1/2 (Retillion, Shalloq)"
                 ],
-                "id": "%SH%~STARTING FLEET",
+                "id": "%SH%~STARTING-FLEET",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING FLEET"
-                }
+                },
+                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -3404,7 +3704,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "MECH"
-                }
+                },
+                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~MECH"
             },
             {
                 "content": [
@@ -3415,7 +3716,8 @@
                 "type": "faction section",
                 "additional": {
                     "title": "FLAGSHIP"
-                }
+                },
+                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -3426,36 +3728,40 @@
                 "additional": {
                     "title": "LEADERS"
                 },
+                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
                             "This card has the text ability of each other player’s agent, even if that agent is exhausted."
                         ],
-                        "id": "AGENT: Clever Clever Ssruu",
+                        "id": "AGENT:-Clever-Clever-Ssruu",
                         "type": "leader",
                         "additional": {
                             "title": "AGENT: Clever Clever Ssruu"
-                        }
+                        },
+                        "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~LEADERS_AGENT:-Clever-Clever-Ssruu"
                     },
                     {
                         "content": [
                             "Unlock: Have 7 Action cards. After another player activates a system that contains your units: You may look at that player’s action cards, promissory notes, or secret objectives."
                         ],
-                        "id": "COMMANDER: So Ata",
+                        "id": "COMMANDER:-So-Ata",
                         "type": "leader",
                         "additional": {
                             "title": "COMMANDER: So Ata"
-                        }
+                        },
+                        "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~LEADERS_COMMANDER:-So-Ata"
                     },
                     {
                         "content": [
                             "ACTION: Each other player shows you 1 action card from their hand. For each player, you may either take that card or force that player to discard 3 random action cards from their hand. Then, purge this card."
                         ],
-                        "id": "HERO: Kyver, Blade and Key -Guild of Spies",
+                        "id": "HERO:-Kyver,-Blade-and-Key--Guild-of-Spies",
                         "type": "leader",
                         "additional": {
                             "title": "HERO: Kyver, Blade and Key -Guild of Spies"
-                        }
+                        },
+                        "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~LEADERS_HERO:-Kyver,-Blade-and-Key--Guild-of-Spies"
                     }
                 ]
             },
@@ -3466,32 +3772,35 @@
                     "• Scheming When you draw 1 or more action cards, draw 1 additional action card. Then choose and discard 1 action card from your hand. ",
                     "• Crafty You can have any number of action cards in your hand. Game effects cannot prevent you from using this ability."
                 ],
-                "id": "%SH%~FACTION ABILITIES",
+                "id": "%SH%~FACTION-ABILITIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION ABILITIES"
-                }
+                },
+                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
                     "",
                     "• Neural Motivator (green - level 0) Draw 2 actions cards (instead of 1) in status phase."
                 ],
-                "id": "%SH%~STARTING TECHNOLOGIES",
+                "id": "%SH%~STARTING-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
                     "None"
                 ],
-                "id": "%SH%~SPECIAL UNITS",
+                "id": "%SH%~SPECIAL-UNITS",
                 "type": "faction section",
                 "additional": {
                     "title": "SPECIAL UNITS"
-                }
+                },
+                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -3499,22 +3808,24 @@
                     "• Transparasteel Plating (G) During your turn of the action phase, players that have passed cannot play action cards. ",
                     "• Mageon Implants (GGG) ACTION: Exhaust this card to look at another player’s hand of action cards. Choose 1 of those cards and add it to your hand."
                 ],
-                "id": "%SH%~FACTION TECHNOLOGIES",
+                "id": "%SH%~FACTION-TECHNOLOGIES",
                 "type": "faction section",
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
-                }
+                },
+                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
                     "",
                     "• Spy Net At the end of your turn: Look at the Yssaril player’s hand of action cards. Choose 1 of those action cards and add it to your hand. Then, return this card to the Yssaril player."
                 ],
-                "id": "%SH%~PROMISSORY NOTE",
+                "id": "%SH%~PROMISSORY-NOTE",
                 "type": "faction section",
                 "additional": {
                     "title": "PROMISSORY NOTE"
-                }
+                },
+                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~PROMISSORY-NOTE"
             }
         ]
     }
