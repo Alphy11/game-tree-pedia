@@ -7,23 +7,23 @@ function joinContent(content: string[]): string[] {
 }
 
 export const formatter = createFormatter<FactionListAF>({
-    faction: ({ content, id }) => {
+    faction: ({ content }) => {
         const { faction } = isFactionHeader(content[0])!;
         return {
             content: [],
-            id: id,
+            id: faction,
             type: 'faction',
             additional: {
                 title: faction,
             },
         };
     },
-    'faction section': ({ content, id }) => {
+    'faction section': ({ content }) => {
         const [header, ...rest] = content;
         const { sectionName } = isSectionHeader(header)!;
         return {
             content: joinContent(rest),
-            id: id,
+            id: sectionName,
             type: 'faction section',
             additional: {
                 title: sectionName,
@@ -32,13 +32,17 @@ export const formatter = createFormatter<FactionListAF>({
     },
     leader: ({ content, id }) => {
         const [header, ...rest] = content;
-        const { leaderName, leaderType } = isLeaderEntry(header)!;
+        const { leaderName, leaderType, leaderNickname } = isLeaderEntry(
+            header,
+        )!;
         return {
             content: joinContent(rest),
-            id: id,
+            id: leaderName,
             type: 'leader',
             additional: {
-                title: `${leaderType}: ${leaderName}`,
+                title: `${leaderType}: ${leaderName}${
+                    leaderNickname ? ` :: ${leaderNickname}` : ''
+                }`,
             },
         };
     },

@@ -16,14 +16,19 @@ export function isSectionHeader(
 }
 export function isLeaderEntry(
     logLine: string,
-): { leaderType: 'agent' | 'commander' | 'hero'; leaderName: string } | null {
+): {
+    leaderType: 'agent' | 'commander' | 'hero';
+    leaderName: string;
+    leaderNickname?: string;
+} | null {
     const match = logLine.match(
-        /(?<leaderType>AGENT|COMMANDER|HERO): (?<leaderName>.*)/i,
+        /(?<leaderType>AGENT|COMMANDER|HERO): (?<leaderName>.*) -(?<leaderNickname>.*)/i,
     );
     if (match) {
         return match.groups as {
             leaderType: 'agent' | 'commander' | 'hero';
             leaderName: string;
+            leaderNickname?: string;
         };
     }
     return null;
