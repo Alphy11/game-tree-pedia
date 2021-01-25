@@ -6,7 +6,7 @@
         "additional": {
             "title": "ARBOREC"
         },
-        "globalId": "root_%FN%~ARBOREC",
+        "globalId": "%FN%~ARBOREC",
         "subtree": [
             {
                 "content": [
@@ -23,7 +23,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~ARBOREC_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~ARBOREC_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -35,7 +35,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~ARBOREC_%SH%~MECH"
+                "globalId": "%FN%~ARBOREC_%SH%~MECH"
             },
             {
                 "content": [
@@ -47,7 +47,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~ARBOREC_%SH%~FLAGSHIP"
+                "globalId": "%FN%~ARBOREC_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -58,7 +58,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~ARBOREC_%SH%~LEADERS",
+                "globalId": "%FN%~ARBOREC_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -69,7 +69,7 @@
                         "additional": {
                             "title": "AGENT: Letani Ospha"
                         },
-                        "globalId": "root_%FN%~ARBOREC_%SH%~LEADERS_AGENT:-Letani-Ospha"
+                        "globalId": "%FN%~ARBOREC_%SH%~LEADERS_AGENT:-Letani-Ospha"
                     },
                     {
                         "content": [
@@ -80,7 +80,7 @@
                         "additional": {
                             "title": "COMMANDER: Dirzuga Rophal"
                         },
-                        "globalId": "root_%FN%~ARBOREC_%SH%~LEADERS_COMMANDER:-Dirzuga-Rophal"
+                        "globalId": "%FN%~ARBOREC_%SH%~LEADERS_COMMANDER:-Dirzuga-Rophal"
                     },
                     {
                         "content": [
@@ -91,7 +91,7 @@
                         "additional": {
                             "title": "HERO: Letani Miasmiala -Ultrasonic Emitter"
                         },
-                        "globalId": "root_%FN%~ARBOREC_%SH%~LEADERS_HERO:-Letani-Miasmiala--Ultrasonic-Emitter"
+                        "globalId": "%FN%~ARBOREC_%SH%~LEADERS_HERO:-Letani-Miasmiala--Ultrasonic-Emitter"
                     }
                 ]
             },
@@ -105,7 +105,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~ARBOREC_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~ARBOREC_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -117,7 +117,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~ARBOREC_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~ARBOREC_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -129,7 +129,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~ARBOREC_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~ARBOREC_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -142,7 +142,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~ARBOREC_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~ARBOREC_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -154,7 +154,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~ARBOREC_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~ARBOREC_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -165,7 +165,7 @@
         "additional": {
             "title": "ARGENT FLIGHT"
         },
-        "globalId": "root_%FN%~ARGENT-FLIGHT",
+        "globalId": "%FN%~ARGENT-FLIGHT",
         "subtree": [
             {
                 "content": [
@@ -182,7 +182,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~ARGENT-FLIGHT_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -194,7 +194,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~MECH"
+                "globalId": "%FN%~ARGENT-FLIGHT_%SH%~MECH"
             },
             {
                 "content": [
@@ -206,7 +206,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~FLAGSHIP"
+                "globalId": "%FN%~ARGENT-FLIGHT_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -217,7 +217,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~LEADERS",
+                "globalId": "%FN%~ARGENT-FLIGHT_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -228,7 +228,7 @@
                         "additional": {
                             "title": "AGENT: Trillossa Aun Mirik"
                         },
-                        "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~LEADERS_AGENT:-Trillossa-Aun-Mirik"
+                        "globalId": "%FN%~ARGENT-FLIGHT_%SH%~LEADERS_AGENT:-Trillossa-Aun-Mirik"
                     },
                     {
                         "content": [
@@ -239,7 +239,7 @@
                         "additional": {
                             "title": "COMMANDER: Trrakan Aun Zulok"
                         },
-                        "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~LEADERS_COMMANDER:-Trrakan-Aun-Zulok"
+                        "globalId": "%FN%~ARGENT-FLIGHT_%SH%~LEADERS_COMMANDER:-Trrakan-Aun-Zulok"
                     },
                     {
                         "content": [
@@ -250,7 +250,7 @@
                         "additional": {
                             "title": "HERO: Mirik Aun Sissiri -Helix Protocol"
                         },
-                        "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~LEADERS_HERO:-Mirik-Aun-Sissiri--Helix-Protocol"
+                        "globalId": "%FN%~ARGENT-FLIGHT_%SH%~LEADERS_HERO:-Mirik-Aun-Sissiri--Helix-Protocol"
                     }
                 ]
             },
@@ -264,7 +264,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~ARGENT-FLIGHT_%SH%~PROMISSORY-NOTE"
             },
             {
                 "content": [
@@ -277,7 +277,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~ARGENT-FLIGHT_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -291,7 +291,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~ARGENT-FLIGHT_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -303,7 +303,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~ARGENT-FLIGHT_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -316,7 +316,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~ARGENT-FLIGHT_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~ARGENT-FLIGHT_%SH%~FACTION-TECHNOLOGIES"
             }
         ]
     },
@@ -327,7 +327,7 @@
         "additional": {
             "title": "BARONY OF LETNEV"
         },
-        "globalId": "root_%FN%~BARONY-OF-LETNEV",
+        "globalId": "%FN%~BARONY-OF-LETNEV",
         "subtree": [
             {
                 "content": [
@@ -344,7 +344,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -356,7 +356,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~MECH"
+                "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~MECH"
             },
             {
                 "content": [
@@ -368,7 +368,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~FLAGSHIP"
+                "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -379,7 +379,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~LEADERS",
+                "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -390,7 +390,7 @@
                         "additional": {
                             "title": "AGENT: Viscount Unlenn"
                         },
-                        "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~LEADERS_AGENT:-Viscount-Unlenn"
+                        "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~LEADERS_AGENT:-Viscount-Unlenn"
                     },
                     {
                         "content": [
@@ -401,7 +401,7 @@
                         "additional": {
                             "title": "COMMANDER: Rear Admiral Farran"
                         },
-                        "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~LEADERS_COMMANDER:-Rear-Admiral-Farran"
+                        "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~LEADERS_COMMANDER:-Rear-Admiral-Farran"
                     },
                     {
                         "content": [
@@ -412,7 +412,7 @@
                         "additional": {
                             "title": "HERO: DarktalonTreilla -Dark Matter Affinity"
                         },
-                        "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~LEADERS_HERO:-DarktalonTreilla--Dark-Matter-Affinity"
+                        "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~LEADERS_HERO:-DarktalonTreilla--Dark-Matter-Affinity"
                     }
                 ]
             },
@@ -427,7 +427,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -440,7 +440,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -451,7 +451,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -464,7 +464,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -476,7 +476,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~BARONY-OF-LETNEV_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~BARONY-OF-LETNEV_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -487,7 +487,7 @@
         "additional": {
             "title": "CLAN OF SAAR MELANCHOLY"
         },
-        "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY",
+        "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY",
         "subtree": [
             {
                 "content": [
@@ -503,7 +503,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -515,7 +515,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~MECH"
+                "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~MECH"
             },
             {
                 "content": [
@@ -527,7 +527,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~FLAGSHIP"
+                "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -538,7 +538,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS",
+                "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -549,7 +549,7 @@
                         "additional": {
                             "title": "AGENT: Captain Mendosa"
                         },
-                        "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS_AGENT:-Captain-Mendosa"
+                        "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS_AGENT:-Captain-Mendosa"
                     },
                     {
                         "content": [
@@ -560,7 +560,7 @@
                         "additional": {
                             "title": "COMMANDER: Rowl Sarrig"
                         },
-                        "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS_COMMANDER:-Rowl-Sarrig"
+                        "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS_COMMANDER:-Rowl-Sarrig"
                     },
                     {
                         "content": [
@@ -571,7 +571,7 @@
                         "additional": {
                             "title": "HERO: Gurno Aggero -Armageddon Relay"
                         },
-                        "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS_HERO:-Gurno-Aggero--Armageddon-Relay"
+                        "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~LEADERS_HERO:-Gurno-Aggero--Armageddon-Relay"
                     }
                 ]
             },
@@ -586,7 +586,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -598,7 +598,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -610,7 +610,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -623,7 +623,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -635,7 +635,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~CLAN-OF-SAAR-MELANCHOLY_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -646,7 +646,7 @@
         "additional": {
             "title": "EMBERS OF MUAAT GRIM"
         },
-        "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM",
+        "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM",
         "subtree": [
             {
                 "content": [
@@ -661,7 +661,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -673,7 +673,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~MECH"
+                "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~MECH"
             },
             {
                 "content": [
@@ -685,7 +685,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~FLAGSHIP"
+                "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -696,7 +696,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS",
+                "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -707,7 +707,7 @@
                         "additional": {
                             "title": "AGENT: Umbat"
                         },
-                        "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS_AGENT:-Umbat"
+                        "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS_AGENT:-Umbat"
                     },
                     {
                         "content": [
@@ -718,7 +718,7 @@
                         "additional": {
                             "title": "COMMANDER: Magmus"
                         },
-                        "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS_COMMANDER:-Magmus"
+                        "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS_COMMANDER:-Magmus"
                     },
                     {
                         "content": [
@@ -729,7 +729,7 @@
                         "additional": {
                             "title": "HERO: Adjudicator Ba’al -Nova Seed"
                         },
-                        "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS_HERO:-Adjudicator-Ba’al--Nova-Seed"
+                        "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~LEADERS_HERO:-Adjudicator-Ba’al--Nova-Seed"
                     }
                 ]
             },
@@ -744,7 +744,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -756,7 +756,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -768,7 +768,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -781,7 +781,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -793,7 +793,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~EMBERS-OF-MUAAT-GRIM_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -804,7 +804,7 @@
         "additional": {
             "title": "EMIRATES OF HACAN NOMADIC"
         },
-        "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC",
+        "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC",
         "subtree": [
             {
                 "content": [
@@ -820,7 +820,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -832,7 +832,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~MECH"
+                "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~MECH"
             },
             {
                 "content": [
@@ -844,7 +844,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~FLAGSHIP"
+                "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -855,7 +855,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS",
+                "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -866,7 +866,7 @@
                         "additional": {
                             "title": "AGENT: Carth of Golden Sands"
                         },
-                        "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS_AGENT:-Carth-of-Golden-Sands"
+                        "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS_AGENT:-Carth-of-Golden-Sands"
                     },
                     {
                         "content": [
@@ -877,7 +877,7 @@
                         "additional": {
                             "title": "COMMANDER: Gila the Silvertongue"
                         },
-                        "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS_COMMANDER:-Gila-the-Silvertongue"
+                        "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS_COMMANDER:-Gila-the-Silvertongue"
                     },
                     {
                         "content": [
@@ -888,7 +888,7 @@
                         "additional": {
                             "title": "HERO: Harrugh Gefhara -Galactic Securities Net"
                         },
-                        "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS_HERO:-Harrugh-Gefhara--Galactic-Securities-Net"
+                        "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~LEADERS_HERO:-Harrugh-Gefhara--Galactic-Securities-Net"
                     }
                 ]
             },
@@ -904,7 +904,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -917,7 +917,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -928,7 +928,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -941,7 +941,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -953,7 +953,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~EMIRATES-OF-HACAN-NOMADIC_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -964,7 +964,7 @@
         "additional": {
             "title": "EMPYREAN"
         },
-        "globalId": "root_%FN%~EMPYREAN",
+        "globalId": "%FN%~EMPYREAN",
         "subtree": [
             {
                 "content": [
@@ -980,7 +980,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~EMPYREAN_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~EMPYREAN_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -992,7 +992,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~EMPYREAN_%SH%~MECH"
+                "globalId": "%FN%~EMPYREAN_%SH%~MECH"
             },
             {
                 "content": [
@@ -1004,7 +1004,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~EMPYREAN_%SH%~FLAGSHIP"
+                "globalId": "%FN%~EMPYREAN_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1015,7 +1015,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~EMPYREAN_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~EMPYREAN_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1026,7 +1026,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~EMPYREAN_%SH%~LEADERS",
+                "globalId": "%FN%~EMPYREAN_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -1037,7 +1037,7 @@
                         "additional": {
                             "title": "AGENT: Acamar"
                         },
-                        "globalId": "root_%FN%~EMPYREAN_%SH%~LEADERS_AGENT:-Acamar"
+                        "globalId": "%FN%~EMPYREAN_%SH%~LEADERS_AGENT:-Acamar"
                     },
                     {
                         "content": [
@@ -1048,7 +1048,7 @@
                         "additional": {
                             "title": "COMMANDER: Xuange"
                         },
-                        "globalId": "root_%FN%~EMPYREAN_%SH%~LEADERS_COMMANDER:-Xuange"
+                        "globalId": "%FN%~EMPYREAN_%SH%~LEADERS_COMMANDER:-Xuange"
                     },
                     {
                         "content": [
@@ -1059,7 +1059,7 @@
                         "additional": {
                             "title": "HERO: Conservator Procyon -Multiverse Shift"
                         },
-                        "globalId": "root_%FN%~EMPYREAN_%SH%~LEADERS_HERO:-Conservator-Procyon--Multiverse-Shift"
+                        "globalId": "%FN%~EMPYREAN_%SH%~LEADERS_HERO:-Conservator-Procyon--Multiverse-Shift"
                     }
                 ]
             },
@@ -1075,7 +1075,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~EMPYREAN_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~EMPYREAN_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -1087,7 +1087,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~EMPYREAN_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~EMPYREAN_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1102,7 +1102,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~EMPYREAN_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~EMPYREAN_%SH%~FACTION-TECHNOLOGIES"
             }
         ]
     },
@@ -1113,7 +1113,7 @@
         "additional": {
             "title": "FEDERATION OF SOL"
         },
-        "globalId": "root_%FN%~FEDERATION-OF-SOL",
+        "globalId": "%FN%~FEDERATION-OF-SOL",
         "subtree": [
             {
                 "content": [
@@ -1129,7 +1129,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1141,7 +1141,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~MECH"
+                "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~MECH"
             },
             {
                 "content": [
@@ -1153,7 +1153,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~FLAGSHIP"
+                "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1164,7 +1164,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~LEADERS",
+                "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -1175,7 +1175,7 @@
                         "additional": {
                             "title": "AGENT: Evelyn Delouis"
                         },
-                        "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~LEADERS_AGENT:-Evelyn-Delouis"
+                        "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~LEADERS_AGENT:-Evelyn-Delouis"
                     },
                     {
                         "content": [
@@ -1186,7 +1186,7 @@
                         "additional": {
                             "title": "COMMANDER: Claire Gibson"
                         },
-                        "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~LEADERS_COMMANDER:-Claire-Gibson"
+                        "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~LEADERS_COMMANDER:-Claire-Gibson"
                     },
                     {
                         "content": [
@@ -1197,7 +1197,7 @@
                         "additional": {
                             "title": "HERO: Jace X. 4th Air Legion -Helio Command Arr"
                         },
-                        "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~LEADERS_HERO:-Jace-X--4th-Air-Legion--Helio-Command-Arr"
+                        "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~LEADERS_HERO:-Jace-X--4th-Air-Legion--Helio-Command-Arr"
                     }
                 ]
             },
@@ -1212,7 +1212,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -1225,7 +1225,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1238,7 +1238,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1251,7 +1251,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1263,7 +1263,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~FEDERATION-OF-SOL_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~FEDERATION-OF-SOL_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -1274,7 +1274,7 @@
         "additional": {
             "title": "GHOSTS OF CREUSS"
         },
-        "globalId": "root_%FN%~GHOSTS-OF-CREUSS",
+        "globalId": "%FN%~GHOSTS-OF-CREUSS",
         "subtree": [
             {
                 "content": [
@@ -1290,7 +1290,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1302,7 +1302,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~MECH"
+                "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~MECH"
             },
             {
                 "content": [
@@ -1314,7 +1314,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~FLAGSHIP"
+                "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1325,7 +1325,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS",
+                "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -1336,7 +1336,7 @@
                         "additional": {
                             "title": "AGENT: EmissaryTaivra"
                         },
-                        "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS_AGENT:-EmissaryTaivra"
+                        "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS_AGENT:-EmissaryTaivra"
                     },
                     {
                         "content": [
@@ -1347,7 +1347,7 @@
                         "additional": {
                             "title": "COMMANDER: Sai Seravus"
                         },
-                        "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS_COMMANDER:-Sai-Seravus"
+                        "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS_COMMANDER:-Sai-Seravus"
                     },
                     {
                         "content": [
@@ -1358,7 +1358,7 @@
                         "additional": {
                             "title": "HERO: Riftwalker Meian -Singularity Reactor"
                         },
-                        "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS_HERO:-Riftwalker-Meian--Singularity-Reactor"
+                        "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~LEADERS_HERO:-Riftwalker-Meian--Singularity-Reactor"
                     }
                 ]
             },
@@ -1374,7 +1374,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -1386,7 +1386,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1397,7 +1397,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1410,7 +1410,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1422,7 +1422,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~GHOSTS-OF-CREUSS_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~GHOSTS-OF-CREUSS_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -1433,7 +1433,7 @@
         "additional": {
             "title": "L1Z1X MINDNET"
         },
-        "globalId": "root_%FN%~L1Z1X-MINDNET",
+        "globalId": "%FN%~L1Z1X-MINDNET",
         "subtree": [
             {
                 "content": [
@@ -1450,7 +1450,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~L1Z1X-MINDNET_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1462,7 +1462,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~MECH"
+                "globalId": "%FN%~L1Z1X-MINDNET_%SH%~MECH"
             },
             {
                 "content": [
@@ -1474,7 +1474,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~FLAGSHIP"
+                "globalId": "%FN%~L1Z1X-MINDNET_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1485,7 +1485,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~LEADERS",
+                "globalId": "%FN%~L1Z1X-MINDNET_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -1496,7 +1496,7 @@
                         "additional": {
                             "title": "AGENT: I48S"
                         },
-                        "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~LEADERS_AGENT:-I48S"
+                        "globalId": "%FN%~L1Z1X-MINDNET_%SH%~LEADERS_AGENT:-I48S"
                     },
                     {
                         "content": [
@@ -1507,7 +1507,7 @@
                         "additional": {
                             "title": "COMMANDER: 2RAM"
                         },
-                        "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~LEADERS_COMMANDER:-2RAM"
+                        "globalId": "%FN%~L1Z1X-MINDNET_%SH%~LEADERS_COMMANDER:-2RAM"
                     },
                     {
                         "content": [
@@ -1518,7 +1518,7 @@
                         "additional": {
                             "title": "HERO: The Helmsman -Dark Space Navigation"
                         },
-                        "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~LEADERS_HERO:-The-Helmsman--Dark-Space-Navigation"
+                        "globalId": "%FN%~L1Z1X-MINDNET_%SH%~LEADERS_HERO:-The-Helmsman--Dark-Space-Navigation"
                     }
                 ]
             },
@@ -1533,7 +1533,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~L1Z1X-MINDNET_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -1546,7 +1546,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~L1Z1X-MINDNET_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1558,7 +1558,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~L1Z1X-MINDNET_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1571,7 +1571,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~L1Z1X-MINDNET_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1583,7 +1583,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~L1Z1X-MINDNET_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~L1Z1X-MINDNET_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -1594,7 +1594,7 @@
         "additional": {
             "title": "MAHACT GENE SORCERERS"
         },
-        "globalId": "root_%FN%~MAHACT-GENE-SORCERERS",
+        "globalId": "%FN%~MAHACT-GENE-SORCERERS",
         "subtree": [
             {
                 "content": [
@@ -1611,7 +1611,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1623,7 +1623,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~MECH"
+                "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~MECH"
             },
             {
                 "content": [
@@ -1635,7 +1635,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~FLAGSHIP"
+                "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1646,7 +1646,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS",
+                "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -1657,7 +1657,7 @@
                         "additional": {
                             "title": "AGENT: Jae Mir Kan"
                         },
-                        "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS_AGENT:-Jae-Mir-Kan"
+                        "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS_AGENT:-Jae-Mir-Kan"
                     },
                     {
                         "content": [
@@ -1668,7 +1668,7 @@
                         "additional": {
                             "title": "COMMANDER: Il Na Viroset"
                         },
-                        "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS_COMMANDER:-Il-Na-Viroset"
+                        "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS_COMMANDER:-Il-Na-Viroset"
                     },
                     {
                         "content": [
@@ -1679,7 +1679,7 @@
                         "additional": {
                             "title": "HERO: Airo Shir Aur -Benediction"
                         },
-                        "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS_HERO:-Airo-Shir-Aur--Benediction"
+                        "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~LEADERS_HERO:-Airo-Shir-Aur--Benediction"
                     }
                 ]
             },
@@ -1695,7 +1695,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -1708,7 +1708,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1720,7 +1720,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1733,7 +1733,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1745,7 +1745,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~MAHACT-GENE-SORCERERS_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~MAHACT-GENE-SORCERERS_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -1756,7 +1756,7 @@
         "additional": {
             "title": "MENTAK COALITION"
         },
-        "globalId": "root_%FN%~MENTAK-COALITION",
+        "globalId": "%FN%~MENTAK-COALITION",
         "subtree": [
             {
                 "content": [
@@ -1773,7 +1773,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~MENTAK-COALITION_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1785,7 +1785,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~MECH"
+                "globalId": "%FN%~MENTAK-COALITION_%SH%~MECH"
             },
             {
                 "content": [
@@ -1797,7 +1797,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~FLAGSHIP"
+                "globalId": "%FN%~MENTAK-COALITION_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1808,7 +1808,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~LEADERS",
+                "globalId": "%FN%~MENTAK-COALITION_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -1819,7 +1819,7 @@
                         "additional": {
                             "title": "AGENT: Suffi An"
                         },
-                        "globalId": "root_%FN%~MENTAK-COALITION_%SH%~LEADERS_AGENT:-Suffi-An"
+                        "globalId": "%FN%~MENTAK-COALITION_%SH%~LEADERS_AGENT:-Suffi-An"
                     },
                     {
                         "content": [
@@ -1830,7 +1830,7 @@
                         "additional": {
                             "title": "COMMANDER: S’Ula Mentarion"
                         },
-                        "globalId": "root_%FN%~MENTAK-COALITION_%SH%~LEADERS_COMMANDER:-S’Ula-Mentarion"
+                        "globalId": "%FN%~MENTAK-COALITION_%SH%~LEADERS_COMMANDER:-S’Ula-Mentarion"
                     },
                     {
                         "content": [
@@ -1841,7 +1841,7 @@
                         "additional": {
                             "title": "HERO: Ipswitch, Loose Cannon -Sleeper Cell"
                         },
-                        "globalId": "root_%FN%~MENTAK-COALITION_%SH%~LEADERS_HERO:-Ipswitch,-Loose-Cannon--Sleeper-Cell"
+                        "globalId": "%FN%~MENTAK-COALITION_%SH%~LEADERS_HERO:-Ipswitch,-Loose-Cannon--Sleeper-Cell"
                     }
                 ]
             },
@@ -1856,7 +1856,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~MENTAK-COALITION_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -1869,7 +1869,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~MENTAK-COALITION_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1880,7 +1880,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~MENTAK-COALITION_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -1893,7 +1893,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~MENTAK-COALITION_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -1905,7 +1905,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~MENTAK-COALITION_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~MENTAK-COALITION_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -1916,7 +1916,7 @@
         "additional": {
             "title": "NAALU COLLECTIVE"
         },
-        "globalId": "root_%FN%~NAALU-COLLECTIVE",
+        "globalId": "%FN%~NAALU-COLLECTIVE",
         "subtree": [
             {
                 "content": [
@@ -1932,7 +1932,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -1944,7 +1944,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~MECH"
+                "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~MECH"
             },
             {
                 "content": [
@@ -1956,7 +1956,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~FLAGSHIP"
+                "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -1967,7 +1967,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~LEADERS",
+                "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -1978,7 +1978,7 @@
                         "additional": {
                             "title": "AGENT: Z’eu"
                         },
-                        "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~LEADERS_AGENT:-Z’eu"
+                        "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~LEADERS_AGENT:-Z’eu"
                     },
                     {
                         "content": [
@@ -1989,7 +1989,7 @@
                         "additional": {
                             "title": "COMMANDER: M’aban"
                         },
-                        "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~LEADERS_COMMANDER:-M’aban"
+                        "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~LEADERS_COMMANDER:-M’aban"
                     },
                     {
                         "content": [
@@ -2000,7 +2000,7 @@
                         "additional": {
                             "title": "HERO: The Oracle -C-Radium Geometry"
                         },
-                        "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~LEADERS_HERO:-The-Oracle--C-Radium-Geometry"
+                        "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~LEADERS_HERO:-The-Oracle--C-Radium-Geometry"
                     }
                 ]
             },
@@ -2015,7 +2015,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2028,7 +2028,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2040,7 +2040,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -2053,7 +2053,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2065,7 +2065,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~NAALU-COLLECTIVE_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~NAALU-COLLECTIVE_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -2076,7 +2076,7 @@
         "additional": {
             "title": "NAAZ-ROKHA ALLIANCE"
         },
-        "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE",
+        "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE",
         "subtree": [
             {
                 "content": [
@@ -2093,7 +2093,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2106,7 +2106,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~MECH"
+                "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~MECH"
             },
             {
                 "content": [
@@ -2118,7 +2118,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~FLAGSHIP"
+                "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -2129,7 +2129,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS",
+                "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -2140,7 +2140,7 @@
                         "additional": {
                             "title": "AGENT: Garv and Gunn"
                         },
-                        "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS_AGENT:-Garv-and-Gunn"
+                        "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS_AGENT:-Garv-and-Gunn"
                     },
                     {
                         "content": [
@@ -2151,7 +2151,7 @@
                         "additional": {
                             "title": "COMMANDER: Dart and Tai"
                         },
-                        "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS_COMMANDER:-Dart-and-Tai"
+                        "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS_COMMANDER:-Dart-and-Tai"
                     },
                     {
                         "content": [
@@ -2162,7 +2162,7 @@
                         "additional": {
                             "title": "HERO: Hesh and Prit -Perfect Synthesis"
                         },
-                        "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS_HERO:-Hesh-and-Prit--Perfect-Synthesis"
+                        "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~LEADERS_HERO:-Hesh-and-Prit--Perfect-Synthesis"
                     }
                 ]
             },
@@ -2177,7 +2177,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2190,7 +2190,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2201,7 +2201,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -2214,7 +2214,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2226,7 +2226,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~NAAZ-ROKHA-ALLIANCE_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -2237,7 +2237,7 @@
         "additional": {
             "title": "NEKRO VIRUS"
         },
-        "globalId": "root_%FN%~NEKRO-VIRUS",
+        "globalId": "%FN%~NEKRO-VIRUS",
         "subtree": [
             {
                 "content": [
@@ -2254,7 +2254,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~NEKRO-VIRUS_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2266,7 +2266,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~MECH"
+                "globalId": "%FN%~NEKRO-VIRUS_%SH%~MECH"
             },
             {
                 "content": [
@@ -2278,7 +2278,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~FLAGSHIP"
+                "globalId": "%FN%~NEKRO-VIRUS_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -2289,7 +2289,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~LEADERS",
+                "globalId": "%FN%~NEKRO-VIRUS_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -2300,7 +2300,7 @@
                         "additional": {
                             "title": "AGENT: Nekro Malleon"
                         },
-                        "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~LEADERS_AGENT:-Nekro-Malleon"
+                        "globalId": "%FN%~NEKRO-VIRUS_%SH%~LEADERS_AGENT:-Nekro-Malleon"
                     },
                     {
                         "content": [
@@ -2311,7 +2311,7 @@
                         "additional": {
                             "title": "COMMANDER: Nekro Acidos"
                         },
-                        "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~LEADERS_COMMANDER:-Nekro-Acidos"
+                        "globalId": "%FN%~NEKRO-VIRUS_%SH%~LEADERS_COMMANDER:-Nekro-Acidos"
                     },
                     {
                         "content": [
@@ -2322,7 +2322,7 @@
                         "additional": {
                             "title": "HERO: Unit.Dsgn.Flayesh -Polymorphic Algorithm"
                         },
-                        "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~LEADERS_HERO:-Unit-Dsgn-Flayesh--Polymorphic-Algorithm"
+                        "globalId": "%FN%~NEKRO-VIRUS_%SH%~LEADERS_HERO:-Unit-Dsgn-Flayesh--Polymorphic-Algorithm"
                     }
                 ]
             },
@@ -2338,7 +2338,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~NEKRO-VIRUS_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2351,7 +2351,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~NEKRO-VIRUS_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2362,7 +2362,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~NEKRO-VIRUS_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -2374,7 +2374,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~NEKRO-VIRUS_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2386,7 +2386,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~NEKRO-VIRUS_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~NEKRO-VIRUS_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -2397,7 +2397,7 @@
         "additional": {
             "title": "NOMAD"
         },
-        "globalId": "root_%FN%~NOMAD",
+        "globalId": "%FN%~NOMAD",
         "subtree": [
             {
                 "content": [
@@ -2414,7 +2414,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~NOMAD_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~NOMAD_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2426,7 +2426,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~NOMAD_%SH%~MECH"
+                "globalId": "%FN%~NOMAD_%SH%~MECH"
             },
             {
                 "content": [
@@ -2437,7 +2437,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~NOMAD_%SH%~LEADERS",
+                "globalId": "%FN%~NOMAD_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -2448,7 +2448,7 @@
                         "additional": {
                             "title": "AGENT: Artuno the Betrayer"
                         },
-                        "globalId": "root_%FN%~NOMAD_%SH%~LEADERS_AGENT:-Artuno-the-Betrayer"
+                        "globalId": "%FN%~NOMAD_%SH%~LEADERS_AGENT:-Artuno-the-Betrayer"
                     },
                     {
                         "content": [
@@ -2459,7 +2459,7 @@
                         "additional": {
                             "title": "AGENT: Field Marshall Mercer"
                         },
-                        "globalId": "root_%FN%~NOMAD_%SH%~LEADERS_AGENT:-Field-Marshall-Mercer"
+                        "globalId": "%FN%~NOMAD_%SH%~LEADERS_AGENT:-Field-Marshall-Mercer"
                     },
                     {
                         "content": [
@@ -2470,7 +2470,7 @@
                         "additional": {
                             "title": "AGENT: TheThundarian"
                         },
-                        "globalId": "root_%FN%~NOMAD_%SH%~LEADERS_AGENT:-TheThundarian"
+                        "globalId": "%FN%~NOMAD_%SH%~LEADERS_AGENT:-TheThundarian"
                     },
                     {
                         "content": [
@@ -2481,7 +2481,7 @@
                         "additional": {
                             "title": "COMMANDER: Navarch Feng"
                         },
-                        "globalId": "root_%FN%~NOMAD_%SH%~LEADERS_COMMANDER:-Navarch-Feng"
+                        "globalId": "%FN%~NOMAD_%SH%~LEADERS_COMMANDER:-Navarch-Feng"
                     },
                     {
                         "content": [
@@ -2492,7 +2492,7 @@
                         "additional": {
                             "title": "HERO: Ahk-Syl Siven -Probability Matrix"
                         },
-                        "globalId": "root_%FN%~NOMAD_%SH%~LEADERS_HERO:-Ahk-Syl-Siven--Probability-Matrix"
+                        "globalId": "%FN%~NOMAD_%SH%~LEADERS_HERO:-Ahk-Syl-Siven--Probability-Matrix"
                     }
                 ]
             },
@@ -2507,7 +2507,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~NOMAD_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~NOMAD_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2520,7 +2520,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~NOMAD_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~NOMAD_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2533,7 +2533,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~NOMAD_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~NOMAD_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2545,7 +2545,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~NOMAD_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~NOMAD_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -2556,7 +2556,7 @@
         "additional": {
             "title": "SARDAKK N’ORR"
         },
-        "globalId": "root_%FN%~SARDAKK-N’ORR",
+        "globalId": "%FN%~SARDAKK-N’ORR",
         "subtree": [
             {
                 "content": [
@@ -2572,7 +2572,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~SARDAKK-N’ORR_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2584,7 +2584,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~MECH"
+                "globalId": "%FN%~SARDAKK-N’ORR_%SH%~MECH"
             },
             {
                 "content": [
@@ -2596,7 +2596,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~FLAGSHIP"
+                "globalId": "%FN%~SARDAKK-N’ORR_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -2607,7 +2607,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~LEADERS",
+                "globalId": "%FN%~SARDAKK-N’ORR_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -2618,7 +2618,7 @@
                         "additional": {
                             "title": "AGENT: T’ro"
                         },
-                        "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~LEADERS_AGENT:-T’ro"
+                        "globalId": "%FN%~SARDAKK-N’ORR_%SH%~LEADERS_AGENT:-T’ro"
                     },
                     {
                         "content": [
@@ -2629,7 +2629,7 @@
                         "additional": {
                             "title": "COMMANDER: G’hom Sek’kus"
                         },
-                        "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~LEADERS_COMMANDER:-G’hom-Sek’kus"
+                        "globalId": "%FN%~SARDAKK-N’ORR_%SH%~LEADERS_COMMANDER:-G’hom-Sek’kus"
                     },
                     {
                         "content": [
@@ -2640,7 +2640,7 @@
                         "additional": {
                             "title": "HERO: Sh’val, Harbinger -Tekklar Conditioning"
                         },
-                        "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~LEADERS_HERO:-Sh’val,-Harbinger--Tekklar-Conditioning"
+                        "globalId": "%FN%~SARDAKK-N’ORR_%SH%~LEADERS_HERO:-Sh’val,-Harbinger--Tekklar-Conditioning"
                     }
                 ]
             },
@@ -2654,7 +2654,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~SARDAKK-N’ORR_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2666,7 +2666,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~SARDAKK-N’ORR_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2678,7 +2678,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~SARDAKK-N’ORR_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -2691,7 +2691,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~SARDAKK-N’ORR_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2703,7 +2703,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~SARDAKK-N’ORR_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~SARDAKK-N’ORR_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -2714,7 +2714,7 @@
         "additional": {
             "title": "TITANS OF UL PATIENT"
         },
-        "globalId": "root_%FN%~TITANS-OF-UL-PATIENT",
+        "globalId": "%FN%~TITANS-OF-UL-PATIENT",
         "subtree": [
             {
                 "content": [
@@ -2730,7 +2730,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2742,7 +2742,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~MECH"
+                "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~MECH"
             },
             {
                 "content": [
@@ -2754,7 +2754,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~FLAGSHIP"
+                "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -2765,7 +2765,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS",
+                "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -2776,7 +2776,7 @@
                         "additional": {
                             "title": "AGENT: Tellurian"
                         },
-                        "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS_AGENT:-Tellurian"
+                        "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS_AGENT:-Tellurian"
                     },
                     {
                         "content": [
@@ -2787,7 +2787,7 @@
                         "additional": {
                             "title": "COMMANDER: Tungstantus"
                         },
-                        "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS_COMMANDER:-Tungstantus"
+                        "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS_COMMANDER:-Tungstantus"
                     },
                     {
                         "content": [
@@ -2798,7 +2798,7 @@
                         "additional": {
                             "title": "HERO: Ul the Progenitor -Geoform"
                         },
-                        "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS_HERO:-Ul-the-Progenitor--Geoform"
+                        "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~LEADERS_HERO:-Ul-the-Progenitor--Geoform"
                     }
                 ]
             },
@@ -2812,7 +2812,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~PROMISSORY-NOTE"
             },
             {
                 "content": [
@@ -2826,7 +2826,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2839,7 +2839,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -2852,7 +2852,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -2865,7 +2865,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~TITANS-OF-UL-PATIENT_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~TITANS-OF-UL-PATIENT_%SH%~FACTION-TECHNOLOGIES"
             }
         ]
     },
@@ -2876,7 +2876,7 @@
         "additional": {
             "title": "UNIVERSITIES OF JOL-NAR"
         },
-        "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR",
+        "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR",
         "subtree": [
             {
                 "content": [
@@ -2893,7 +2893,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -2905,7 +2905,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~MECH"
+                "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~MECH"
             },
             {
                 "content": [
@@ -2917,7 +2917,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~FLAGSHIP"
+                "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -2928,7 +2928,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS",
+                "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -2939,7 +2939,7 @@
                         "additional": {
                             "title": "AGENT: Doctor Sucaban"
                         },
-                        "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS_AGENT:-Doctor-Sucaban"
+                        "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS_AGENT:-Doctor-Sucaban"
                     },
                     {
                         "content": [
@@ -2950,7 +2950,7 @@
                         "additional": {
                             "title": "COMMANDER: Ta-Zern"
                         },
-                        "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS_COMMANDER:-Ta-Zern"
+                        "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS_COMMANDER:-Ta-Zern"
                     },
                     {
                         "content": [
@@ -2961,7 +2961,7 @@
                         "additional": {
                             "title": "HERO: Rin, the Master’s Legacy -Genetic Memory"
                         },
-                        "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS_HERO:-Rin,-the-Master’s-Legacy--Genetic-Memory"
+                        "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~LEADERS_HERO:-Rin,-the-Master’s-Legacy--Genetic-Memory"
                     }
                 ]
             },
@@ -2977,7 +2977,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -2992,7 +2992,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3003,7 +3003,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -3016,7 +3016,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3028,7 +3028,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~UNIVERSITIES-OF-JOL-NAR_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -3039,7 +3039,7 @@
         "additional": {
             "title": "VUIL’RAITH CABAL VORACIOUS"
         },
-        "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS",
+        "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS",
         "subtree": [
             {
                 "content": [
@@ -3056,7 +3056,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -3068,7 +3068,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~MECH"
+                "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~MECH"
             },
             {
                 "content": [
@@ -3080,7 +3080,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~FLAGSHIP"
+                "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -3091,7 +3091,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS",
+                "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -3102,7 +3102,7 @@
                         "additional": {
                             "title": "AGENT: The Stillness of Stars"
                         },
-                        "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS_AGENT:-The-Stillness-of-Stars"
+                        "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS_AGENT:-The-Stillness-of-Stars"
                     },
                     {
                         "content": [
@@ -3113,7 +3113,7 @@
                         "additional": {
                             "title": "COMMANDER: That Which Molds Flesh"
                         },
-                        "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS_COMMANDER:-That-Which-Molds-Flesh"
+                        "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS_COMMANDER:-That-Which-Molds-Flesh"
                     },
                     {
                         "content": [
@@ -3124,7 +3124,7 @@
                         "additional": {
                             "title": "HERO: It Feeds on Carrion -Dimensional Anchor"
                         },
-                        "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS_HERO:-It-Feeds-on-Carrion--Dimensional-Anchor"
+                        "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~LEADERS_HERO:-It-Feeds-on-Carrion--Dimensional-Anchor"
                     }
                 ]
             },
@@ -3140,7 +3140,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -3152,7 +3152,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3164,7 +3164,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -3177,7 +3177,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3189,7 +3189,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~VUIL’RAITH-CABAL-VORACIOUS_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -3200,7 +3200,7 @@
         "additional": {
             "title": "WINNU"
         },
-        "globalId": "root_%FN%~WINNU",
+        "globalId": "%FN%~WINNU",
         "subtree": [
             {
                 "content": [
@@ -3217,7 +3217,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~WINNU_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~WINNU_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -3229,7 +3229,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~WINNU_%SH%~MECH"
+                "globalId": "%FN%~WINNU_%SH%~MECH"
             },
             {
                 "content": [
@@ -3241,7 +3241,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~WINNU_%SH%~FLAGSHIP"
+                "globalId": "%FN%~WINNU_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -3252,7 +3252,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~WINNU_%SH%~LEADERS",
+                "globalId": "%FN%~WINNU_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -3263,7 +3263,7 @@
                         "additional": {
                             "title": "AGENT: Berekar Berekon"
                         },
-                        "globalId": "root_%FN%~WINNU_%SH%~LEADERS_AGENT:-Berekar-Berekon"
+                        "globalId": "%FN%~WINNU_%SH%~LEADERS_AGENT:-Berekar-Berekon"
                     },
                     {
                         "content": [
@@ -3274,7 +3274,7 @@
                         "additional": {
                             "title": "COMMANDER: Rickar Rickani"
                         },
-                        "globalId": "root_%FN%~WINNU_%SH%~LEADERS_COMMANDER:-Rickar-Rickani"
+                        "globalId": "%FN%~WINNU_%SH%~LEADERS_COMMANDER:-Rickar-Rickani"
                     },
                     {
                         "content": [
@@ -3285,7 +3285,7 @@
                         "additional": {
                             "title": "HERO: Mathis Mathinus -Imperial Seal"
                         },
-                        "globalId": "root_%FN%~WINNU_%SH%~LEADERS_HERO:-Mathis-Mathinus--Imperial-Seal"
+                        "globalId": "%FN%~WINNU_%SH%~LEADERS_HERO:-Mathis-Mathinus--Imperial-Seal"
                     }
                 ]
             },
@@ -3300,7 +3300,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~WINNU_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~WINNU_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -3312,7 +3312,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~WINNU_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~WINNU_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3323,7 +3323,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~WINNU_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~WINNU_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -3336,7 +3336,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~WINNU_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~WINNU_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3348,7 +3348,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~WINNU_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~WINNU_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -3359,7 +3359,7 @@
         "additional": {
             "title": "XXCHA KINGDOM"
         },
-        "globalId": "root_%FN%~XXCHA-KINGDOM",
+        "globalId": "%FN%~XXCHA-KINGDOM",
         "subtree": [
             {
                 "content": [
@@ -3376,7 +3376,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~XXCHA-KINGDOM_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -3388,7 +3388,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~MECH"
+                "globalId": "%FN%~XXCHA-KINGDOM_%SH%~MECH"
             },
             {
                 "content": [
@@ -3400,7 +3400,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~FLAGSHIP"
+                "globalId": "%FN%~XXCHA-KINGDOM_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -3411,7 +3411,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~LEADERS",
+                "globalId": "%FN%~XXCHA-KINGDOM_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -3422,7 +3422,7 @@
                         "additional": {
                             "title": "AGENT: Ggrucoto Rinn"
                         },
-                        "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~LEADERS_AGENT:-Ggrucoto-Rinn"
+                        "globalId": "%FN%~XXCHA-KINGDOM_%SH%~LEADERS_AGENT:-Ggrucoto-Rinn"
                     },
                     {
                         "content": [
@@ -3433,7 +3433,7 @@
                         "additional": {
                             "title": "COMMANDER: Elder Qanoj"
                         },
-                        "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~LEADERS_COMMANDER:-Elder-Qanoj"
+                        "globalId": "%FN%~XXCHA-KINGDOM_%SH%~LEADERS_COMMANDER:-Elder-Qanoj"
                     },
                     {
                         "content": [
@@ -3444,7 +3444,7 @@
                         "additional": {
                             "title": "HERO: Xxekir Grom -Political Data Nexus"
                         },
-                        "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~LEADERS_HERO:-Xxekir-Grom--Political-Data-Nexus"
+                        "globalId": "%FN%~XXCHA-KINGDOM_%SH%~LEADERS_HERO:-Xxekir-Grom--Political-Data-Nexus"
                     }
                 ]
             },
@@ -3459,7 +3459,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~XXCHA-KINGDOM_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -3471,7 +3471,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~XXCHA-KINGDOM_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3482,7 +3482,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~XXCHA-KINGDOM_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -3495,7 +3495,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~XXCHA-KINGDOM_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3507,7 +3507,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~XXCHA-KINGDOM_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~XXCHA-KINGDOM_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -3518,7 +3518,7 @@
         "additional": {
             "title": "YIN BROTHERHOOD"
         },
-        "globalId": "root_%FN%~YIN-BROTHERHOOD",
+        "globalId": "%FN%~YIN-BROTHERHOOD",
         "subtree": [
             {
                 "content": [
@@ -3534,7 +3534,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -3546,7 +3546,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~MECH"
+                "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~MECH"
             },
             {
                 "content": [
@@ -3558,7 +3558,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~FLAGSHIP"
+                "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -3569,7 +3569,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~LEADERS",
+                "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -3580,7 +3580,7 @@
                         "additional": {
                             "title": "AGENT: Brother Milor"
                         },
-                        "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~LEADERS_AGENT:-Brother-Milor"
+                        "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~LEADERS_AGENT:-Brother-Milor"
                     },
                     {
                         "content": [
@@ -3591,7 +3591,7 @@
                         "additional": {
                             "title": "COMMANDER: Brother Omar"
                         },
-                        "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~LEADERS_COMMANDER:-Brother-Omar"
+                        "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~LEADERS_COMMANDER:-Brother-Omar"
                     },
                     {
                         "content": [
@@ -3602,7 +3602,7 @@
                         "additional": {
                             "title": "HERO: Dannel of theTenth -Spinner Overdrive"
                         },
-                        "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~LEADERS_HERO:-Dannel-of-theTenth--Spinner-Overdrive"
+                        "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~LEADERS_HERO:-Dannel-of-theTenth--Spinner-Overdrive"
                     }
                 ]
             },
@@ -3617,7 +3617,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -3629,7 +3629,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3640,7 +3640,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -3653,7 +3653,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3665,7 +3665,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~YIN-BROTHERHOOD_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~YIN-BROTHERHOOD_%SH%~PROMISSORY-NOTE"
             }
         ]
     },
@@ -3676,7 +3676,7 @@
         "additional": {
             "title": "YSSARIL TRIBES"
         },
-        "globalId": "root_%FN%~YSSARIL-TRIBES",
+        "globalId": "%FN%~YSSARIL-TRIBES",
         "subtree": [
             {
                 "content": [
@@ -3693,7 +3693,7 @@
                 "additional": {
                     "title": "STARTING FLEET"
                 },
-                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~STARTING-FLEET"
+                "globalId": "%FN%~YSSARIL-TRIBES_%SH%~STARTING-FLEET"
             },
             {
                 "content": [
@@ -3705,7 +3705,7 @@
                 "additional": {
                     "title": "MECH"
                 },
-                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~MECH"
+                "globalId": "%FN%~YSSARIL-TRIBES_%SH%~MECH"
             },
             {
                 "content": [
@@ -3717,7 +3717,7 @@
                 "additional": {
                     "title": "FLAGSHIP"
                 },
-                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~FLAGSHIP"
+                "globalId": "%FN%~YSSARIL-TRIBES_%SH%~FLAGSHIP"
             },
             {
                 "content": [
@@ -3728,7 +3728,7 @@
                 "additional": {
                     "title": "LEADERS"
                 },
-                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~LEADERS",
+                "globalId": "%FN%~YSSARIL-TRIBES_%SH%~LEADERS",
                 "subtree": [
                     {
                         "content": [
@@ -3739,7 +3739,7 @@
                         "additional": {
                             "title": "AGENT: Clever Clever Ssruu"
                         },
-                        "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~LEADERS_AGENT:-Clever-Clever-Ssruu"
+                        "globalId": "%FN%~YSSARIL-TRIBES_%SH%~LEADERS_AGENT:-Clever-Clever-Ssruu"
                     },
                     {
                         "content": [
@@ -3750,7 +3750,7 @@
                         "additional": {
                             "title": "COMMANDER: So Ata"
                         },
-                        "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~LEADERS_COMMANDER:-So-Ata"
+                        "globalId": "%FN%~YSSARIL-TRIBES_%SH%~LEADERS_COMMANDER:-So-Ata"
                     },
                     {
                         "content": [
@@ -3761,7 +3761,7 @@
                         "additional": {
                             "title": "HERO: Kyver, Blade and Key -Guild of Spies"
                         },
-                        "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~LEADERS_HERO:-Kyver,-Blade-and-Key--Guild-of-Spies"
+                        "globalId": "%FN%~YSSARIL-TRIBES_%SH%~LEADERS_HERO:-Kyver,-Blade-and-Key--Guild-of-Spies"
                     }
                 ]
             },
@@ -3777,7 +3777,7 @@
                 "additional": {
                     "title": "FACTION ABILITIES"
                 },
-                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~FACTION-ABILITIES"
+                "globalId": "%FN%~YSSARIL-TRIBES_%SH%~FACTION-ABILITIES"
             },
             {
                 "content": [
@@ -3789,7 +3789,7 @@
                 "additional": {
                     "title": "STARTING TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~STARTING-TECHNOLOGIES"
+                "globalId": "%FN%~YSSARIL-TRIBES_%SH%~STARTING-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3800,7 +3800,7 @@
                 "additional": {
                     "title": "SPECIAL UNITS"
                 },
-                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~SPECIAL-UNITS"
+                "globalId": "%FN%~YSSARIL-TRIBES_%SH%~SPECIAL-UNITS"
             },
             {
                 "content": [
@@ -3813,7 +3813,7 @@
                 "additional": {
                     "title": "FACTION TECHNOLOGIES"
                 },
-                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~FACTION-TECHNOLOGIES"
+                "globalId": "%FN%~YSSARIL-TRIBES_%SH%~FACTION-TECHNOLOGIES"
             },
             {
                 "content": [
@@ -3825,7 +3825,7 @@
                 "additional": {
                     "title": "PROMISSORY NOTE"
                 },
-                "globalId": "root_%FN%~YSSARIL-TRIBES_%SH%~PROMISSORY-NOTE"
+                "globalId": "%FN%~YSSARIL-TRIBES_%SH%~PROMISSORY-NOTE"
             }
         ]
     }

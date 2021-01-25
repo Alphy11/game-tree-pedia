@@ -1,18 +1,55 @@
 import { EndSectionDefinition, SectionDefinition } from './taskTypes';
 
-export function analyze<OutKeys extends string>(
+export function analyze<KeySet extends string>(
+    lines: string[],
+    matchDefinitions: SectionDefinition<KeySet>[],
+): Record<string, Entry<KeySet>> {
+    const [remaining, entry, result] = analyzeInternal(
+        lines,
+        matchDefinitions,
+        [
+            {
+                type: 'root' as KeySet,
+                id: 'root',
+                matchEnd: () => false,
+            },
+        ],
+        '',
+    );
+
+    if (remaining.length) {
+        console.error(remaining);
+        throw new Error('Remaining lines!');
+    }
+
+    // if (entry.content.length) {
+    //     console.error(entry);
+    //     throw new Error('Remaining content!');
+    // }
+    return result!;
+}
+
+type Entry<KeySet extends string> = {
+    type: KeySet;
+    id: string;
+    additional: any;
+    content: string[];
+    subtree?: Record<KeySet, Entry<KeySet>>;
+};
+
+function analyzeInternal<KeySet extends string>(
     linesRaw: string[],
-    matchDefinitions: SectionDefinition<OutKeys>[],
-    endDefinitions: EndSectionDefinition<OutKeys, any>[] = [],
-    firstLine = '',
-): [remainingLines: string[], content: Record<any, any>] {
+    matchDefinitions: SectionDefinition<KeySet>[],
+    endDefinitions: EndSectionDefinition<KeySet, any>[],
+    firstLine,
+): [
+    remainingLines: string[],
+    content: Entry<KeySet>,
+    subtree: Record<string, Entry<KeySet>> | null,
+] {
+    const [currentMatch] = endDefinitions;
     let lines = [...linesRaw];
     let subtree: Record<string, any> | undefined;
-    const currentMatch = endDefinitions[0] || {
-        type: 'root',
-        id: 'root',
-        matchEnd: () => false,
-    };
     let content: string[] = [];
     while (
         lines.length &&
@@ -26,7 +63,7 @@ export function analyze<OutKeys extends string>(
             .map(matcher => matcher(line))
             .filter(Boolean);
         if (start) {
-            const [newLines, child] = analyze(
+            const [newLines, child, grandKids] = analyzeInternal(
                 lines,
                 matchDefinitions,
                 [start, ...endDefinitions],
@@ -34,7 +71,10 @@ export function analyze<OutKeys extends string>(
             );
             subtree = {
                 ...subtree,
-                [start.id]: child,
+                [start.id]: {
+                    ...child,
+                    subtree: grandKids,
+                },
             };
             lines = newLines;
         } else {
@@ -53,7 +93,7 @@ export function analyze<OutKeys extends string>(
             id: currentMatch.id,
             additional: currentMatch.additional,
             content: [firstLine, ...content],
-            ...(subtree ? { subtree } : {}),
         },
+        subtree || null,
     ];
 }

@@ -27,15 +27,17 @@ export type RuleNode<
     additional?: AdditionalTypes[Type];
 };
 
-export type IntermediateContentShape<
+export type IntermediateNodeShape<
     AdditionalTypes extends Record<string, any>,
     Type extends keyof AdditionalTypes
 > = {
     type: Type;
     id: string;
     content: string[];
-    subtree?: Record<
-        string,
-        IntermediateContentShape<AdditionalTypes, keyof AdditionalTypes>
-    >;
+    subtree?: ContentSet<AdditionalTypes>;
 };
+
+export type ContentSet<AdditionalTypes extends Record<string, any>> = Record<
+    string,
+    IntermediateNodeShape<AdditionalTypes, keyof AdditionalTypes>
+>;

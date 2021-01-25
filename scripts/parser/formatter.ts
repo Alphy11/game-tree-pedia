@@ -1,15 +1,10 @@
-import { IntermediateContentShape, RuleNode } from './taskTypes';
-
-export const noop: NodeGetter<any, any> = node => {
-    console.error(node);
-    throw new Error('eeeeeeeeeeeeeeeeek');
-};
+import { ContentSet, IntermediateNodeShape, RuleNode } from './taskTypes';
 
 export type NodeGetter<
     AdditionalTypes extends Record<string, any>,
     T extends keyof AdditionalTypes
 > = (
-    node: IntermediateContentShape<AdditionalTypes, T>,
+    node: IntermediateNodeShape<AdditionalTypes, T>,
     ids: string[],
 ) => Omit<RuleNode<AdditionalTypes, T>, 'subtree'>;
 
@@ -31,25 +26,25 @@ export function createFormatter<
             globalId: [...ids, formattedId].join('_'),
         };
     }
-    return function formatter<NodeType extends keyof AdditionalTypes>(
-        node: IntermediateContentShape<AdditionalTypes, NodeType>,
+    return function formatter(
+        nodeSet: ContentSet<AdditionalTypes>,
         ids: string[],
-    ): RuleNode<AdditionalTypes, NodeType> {
-        const formattedNode = globalFormatter<NodeType>(
-            ((formatConfig[node.type] as unknown) as NodeGetter<
-                AdditionalTypes,
-                NodeType
-            >)(node, ids),
-            ids,
-        );
+    ): RuleNode<AdditionalTypes, keyof AdditionalTypes>[] {
+        return Object.values(nodeSet).map(node => {
+            const formattedNode = globalFormatter(
+                formatConfig[node.type](node, ids),
+                ids,
+            );
 
-        return {
-            ...formattedNode,
-            ...(node.subtree && {
-                subtree: Object.values(node.subtree).map(nextNode =>
-                    formatter(nextNode, [...ids, formattedNode.id]),
-                ),
-            }),
-        };
+            return {
+                ...formattedNode,
+                ...(node.subtree && {
+                    subtree: formatter(node.subtree, [
+                        ...ids,
+                        formattedNode.id,
+                    ]),
+                }),
+            };
+        });
     };
 }
