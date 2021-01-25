@@ -1,22 +1,12 @@
 import { isFactionHeader, isSectionHeader, isLeaderEntry } from './matchers';
-import { createFormatter, NodeGetter } from '../formatter';
-
-const noop: NodeGetter<any> = node => {
-    console.error(node);
-    throw new Error('eeeeeeeeeeeeeeeeek');
-};
+import { createFormatter } from '../formatter';
+import { FactionListAF } from './formatTypes';
 
 function joinContent(content: string[]): string[] {
     return content.join(' ').replace(/•/g, '#%#•').split(/#%#/);
 }
 
-export const formatter = createFormatter({
-    'glossary header': noop,
-    subheader: noop,
-    'errata qa': noop,
-    'glossary entry': noop,
-    'rule type': noop,
-    'related topics': noop,
+export const formatter = createFormatter<FactionListAF>({
     faction: ({ content, id }) => {
         const { faction } = isFactionHeader(content[0])!;
         return {

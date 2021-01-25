@@ -4,19 +4,14 @@ import {
     isSubHeader,
     isRuleType,
 } from './matchers';
-
-import { createFormatter, NodeGetter } from '../formatter';
-
-const noop: NodeGetter<any> = node => {
-    console.error(node);
-    throw new Error('eeeeeeeeeeeeeeeeek');
-};
+import { createFormatter } from '../formatter';
+import { CoreRuleAF } from './formatTypes';
 
 function joinContent(content: string[]): string[] {
     return content.join(' ').replace(/•/g, '#%#•').split(/#%#/);
 }
 
-export const formatter = createFormatter({
+export const formatter = createFormatter<CoreRuleAF>({
     'glossary header': ({ content, id }) => ({
         content: joinContent(content.slice(1)),
         id: id,
@@ -75,7 +70,4 @@ export const formatter = createFormatter({
         id: id,
         type: type,
     }),
-    leader: noop,
-    'faction section': noop,
-    faction: noop,
 });

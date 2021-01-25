@@ -1,13 +1,9 @@
-import {
-    AdditionalTypes,
-    EndSectionDefinition,
-    SectionDefinition,
-} from './taskTypes';
+import { EndSectionDefinition, SectionDefinition } from './taskTypes';
 
-export function analyze(
+export function analyze<OutKeys extends string>(
     linesRaw: string[],
-    matchDefinitions: SectionDefinition<keyof AdditionalTypes>[],
-    endDefinitions: EndSectionDefinition<keyof AdditionalTypes, any>[] = [],
+    matchDefinitions: SectionDefinition<OutKeys>[],
+    endDefinitions: EndSectionDefinition<OutKeys, any>[] = [],
     firstLine = '',
 ): [remainingLines: string[], content: Record<any, any>] {
     let lines = [...linesRaw];

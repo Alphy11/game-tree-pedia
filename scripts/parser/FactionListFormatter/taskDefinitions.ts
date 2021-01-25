@@ -1,18 +1,5 @@
 import { SectionDefinition } from '../taskTypes';
 import { isFactionHeader, isLeaderEntry, isSectionHeader } from './matchers';
-// const sectionHeaders = [
-//     'Starting Fleet',
-//     'commoditieS',
-//     'home SyStem',
-//     'mech',
-//     'FlagShiP',
-//     'leaderS',
-//     'Faction abilitieS',
-//     'Starting technologieS',
-//     'SPecial UnitS',
-//     'Faction technologieS',
-//     'PromiSSory note',
-// ];
 
 export const FactionMatcher: SectionDefinition<'faction'> = logLine => {
     const match = isFactionHeader(logLine);

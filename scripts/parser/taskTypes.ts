@@ -1,8 +1,8 @@
 export type EndSectionDefinition<
-    T extends keyof AdditionalTypes,
+    Type extends string,
     Additional extends Record<string, string>
 > = {
-    type: T;
+    type: Type;
     id: string;
     additional?: Additional;
     inclusive?: boolean;
@@ -10,64 +10,32 @@ export type EndSectionDefinition<
 };
 
 export type SectionDefinition<
-    T extends keyof AdditionalTypes,
+    Type extends string,
     Additional extends Record<string, string> = {}
 > = {
-    (parsedLogLine: string): EndSectionDefinition<T, Additional> | null;
+    (parsedLogLine: string): EndSectionDefinition<Type, Additional> | null;
 };
 
-export type RuleNode<Type extends keyof AdditionalTypes> = {
+export type RuleNode<
+    AdditionalTypes extends Record<string, any>,
+    Type extends keyof AdditionalTypes
+> = {
     content: string[];
     type: Type;
-    subtree?: RuleNode<keyof AdditionalTypes>[];
+    subtree?: RuleNode<AdditionalTypes, keyof AdditionalTypes>[];
     id: string;
     additional?: AdditionalTypes[Type];
 };
 
-export type IntermediateContentShape<Type extends keyof AdditionalTypes> = {
+export type IntermediateContentShape<
+    AdditionalTypes extends Record<string, any>,
+    Type extends keyof AdditionalTypes
+> = {
     type: Type;
     id: string;
     content: string[];
-    subtree?: Record<string, IntermediateContentShape<keyof AdditionalTypes>>;
+    subtree?: Record<
+        string,
+        IntermediateContentShape<AdditionalTypes, keyof AdditionalTypes>
+    >;
 };
-
-export type AdditionalTypes = {
-    'glossary header': {
-        title: string;
-        indexer: string;
-    };
-    'errata qa': {
-        title: string;
-    };
-    'rule type': { title: string };
-    'glossary entry': {
-        indexer: string;
-    };
-    subheader: {
-        indexer: string;
-        title: string;
-    };
-    'related topics': never;
-    faction: {
-        title: string;
-    };
-    leader: {
-        title: string;
-    };
-    'faction section': {
-        title: string;
-    };
-    root: never;
-};
-
-// 'glossary header'
-// 'errata qa'
-// 'rule type'
-// 'glossary entry'
-// 'related topics'
-
-// case 'glossary header':
-// case 'errata qa':
-// case 'rule type':
-// case 'glossary entry':
-// case 'related topics':
